@@ -98,7 +98,7 @@ export default function CityGuide() {
         </div>
       </div>
 
-      <ChatAssistant cityName={city.name} />
+      <ChatAssistant cityName={city.name} cityData={city} />
     </div>
   );
 }

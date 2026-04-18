@@ -637,6 +637,17 @@ a {
   cursor: pointer;
 }
 
+.chat-send:disabled,
+.quick-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.chat-typing {
+  color: var(--text-lighter);
+  font-style: italic;
+}
+
 /* Footer */
 .footer {
   text-align: center;
