@@ -3294,57 +3294,33 @@ const cities = [
     ]
   },
   {
-    id: "valletta",
-    name: "Valletta",
+    id: "malta",
+    name: "Malta",
     country: "Malta",
     continent: "Europe",
     emoji: "\u{1F1F2}\u{1F1F9}",
-    tagline: "A Fortress City of Knights",
+    tagline: "A Mediterranean Island Nation",
     image: "https://images.unsplash.com/photo-1513543806865-85e29a7c0352?w=800&q=80",
-    coordinates: { lat: 35.8989, lng: 14.5146 },
-    description: "Valletta, the tiny capital of Malta, is a UNESCO World Heritage fortress city built by the Knights of St. John in the 16th century. Its golden limestone buildings, grand churches, and fortified walls pack an extraordinary amount of history, art, and culture into one of the world's smallest capital cities.",
-    highlights: ["St. John's Co-Cathedral", "Grand Master's Palace", "Upper Barrakka Gardens", "Fort St. Elmo", "Manoel Theatre"],
+    coordinates: { lat: 35.9375, lng: 14.3754 },
+    description: "Malta is a sun-drenched Mediterranean archipelago between Sicily and North Africa, packing 7,000 years of history into just 316 square kilometers. From the fortified capital Valletta — a UNESCO World Heritage site built by the Knights of St. John — to the silent medieval city of Mdina, the azure waters of the Blue Grotto, and the laid-back sister island of Gozo, Malta offers ancient temples, baroque architecture, world-class diving, and a vibrant food scene all within a short bus ride.",
+    highlights: ["Valletta (UNESCO)", "St. John's Co-Cathedral", "Mdina (Silent City)", "Blue Grotto", "Gozo & Azure Window site", "Comino Blue Lagoon", "Hagar Qim Temples", "Three Cities"],
     bestTime: "March to June, September to November",
     currency: "Euro (\u20AC)",
     language: "Maltese, English",
     tips: [
       "St. John's Co-Cathedral contains two Caravaggio masterpieces, don't miss them",
-      "Watch the cannon salute at the Upper Barrakka Gardens at noon",
-      "Valletta is walkable end to end in about 20 minutes",
-      "Take a harbor cruise to appreciate the city's dramatic fortifications from the water"
+      "Take the ferry from Cirkewwa to Gozo — the island is worth a full day or two",
+      "Rent a car or use the extensive bus network to explore; buses reach every corner of the island",
+      "The Blue Lagoon on Comino is stunning but crowded — go early morning or on a weekday",
+      "Watch the cannon salute at the Upper Barrakka Gardens in Valletta at noon"
     ],
     foods: ["Pastizzi", "Rabbit Stew (Fenek)", "Lampuki Pie", "Hobz biz-Zejt", "Imqaret"],
     neighborhoods: [
-      { name: "City Gate Area", vibe: "Modern entrance, Parliament, Renzo Piano design" },
-      { name: "Strait Street", vibe: "Historic bar strip, now revived with trendy bars" },
-      { name: "Waterfront", vibe: "Grand Harbour, cruise ships, restaurants" }
-    ]
-  },
-  {
-    id: "vatican-city",
-    name: "Vatican City",
-    country: "Vatican City",
-    continent: "Europe",
-    emoji: "\u{1F1FB}\u{1F1E6}",
-    tagline: "The Smallest Sovereign State",
-    image: "https://images.unsplash.com/photo-1517655625604-e720102766b9?w=800&q=80",
-    coordinates: { lat: 41.9029, lng: 12.4534 },
-    description: "Vatican City, the world's smallest independent state, is the spiritual center of the Catholic Church and home to some of humanity's greatest artistic treasures. Within its tiny 44-hectare walls lie the Sistine Chapel, St. Peter's Basilica, and the Vatican Museums, containing one of the most extraordinary art collections ever assembled.",
-    highlights: ["Sistine Chapel", "St. Peter's Basilica", "Vatican Museums", "St. Peter's Square", "Vatican Gardens"],
-    bestTime: "October to March (fewer crowds)",
-    currency: "Euro (\u20AC)",
-    language: "Italian, Latin",
-    tips: [
-      "Book Vatican Museums tickets online well in advance to skip massive queues",
-      "Dress modestly, shoulders and knees must be covered to enter St. Peter's",
-      "Visit on Wednesday for the Pope's general audience (free tickets required)",
-      "The Vatican Museums are vast, allow at least half a day"
-    ],
-    foods: ["Roman-style Pizza", "Suppli", "Gelato", "Cacio e Pepe", "Maritozzi"],
-    neighborhoods: [
-      { name: "St. Peter's Square", vibe: "Grand, spiritual, Bernini's colonnade" },
-      { name: "Vatican Museums Complex", vibe: "Artistic treasure trove, Raphael Rooms, Sistine Chapel" },
-      { name: "Vatican Gardens", vibe: "Peaceful, manicured, historic fountains" }
+      { name: "Valletta", vibe: "Grand fortified capital, baroque churches, harbor views" },
+      { name: "Mdina & Rabat", vibe: "Medieval silence, golden limestone alleys, catacombs" },
+      { name: "Sliema & St. Julian's", vibe: "Waterfront promenade, nightlife, shopping" },
+      { name: "Gozo", vibe: "Rural, relaxed, dramatic cliffs, Victoria citadel" },
+      { name: "Three Cities", vibe: "Historic knight quarters, harborside, less touristy" }
     ]
   },
   {

@@ -590,18 +590,6 @@ const transport = {
     walkability: "high",
     walkNote: "Monaco is tiny — walk everywhere. Use elevators and escalators to navigate the steep terrain."
   },
-  "Vatican City": {
-    currency: "EUR",
-    busSingle: "1.50 EUR (Rome ATAC)",
-    busDayPass: "7.00 EUR (Rome ATAC)",
-    metroAvailable: true,
-    taxiBase: "3.50 EUR",
-    taxiPerKm: "1.40 EUR",
-    bikeRental: "Use Rome bike rentals",
-    bikeRentalCost: "2 EUR/hour",
-    walkability: "high",
-    walkNote: "Vatican City is tiny and entirely walkable. Use Rome's public transport to reach it."
-  },
   "Kazakhstan": {
     currency: "KZT",
     busSingle: "90 KZT",
