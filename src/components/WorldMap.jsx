@@ -22,11 +22,14 @@ function MapUpdater({ cities }) {
 function CityMarker({ city }) {
   const navigate = useNavigate();
   const icon = L.divIcon({
-    html: `<span style="font-size:24px">${city.emoji}</span>`,
+    html: `<svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg">
+      <path d="M14 2l3.5 7.5L25 10.8l-5.5 5 1.3 8L14 20.3 7.2 23.8l1.3-8-5.5-5L10.5 9.5z" fill="#ca5d1e" stroke="#fff" stroke-width="1.5"/>
+      <circle cx="14" cy="13" r="2.5" fill="#fff"/>
+    </svg>`,
     className: 'custom-marker',
-    iconSize: [30, 30],
-    iconAnchor: [15, 15],
-    popupAnchor: [0, -15]
+    iconSize: [28, 28],
+    iconAnchor: [14, 14],
+    popupAnchor: [0, -14]
   });
 
   const thumbUrl = city.image ? city.image.replace('w=800', 'w=300') : '';
@@ -56,7 +59,7 @@ function CityMarker({ city }) {
 export default function WorldMap({ cities }) {
   return (
     <div className="home-map-container">
-      <MapContainer center={[20, 0]} zoom={2} scrollWheelZoom={true} className="world-map">
+      <MapContainer center={[20, 0]} zoom={2} scrollWheelZoom={true} className="world-map" minZoom={2} maxZoom={18} maxBounds={[[-90, -180], [90, 180]]} maxBoundsViscosity={1.0}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

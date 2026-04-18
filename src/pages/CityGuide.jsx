@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom';
 import cities from '../data/cities';
 import ChatAssistant from '../components/ChatAssistant';
 import ItineraryPlanner from '../components/ItineraryPlanner';
+import TransportInfo from '../components/TransportInfo';
 
 export default function CityGuide() {
   const { cityId } = useParams();
@@ -47,6 +48,8 @@ export default function CityGuide() {
             <p>{city.language}</p>
           </div>
         </div>
+
+        <TransportInfo city={city} />
 
         <section className="city-section">
           <h2>Top Highlights</h2>
