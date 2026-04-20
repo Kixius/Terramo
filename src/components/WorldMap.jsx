@@ -1,4 +1,4 @@
-import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, useMap, ZoomControl } from 'react-leaflet';
 import { useNavigate } from 'react-router-dom';
 import MarkerClusterGroup from 'react-leaflet-cluster';
 import L from 'leaflet';
@@ -39,7 +39,7 @@ function CityMarker({ city, isFavorite, onToggleFavorite }) {
 
   return (
     <Marker position={[city.coordinates.lat, city.coordinates.lng]} icon={icon}>
-      <Popup maxWidth={280} minWidth={240}>
+      <Popup maxWidth={240} minWidth={200}>
         <div className="map-popup-enhanced">
           <div className="popup-image" style={{ backgroundImage: `url(${thumbUrl})` }}>
             <div className="popup-image-overlay">
@@ -71,7 +71,8 @@ const clusterIcon = (cluster) => {
 export default function WorldMap({ cities, isFavorite, onToggleFavorite }) {
   return (
     <div className="home-map-container">
-      <MapContainer center={[20, 0]} zoom={3} scrollWheelZoom={true} className="world-map" minZoom={2} maxZoom={18} maxBounds={[[-90, -180], [90, 180]]} maxBoundsViscosity={1.0}>
+      <MapContainer center={[20, 0]} zoom={3} scrollWheelZoom={true} className="world-map" minZoom={2} maxZoom={18} maxBounds={[[-90, -180], [90, 180]]} maxBoundsViscosity={1.0} zoomControl={false}>
+        <ZoomControl position="bottomleft" />
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

@@ -874,6 +874,7 @@ a {
     width: calc(100vw - 2rem);
     right: 1rem;
     bottom: 5rem;
+    max-height: 60vh;
   }
 
   .day-slots {
@@ -883,6 +884,68 @@ a {
 
   .itinerary-map {
     height: 220px;
+  }
+
+  /* Intro mobile */
+  .intro-logo {
+    width: 260px;
+    max-width: 65vw;
+    padding: 1rem 1.2rem;
+    border-radius: 16px;
+  }
+
+  .intro-btn {
+    padding: 0.75rem 1.6rem;
+    font-size: 1rem;
+  }
+
+  .intro-screen {
+    backdrop-filter: blur(8px);
+  }
+
+  /* Map controls mobile */
+  .map-home-logo {
+    height: 32px;
+    padding: 3px 6px;
+  }
+
+  .map-controls-overlay .theme-toggle {
+    width: 34px;
+    height: 34px;
+    font-size: 1rem;
+  }
+
+  .map-search-overlay {
+    top: 3.5rem;
+    width: 92%;
+  }
+
+  .map-search-overlay .search-input {
+    padding: 0.65rem 2.2rem 0.65rem 2.4rem;
+    font-size: 0.9rem;
+  }
+
+  .saved-filter-btn {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+
+  .chat-toggle {
+    width: 48px;
+    height: 48px;
+    font-size: 1.3rem;
+    bottom: 1rem;
+    right: 1rem;
+  }
+
+  .quick-btn {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.6rem;
+  }
+
+  .favorite-btn {
+    width: 40px;
+    height: 40px;
   }
 }
 
@@ -1095,6 +1158,14 @@ a {
 [data-theme="dark"] .navbar {
   background: rgba(26,26,30,0.9);
   border-bottom-color: rgba(255,255,255,0.08);
+}
+
+[data-theme="dark"] .map-home-logo {
+  background: rgba(26,26,30,0.85);
+}
+
+[data-theme="dark"] .map-controls-overlay .theme-toggle {
+  background: rgba(26,26,30,0.85);
 }
 
 [data-theme="dark"] .theme-toggle:hover {
