@@ -1,16 +1,18 @@
+import { useState } from 'react';
 import { Outlet } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import IntroScreen from './components/IntroScreen';
+import useTheme from './hooks/useTheme';
 
 export default function App() {
+  const { theme, toggleTheme } = useTheme();
+  const [introDone, setIntroDone] = useState(false);
+
   return (
-    <div className="app">
-      <Navbar />
+    <div className={`app${introDone ? ' intro-done' : ''}`}>
+      {!introDone && <IntroScreen onComplete={() => setIntroDone(true)} />}
       <main className="main-content">
-        <Outlet />
+        <Outlet context={{ theme, toggleTheme }} />
       </main>
-      <footer className="footer">
-        <p>Terramo &copy; 2026 — Discover every city in the world</p>
-      </footer>
     </div>
   );
 }

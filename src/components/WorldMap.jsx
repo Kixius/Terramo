@@ -1,25 +1,28 @@
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import { useNavigate } from 'react-router-dom';
+import MarkerClusterGroup from 'react-leaflet-cluster';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
+import 'react-leaflet-cluster/dist/assets/MarkerCluster.css';
+import 'react-leaflet-cluster/dist/assets/MarkerCluster.Default.css';
 import { useEffect } from 'react';
 
 function MapUpdater({ cities }) {
   const map = useMap();
   useEffect(() => {
     if (cities.length === 0) {
-      map.setView([20, 0], 2);
+      map.setView([20, 0], 3);
     } else if (cities.length < 12) {
       const bounds = L.latLngBounds(cities.map(c => [c.coordinates.lat, c.coordinates.lng]));
       map.fitBounds(bounds, { padding: [50, 50], maxZoom: 5 });
     } else {
-      map.setView([20, 0], 2);
+      map.setView([20, 0], 3);
     }
   }, [cities, map]);
   return null;
 }
 
-function CityMarker({ city }) {
+function CityMarker({ city, isFavorite, onToggleFavorite }) {
   const navigate = useNavigate();
   const icon = L.divIcon({
     html: `<svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg">
@@ -56,18 +59,35 @@ function CityMarker({ city }) {
   );
 }
 
-export default function WorldMap({ cities }) {
+const clusterIcon = (cluster) => {
+  const count = cluster.getChildCount();
+  return L.divIcon({
+    html: `<div class="cluster-icon"><span>${count}</span></div>`,
+    className: 'custom-cluster',
+    iconSize: [40, 40],
+  });
+};
+
+export default function WorldMap({ cities, isFavorite, onToggleFavorite }) {
   return (
     <div className="home-map-container">
-      <MapContainer center={[20, 0]} zoom={2} scrollWheelZoom={true} className="world-map" minZoom={2} maxZoom={18} maxBounds={[[-90, -180], [90, 180]]} maxBoundsViscosity={1.0}>
+      <MapContainer center={[20, 0]} zoom={3} scrollWheelZoom={true} className="world-map" minZoom={2} maxZoom={18} maxBounds={[[-90, -180], [90, 180]]} maxBoundsViscosity={1.0}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <MapUpdater cities={cities} />
-        {cities.map(city => (
-          <CityMarker key={city.id} city={city} />
-        ))}
+        <MarkerClusterGroup
+          chunkedLoading
+          iconCreateFunction={clusterIcon}
+          maxClusterRadius={50}
+          spiderfyOnMaxZoom={true}
+          showCoverageOnHover={false}
+        >
+          {cities.map(city => (
+            <CityMarker key={city.id} city={city} isFavorite={isFavorite} onToggleFavorite={onToggleFavorite} />
+          ))}
+        </MarkerClusterGroup>
       </MapContainer>
     </div>
   );

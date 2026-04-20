@@ -3,10 +3,13 @@ import cities from '../data/cities';
 import ChatAssistant from '../components/ChatAssistant';
 import ItineraryPlanner from '../components/ItineraryPlanner';
 import TransportInfo from '../components/TransportInfo';
+import useFavorites from '../hooks/useFavorites';
+import WeatherWidget from '../components/WeatherWidget';
 
 export default function CityGuide() {
   const { cityId } = useParams();
   const city = cities.find(c => c.id === cityId);
+  const { isFavorite, toggleFavorite } = useFavorites();
 
   if (!city) {
     return (
@@ -22,6 +25,13 @@ export default function CityGuide() {
       <div className="city-hero" style={{ backgroundImage: `url(${city.image})` }}>
         <div className="city-hero-overlay">
           <Link to="/" className="back-link">← All Cities</Link>
+            <button
+              className={`favorite-btn hero-favorite${isFavorite(cityId) ? ' active' : ''}`}
+              onClick={() => toggleFavorite(cityId)}
+              aria-label={isFavorite(cityId) ? 'Remove from saved' : 'Save city'}
+            >
+              {isFavorite(cityId) ? '♥' : '♡'}
+            </button>
           <div className="city-hero-info">
             <span className="city-hero-emoji">{city.emoji}</span>
             <h1>{city.name}</h1>
@@ -47,6 +57,7 @@ export default function CityGuide() {
             <h3>Language</h3>
             <p>{city.language}</p>
           </div>
+          <WeatherWidget coordinates={city.coordinates} />
         </div>
 
         <TransportInfo city={city} />
