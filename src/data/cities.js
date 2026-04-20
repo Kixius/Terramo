@@ -7,7 +7,13 @@ const cities = [
     emoji: "🇫🇷",
     tagline: "The City of Light",
     image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1431274172761-fca41d930114?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1471623320832-752e8bbf8413?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1471623432079-b009d30b6729?w=800&q=80" }
+    ],
     coordinates: { lat: 48.8566, lng: 2.3522 },
+    budget: {"low":{"accommodation":35,"food":16,"attractions":7,"transport":5,"total":63},"mid":{"accommodation":100,"food":46,"attractions":20,"transport":13,"total":179},"high":{"accommodation":260,"food":98,"attractions":39,"transport":33,"total":430}},
     description: "Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy, and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine.",
     highlights: ["Eiffel Tower", "Louvre Museum", "Notre-Dame Cathedral", "Champs-Élysées", "Montmartre"],
     bestTime: "April to June, September to October",
@@ -34,7 +40,13 @@ const cities = [
     emoji: "🇯🇵",
     tagline: "Where Tradition Meets the Future",
     image: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1498036882173-b41c28a8ba34?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=800&q=80" }
+    ],
     coordinates: { lat: 35.6762, lng: 139.6503 },
+    budget: {"low":{"accommodation":30,"food":14,"attractions":6,"transport":5,"total":55},"mid":{"accommodation":85,"food":40,"attractions":17,"transport":12,"total":154},"high":{"accommodation":230,"food":86,"attractions":35,"transport":29,"total":380}},
     description: "Tokyo, Japan's busy capital, mixes ultramodern and traditional, from neon-lit skyscrapers to historic temples. The city's many museums offer exhibits ranging from classical art to a reconstructed kabuki theater.",
     highlights: ["Senso-ji Temple", "Shibuya Crossing", "Meiji Shrine", "Akihabara", "Tokyo Skytree"],
     bestTime: "March to May (cherry blossom), October to November",
@@ -61,7 +73,13 @@ const cities = [
     emoji: "🇺🇸",
     tagline: "The City That Never Sleeps",
     image: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1476837754190-8036496cea40?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1483653364400-eedcfb9f1f88?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?w=800&q=80" }
+    ],
     coordinates: { lat: 40.7128, lng: -74.0060 },
+    budget: {"low":{"accommodation":40,"food":18,"attractions":8,"transport":6,"total":72},"mid":{"accommodation":115,"food":53,"attractions":23,"transport":15,"total":206},"high":{"accommodation":300,"food":113,"attractions":45,"transport":38,"total":496}},
     description: "New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that's among the world's major commercial, financial, and cultural centers.",
     highlights: ["Central Park", "Statue of Liberty", "Times Square", "Brooklyn Bridge", "Metropolitan Museum of Art"],
     bestTime: "April to June, September to November",
@@ -88,7 +106,13 @@ const cities = [
     emoji: "🇬🇧",
     tagline: "A World in One City",
     image: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1448906654166-444d494666b3?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1454793147212-9e7e57e89a4f?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1486299267070-83823f5448dd?w=800&q=80" }
+    ],
     coordinates: { lat: 51.5074, lng: -0.1278 },
+    budget: {"low":{"accommodation":35,"food":17,"attractions":7,"transport":6,"total":65},"mid":{"accommodation":105,"food":49,"attractions":21,"transport":14,"total":189},"high":{"accommodation":280,"food":105,"attractions":42,"transport":35,"total":462}},
     description: "London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times. Its center contains the imposing Houses of Parliament, the iconic Big Ben, and Westminster Abbey.",
     highlights: ["British Museum", "Tower of London", "Buckingham Palace", "Big Ben", " Tate Modern"],
     bestTime: "May to September",
@@ -115,7 +139,13 @@ const cities = [
     emoji: "🇧🇷",
     tagline: "The Marvelous City",
     image: "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1507125524815-d9d6dccda1dc?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?w=800&q=80" }
+    ],
     coordinates: { lat: -22.9068, lng: -43.1729 },
+    budget: {"low":{"accommodation":10,"food":5,"attractions":2,"transport":2,"total":19},"mid":{"accommodation":30,"food":14,"attractions":6,"transport":4,"total":54},"high":{"accommodation":80,"food":30,"attractions":12,"transport":10,"total":132}},
     description: "Rio de Janeiro is a huge seaside city in Brazil, famed for its Copacabana and Ipanema beaches, the 38m Christ the Redeemer statue atop Mount Corcovado, and Sugarloaf Mountain, a granite peak with cable cars to its summit.",
     highlights: ["Christ the Redeemer", "Sugarloaf Mountain", "Copacabana Beach", "Tijuca Forest", "Selarón Steps"],
     bestTime: "December to March (summer), February for Carnival",
@@ -142,7 +172,13 @@ const cities = [
     emoji: "🇦🇺",
     tagline: "The Harbour City",
     image: "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1494948141550-221698c089c2?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1523428096881-5bd79d043006?w=800&q=80" }
+    ],
     coordinates: { lat: -33.8688, lng: 151.2093 },
+    budget: {"low":{"accommodation":30,"food":15,"attractions":6,"transport":5,"total":56},"mid":{"accommodation":95,"food":44,"attractions":19,"transport":13,"total":171},"high":{"accommodation":250,"food":94,"attractions":38,"transport":31,"total":413}},
     description: "Sydney, capital of New South Wales, is one of Australia's largest cities. Best known for its harbour-front Sydney Opera House, with a distinctive sail-shaped design, and the massive Darling Harbour and Circular Quay.",
     highlights: ["Sydney Opera House", "Harbour Bridge", "Bondi Beach", "Royal Botanic Garden", "Taronga Zoo"],
     bestTime: "September to November, March to May",
@@ -169,7 +205,13 @@ const cities = [
     emoji: "🇦🇪",
     tagline: "The City of Gold",
     image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1459787915554-b34915863013?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1489516408517-0c0a15662682?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1510665724063-f77a01074aa2?w=800&q=80" }
+    ],
     coordinates: { lat: 25.2048, lng: 55.2708 },
+    budget: {"low":{"accommodation":35,"food":16,"attractions":7,"transport":5,"total":63},"mid":{"accommodation":100,"food":47,"attractions":20,"transport":14,"total":181},"high":{"accommodation":270,"food":101,"attractions":41,"transport":34,"total":446}},
     description: "Dubai is a city and emirate in the UAE known for luxury shopping, ultramodern architecture, and a lively nightlife scene. Burj Khalifa, an 830m-tall tower, dominates the skyline.",
     highlights: ["Burj Khalifa", "Dubai Mall", "Palm Jumeirah", "Dubai Marina", "Gold Souk"],
     bestTime: "November to March",
@@ -196,7 +238,13 @@ const cities = [
     emoji: "🇹🇭",
     tagline: "The City of Angels",
     image: "https://images.unsplash.com/photo-1508009603885-50cf7c579365?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1508009603885-50cf7c579365?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1510379872535-9310dc6fd6a7?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1513568720563-6a5b8c6caab3?w=800&q=80" }
+    ],
     coordinates: { lat: 13.7563, lng: 100.5018 },
+    budget: {"low":{"accommodation":10,"food":4,"attractions":2,"transport":1,"total":17},"mid":{"accommodation":25,"food":12,"attractions":5,"transport":4,"total":46},"high":{"accommodation":70,"food":26,"attractions":11,"transport":9,"total":116}},
     description: "Bangkok, Thailand's capital, is a large city known for ornate shrines and vibrant street life. The boat-filled Chao Phraya River feeds its network of canals, flowing past the Rattanakosin royal district.",
     highlights: ["Grand Palace", "Wat Arun", "Chatuchak Market", "Khao San Road", "Jim Thompson House"],
     bestTime: "November to February",
@@ -223,7 +271,13 @@ const cities = [
     emoji: "🇮🇹",
     tagline: "The Eternal City",
     image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1525874684015-58379d421a52?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1529154036614-a60975f5c760?w=800&q=80" }
+    ],
     coordinates: { lat: 41.9028, lng: 12.4964 },
+    budget: {"low":{"accommodation":25,"food":12,"attractions":5,"transport":4,"total":46},"mid":{"accommodation":75,"food":35,"attractions":15,"transport":10,"total":135},"high":{"accommodation":200,"food":75,"attractions":30,"transport":25,"total":330}},
     description: "Rome, Italy's capital, is a sprawling, cosmopolitan city with nearly 3,000 years of globally influential art, architecture, and culture. Ancient ruins such as the Roman Forum and the Colosseum recall the power of the former Roman Empire.",
     highlights: ["Colosseum", "Vatican Museums", "Trevi Fountain", "Pantheon", "Roman Forum"],
     bestTime: "April to June, September to October",
@@ -250,7 +304,13 @@ const cities = [
     emoji: "🇿🇦",
     tagline: "The Mother City",
     image: "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1474874055390-459bc92357f3?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1496497243327-9dccd845c35f?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1529528070131-eda9f3e90919?w=800&q=80" }
+    ],
     coordinates: { lat: -33.9249, lng: 18.4241 },
+    budget: {"low":{"accommodation":10,"food":5,"attractions":2,"transport":2,"total":19},"mid":{"accommodation":30,"food":14,"attractions":6,"transport":4,"total":54},"high":{"accommodation":80,"food":30,"attractions":12,"transport":10,"total":132}},
     description: "Cape Town is a port city on the southwest coast of South Africa, on a peninsula beneath the imposing Table Mountain. Slowly rotating cable cars climb to the mountain's flat top, from which sweeping views of the city await.",
     highlights: ["Table Mountain", "Cape of Good Hope", "Robben Island", "V&A Waterfront", "Boulders Beach Penguins"],
     bestTime: "October to March",
@@ -277,7 +337,13 @@ const cities = [
     emoji: "🇹🇷",
     tagline: "Where East Meets West",
     image: "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1466442929976-97f336a657be?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1518084823714-2f59a7315a39?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800&q=80" }
+    ],
     coordinates: { lat: 41.0082, lng: 28.9784 },
+    budget: {"low":{"accommodation":10,"food":5,"attractions":2,"transport":2,"total":19},"mid":{"accommodation":30,"food":14,"attractions":6,"transport":4,"total":54},"high":{"accommodation":80,"food":30,"attractions":12,"transport":10,"total":132}},
     description: "Istanbul is a major city in Turkey that straddles Europe and Asia across the Bosphorus Strait. Its Old City reflects cultural influences of the many empires that once ruled here, with the iconic Hagia Sophia and Blue Mosque.",
     highlights: ["Hagia Sophia", "Blue Mosque", "Grand Bazaar", "Topkapi Palace", "Bosphorus Cruise"],
     bestTime: "April to May, September to November",
@@ -304,7 +370,13 @@ const cities = [
     emoji: "🇲🇦",
     tagline: "The Red City",
     image: "https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1548018560-4cb48a8837c1?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1549140600-78c9b8275e9d?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1553617569-8ef7a8da3146?w=800&q=80" }
+    ],
     coordinates: { lat: 31.6295, lng: -7.9811 },
+    budget: {"low":{"accommodation":10,"food":4,"attractions":2,"transport":1,"total":17},"mid":{"accommodation":25,"food":11,"attractions":5,"transport":3,"total":44},"high":{"accommodation":60,"food":23,"attractions":9,"transport":8,"total":100}},
     description: "Marrakech, a former imperial city in western Morocco, is a major economic center and home to mosques, palaces, and gardens. The medina is a densely packed, walled medieval city dating to the Berber Empire.",
     highlights: ["Jemaa el-Fnaa", "Majorelle Garden", "Bahia Palace", "Koutoubia Mosque", "Souks"],
     bestTime: "March to May, September to November",
@@ -331,7 +403,13 @@ const cities = [
     emoji: "🇩🇪",
     tagline: "Charlemagne's Imperial City",
     image: "https://images.unsplash.com/photo-1609932533430-9ac5ffd8527f?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1546356495-8e13e83afc92?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1546356495-9b8396450e17?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1596461384989-843f78bad55b?w=800&q=80" }
+    ],
     coordinates: { lat: 50.7753, lng: 6.0839 },
+    budget: {"low":{"accommodation":30,"food":13,"attractions":6,"transport":4,"total":53},"mid":{"accommodation":85,"food":39,"attractions":17,"transport":11,"total":152},"high":{"accommodation":220,"food":83,"attractions":33,"transport":28,"total":364}},
     description: "Aachen is a historic spa city in western Germany, renowned as the favored residence of Charlemagne and the coronation site of German kings for centuries. Its stunning cathedral, a UNESCO World Heritage Site, stands as one of the oldest in Europe.",
     highlights: ["Aachen Cathedral", "Elisenbrunnen", "Couven Museum", "Carolus Thermen Spa", "Ludwig Forum"],
     bestTime: "May to September",
@@ -358,7 +436,13 @@ const cities = [
     emoji: "🇩🇰",
     tagline: "The City of Smiles",
     image: "https://images.unsplash.com/photo-1531247855730-37a48232720f?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1532370778713-1400f3d62094?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1558443336-34ecdd8eeae5?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1559070134-1cf028349181?w=800&q=80" }
+    ],
     coordinates: { lat: 56.1629, lng: 10.2039 },
+    budget: {"low":{"accommodation":40,"food":18,"attractions":8,"transport":6,"total":72},"mid":{"accommodation":115,"food":53,"attractions":23,"transport":15,"total":206},"high":{"accommodation":300,"food":113,"attractions":45,"transport":38,"total":496}},
     description: "Aarhus is Denmark's second-largest city, a vibrant university town blending Viking history with cutting-edge architecture. Its cultural scene punches well above its weight, with world-class museums and a thriving food movement.",
     highlights: ["ARoS Art Museum", "Den Gamle By", "Aarhus Cathedral", "Moesgaard Museum", "The Iceberg Building"],
     bestTime: "June to August",
@@ -385,7 +469,13 @@ const cities = [
     emoji: "🇳🇱",
     tagline: "The Venice of the North",
     image: "https://images.unsplash.com/photo-1459679749680-18eb1eb37418?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1459679749680-18eb1eb37418?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1468436385273-8abca6dfd8d3?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=800&q=80" }
+    ],
     coordinates: { lat: 52.3676, lng: 4.9041 },
+    budget: {"low":{"accommodation":30,"food":15,"attractions":6,"transport":5,"total":56},"mid":{"accommodation":95,"food":44,"attractions":19,"transport":13,"total":171},"high":{"accommodation":250,"food":94,"attractions":38,"transport":31,"total":413}},
     description: "Amsterdam, the capital of the Netherlands, is known for its artistic heritage, elaborate canal system, and narrow houses with gabled facades. The city's museums house works by Rembrandt, Vermeer, and Van Gogh.",
     highlights: ["Rijksmuseum", "Van Gogh Museum", "Anne Frank House", "Vondelpark", "Jordaan Canal Ring"],
     bestTime: "April to May (tulip season), June to September",
@@ -412,7 +502,13 @@ const cities = [
     emoji: "🇦🇩",
     tagline: "Pyrenean Paradise",
     image: "https://images.unsplash.com/photo-1559113202-c916b8e44373?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1599840798493-f876222b0f7b?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1600808062921-bd24b67a1248?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1602841365237-4fb73fb43f0c?w=800&q=80" }
+    ],
     coordinates: { lat: 42.5063, lng: 1.5218 },
+    budget: {"low":{"accommodation":25,"food":12,"attractions":5,"transport":4,"total":46},"mid":{"accommodation":75,"food":35,"attractions":15,"transport":10,"total":135},"high":{"accommodation":200,"food":75,"attractions":30,"transport":25,"total":330}},
     description: "Andorra la Vella is the capital of the tiny Principality of Andorra, nestled high in the Pyrenees between France and Spain. It's known as a shopping haven with duty-free goods and as a gateway to excellent ski resorts.",
     highlights: ["Casa de la Vall", "Church of Sant Esteve", "Vallnord Ski Resort", "Caldea Spa", "Pont de Paris"],
     bestTime: "December to March (skiing), June to September (hiking)",
@@ -439,7 +535,13 @@ const cities = [
     emoji: "🇹🇷",
     tagline: "Turkey's Historic Capital",
     image: "https://images.unsplash.com/photo-1641128324972-af3212f0f6bd?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1563261402-c5a58e622eb5?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1563388662-7040afb99cb0?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1577353834818-0f8472391b6a?w=800&q=80" }
+    ],
     coordinates: { lat: 39.9334, lng: 32.8597 },
+    budget: {"low":{"accommodation":10,"food":5,"attractions":2,"transport":2,"total":19},"mid":{"accommodation":30,"food":14,"attractions":6,"transport":4,"total":54},"high":{"accommodation":80,"food":30,"attractions":12,"transport":10,"total":132}},
     description: "Ankara is Turkey's modern capital and second-largest city, a blend of ancient history and contemporary government architecture. The city sits at the heart of the Anatolian plateau and houses the stunning Anıtkabir, Mustafa Kemal Atatürk's monumental mausoleum.",
     highlights: ["Anıtkabir", "Museum of Anatolian Civilizations", "Ankara Castle", "Kocatepe Mosque", "Atakule Tower"],
     bestTime: "April to June, September to November",
@@ -466,7 +568,13 @@ const cities = [
     emoji: "🇧🇪",
     tagline: "The Diamond Capital of the World",
     image: "https://images.unsplash.com/photo-1502991644659-e8aa151f8389?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1502991644659-e8aa151f8389?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1541966890190-cde82668a4fb?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1556654953-3719bfc8db16?w=800&q=80" }
+    ],
     coordinates: { lat: 51.2194, lng: 4.4025 },
+    budget: {"low":{"accommodation":30,"food":13,"attractions":6,"transport":4,"total":53},"mid":{"accommodation":85,"food":39,"attractions":17,"transport":11,"total":152},"high":{"accommodation":220,"food":83,"attractions":33,"transport":28,"total":364}},
     description: "Antwerp is a port city in Belgium known as a global diamond trading hub and the home of Baroque master Peter Paul Rubens. Its medieval architecture, cutting-edge fashion scene, and legendary beer culture make it one of Europe's most underrated destinations.",
     highlights: ["Cathedral of Our Lady", "Rubens House", "Antwerp Central Station", "MAS Museum", "Grote Markt"],
     bestTime: "April to September",
@@ -493,7 +601,13 @@ const cities = [
     emoji: "🇬🇷",
     tagline: "The Cradle of Western Civilization",
     image: "https://images.unsplash.com/photo-1555993539-1732b0258235?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1504115582042-a7c0f7d29cd6?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1555993539-1732b0258235?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1583656696771-2afded31a36c?w=800&q=80" }
+    ],
     coordinates: { lat: 37.9838, lng: 23.7275 },
+    budget: {"low":{"accommodation":20,"food":8,"attractions":4,"transport":3,"total":35},"mid":{"accommodation":55,"food":25,"attractions":11,"transport":7,"total":98},"high":{"accommodation":140,"food":53,"attractions":21,"transport":18,"total":232}},
     description: "Athens, the capital of Greece, is one of the world's oldest cities with a recorded history spanning over 3,400 years. Dominated by the iconic Parthenon atop the Acropolis, it seamlessly weaves ancient ruins into a vibrant modern metropolis.",
     highlights: ["Acropolis & Parthenon", "Plaka District", "National Archaeological Museum", "Monastiraki Square", "Temple of Olympian Zeus"],
     bestTime: "March to May, September to November",
@@ -520,7 +634,13 @@ const cities = [
     emoji: "🇦🇿",
     tagline: "The City of Winds",
     image: "https://images.unsplash.com/photo-1589574390486-447216095288?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1589574390486-447216095288?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1595980542930-9eea66620834?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1596306499300-0b7b1689b9f6?w=800&q=80" }
+    ],
     coordinates: { lat: 40.4093, lng: 49.8671 },
+    budget: {"low":{"accommodation":10,"food":4,"attractions":2,"transport":1,"total":17},"mid":{"accommodation":25,"food":12,"attractions":5,"transport":4,"total":46},"high":{"accommodation":70,"food":26,"attractions":11,"transport":9,"total":116}},
     description: "Baku, the capital of Azerbaijan, is a fascinating city where futuristic flame-shaped skyscrapers rise alongside a UNESCO-listed medieval old city. Set on the Caspian Sea, it offers a unique blend of Eastern and Western influences.",
     highlights: ["Old City (İçəri Şəhər)", "Flame Towers", "Heydar Aliyev Center", "Boulevard", "Maiden Tower"],
     bestTime: "April to June, September to November",
@@ -547,7 +667,13 @@ const cities = [
     emoji: "🇪🇸",
     tagline: "Where Art Meets the Sea",
     image: "https://images.unsplash.com/photo-1583422409516-2895a77efded?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1464790719320-516ecd75af6c?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1511527661048-7fe73d85e9a4?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1529551739587-e242c564f727?w=800&q=80" }
+    ],
     coordinates: { lat: 41.3874, lng: 2.1686 },
+    budget: {"low":{"accommodation":25,"food":11,"attractions":5,"transport":4,"total":45},"mid":{"accommodation":70,"food":32,"attractions":14,"transport":9,"total":125},"high":{"accommodation":180,"food":68,"attractions":27,"transport":23,"total":298}},
     description: "Barcelona, the cosmopolitan capital of Spain's Catalonia region, is defined by the whimsical modernist architecture of Antoni Gaudí. From the unfinished Sagrada Família to the lively La Rambla, the city pulses with art, food, and Mediterranean energy.",
     highlights: ["Sagrada Família", "Park Güell", "La Rambla", "Gothic Quarter", "Casa Batlló"],
     bestTime: "May to June, September to October",
@@ -574,7 +700,13 @@ const cities = [
     emoji: "🇨🇭",
     tagline: "Switzerland's Cultural Capital",
     image: "https://images.unsplash.com/photo-1657123754751-bb4b10d22709?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1518185866548-1af773f45d23?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1526572728358-228f6b8ca29b?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1532269747233-f4605b88fe00?w=800&q=80" }
+    ],
     coordinates: { lat: 47.5596, lng: 7.5886 },
+    budget: {"low":{"accommodation":45,"food":22,"attractions":9,"transport":7,"total":83},"mid":{"accommodation":135,"food":63,"attractions":27,"transport":18,"total":243},"high":{"accommodation":360,"food":135,"attractions":54,"transport":45,"total":594}},
     description: "Basel sits at the crossroads of Switzerland, France, and Germany, offering an extraordinary concentration of world-class museums within its compact medieval core. The Rhine River flows through the city, providing a picturesque backdrop for its vibrant art and architecture scene.",
     highlights: ["Kunstmuseum", "Basel Minster", "Tinguely Fountain", "Fondation Beyeler", "Rhine River Promenade"],
     bestTime: "June to September",
@@ -601,7 +733,13 @@ const cities = [
     emoji: "🇬🇧",
     tagline: "The Rising Star of the North",
     image: "https://images.unsplash.com/photo-1554169842-730a996aecf4?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1554169842-730a996aecf4?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1561126669-7c9d34105915?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1570808370686-e73cd6b8257d?w=800&q=80" }
+    ],
     coordinates: { lat: 54.5973, lng: -5.9301 },
+    budget: {"low":{"accommodation":35,"food":16,"attractions":7,"transport":5,"total":63},"mid":{"accommodation":100,"food":46,"attractions":20,"transport":13,"total":179},"high":{"accommodation":260,"food":98,"attractions":39,"transport":33,"total":430}},
     description: "Belfast, the capital of Northern Ireland, has transformed itself into a vibrant cultural destination. From the Titanic Quarter to its thriving food scene and legendary pub culture, the city offers a warm welcome and rich history.",
     highlights: ["Titanic Belfast", "Giant's Causeway (day trip)", "Belfast Castle", "St. George's Market", "Crumlin Road Gaol"],
     bestTime: "May to September",
@@ -628,7 +766,13 @@ const cities = [
     emoji: "🇷🇸",
     tagline: "The White City at the Crossroads",
     image: "https://images.unsplash.com/photo-1563060680-1f011e77db47?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1563060680-1f011e77db47?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1584306668166-cdc5732d2678?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1587798791787-ad5d9a292c51?w=800&q=80" }
+    ],
     coordinates: { lat: 44.7866, lng: 20.4489 },
+    budget: {"low":{"accommodation":10,"food":5,"attractions":2,"transport":2,"total":19},"mid":{"accommodation":30,"food":14,"attractions":6,"transport":4,"total":54},"high":{"accommodation":80,"food":30,"attractions":12,"transport":10,"total":132}},
     description: "Belgrade, the capital of Serbia, sits at the confluence of the Danube and Sava rivers. A city of resilience and raw energy, it offers legendary nightlife, Ottoman and Austro-Hungarian architecture, and one of Europe's most vibrant street cultures.",
     highlights: ["Kalemegdan Fortress", "Church of Saint Sava", "Skadarlija", "Belgrade Waterfront", "Nikola Tesla Museum"],
     bestTime: "April to October",
@@ -655,7 +799,13 @@ const cities = [
     emoji: "🇩🇪",
     tagline: "Poor but Sexy",
     image: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1496968594384-1736c036e4e6?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1538685634737-24b83e3fa2f8?w=800&q=80" }
+    ],
     coordinates: { lat: 52.5200, lng: 13.4050 },
+    budget: {"low":{"accommodation":25,"food":12,"attractions":5,"transport":4,"total":46},"mid":{"accommodation":75,"food":35,"attractions":15,"transport":10,"total":135},"high":{"accommodation":200,"food":75,"attractions":30,"transport":25,"total":330}},
     description: "Berlin, Germany's capital, is a city reborn from division, where remnants of the Wall stand alongside cutting-edge architecture. Its legendary nightlife, world-class museums on Museum Island, and creative energy make it Europe's most dynamic metropolis.",
     highlights: ["Brandenburg Gate", "Berlin Wall Memorial", "Museum Island", "Reichstag Dome", "East Side Gallery"],
     bestTime: "May to September",
@@ -682,7 +832,13 @@ const cities = [
     emoji: "🇨🇭",
     tagline: "A Medieval Masterpiece",
     image: "https://images.unsplash.com/photo-1581437626654-c759befc8083?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1521066350215-051129ff0a8a?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1560270898-add76b2de097?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1583495833696-852f6573e8ae?w=800&q=80" }
+    ],
     coordinates: { lat: 46.9480, lng: 7.4474 },
+    budget: {"low":{"accommodation":45,"food":22,"attractions":9,"transport":7,"total":83},"mid":{"accommodation":135,"food":63,"attractions":27,"transport":18,"total":243},"high":{"accommodation":360,"food":135,"attractions":54,"transport":45,"total":594}},
     description: "Bern, the capital of Switzerland, is a UNESCO World Heritage Site renowned for its remarkably preserved medieval old town. Surrounded by the turquoise Aare River, it offers a surprisingly relaxed pace for a capital city, with world-class museums and stunning Alpine views.",
     highlights: ["Zytglogge Clock Tower", "Bern Minster", "Bear Park", "Rosengarten", "Einstein House"],
     bestTime: "June to September",
@@ -709,7 +865,13 @@ const cities = [
     emoji: "🇪🇸",
     tagline: "The Guggenheim Transformation",
     image: "https://images.unsplash.com/photo-1566993850427-6324a91bbd32?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1544041510-c6127fc6853d?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1566993850427-6324a91bbd32?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1567976788589-26f71fcbbd70?w=800&q=80" }
+    ],
     coordinates: { lat: 43.2630, lng: -2.9350 },
+    budget: {"low":{"accommodation":20,"food":10,"attractions":4,"transport":3,"total":37},"mid":{"accommodation":60,"food":28,"attractions":12,"transport":8,"total":108},"high":{"accommodation":160,"food":60,"attractions":24,"transport":20,"total":264}},
     description: "Bilbao, the largest city in Spain's Basque Country, underwent a dramatic transformation when Frank Gehry's titanium-clad Guggenheim Museum opened in 1997. Today it balances industrial heritage with bold architecture and one of Spain's most celebrated food scenes.",
     highlights: ["Guggenheim Museum", "Casco Viejo", "Ribera Market", "Bilbao Fine Arts Museum", "Zubizuri Bridge"],
     bestTime: "May to September",
@@ -736,7 +898,13 @@ const cities = [
     emoji: "🇬🇧",
     tagline: "The Workshop of the World",
     image: "https://images.unsplash.com/photo-1548860258-be5cfff4f165?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1440582096070-fa5961d9d682?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1499958060387-dbdb8d0994fb?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1548860258-be5cfff4f165?w=800&q=80" }
+    ],
     coordinates: { lat: 52.4862, lng: -1.8904 },
+    budget: {"low":{"accommodation":35,"food":16,"attractions":7,"transport":5,"total":63},"mid":{"accommodation":100,"food":46,"attractions":20,"transport":13,"total":179},"high":{"accommodation":260,"food":98,"attractions":39,"transport":33,"total":430}},
     description: "Birmingham is England's second-largest city, an industrial powerhouse turned cultural hotspot with one of the youngest populations in Europe. Its canal network rivals Venice, and the city's culinary scene has earned it the title of Britain's most exciting food destination.",
     highlights: ["Birmingham Museum & Art Gallery", "Cadbury World", "Library of Birmingham", "Balti Triangle", "Jewellery Quarter"],
     bestTime: "May to September",
@@ -763,7 +931,13 @@ const cities = [
     emoji: "🇮🇹",
     tagline: "La Dotta, La Grassa, La Rossa",
     image: "https://images.unsplash.com/photo-1445265005361-ae273d6a1e16?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1445265005361-ae273d6a1e16?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1477915737647-b5246ee6de6f?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1560685925-09648b23d9bd?w=800&q=80" }
+    ],
     coordinates: { lat: 44.4949, lng: 11.3426 },
+    budget: {"low":{"accommodation":25,"food":11,"attractions":5,"transport":4,"total":45},"mid":{"accommodation":70,"food":32,"attractions":14,"transport":9,"total":125},"high":{"accommodation":180,"food":68,"attractions":27,"transport":23,"total":298}},
     description: "Bologna is Italy's culinary capital, known as La Dotta (the learned) for its ancient university, La Grassa (the fat) for its incredible food, and La Rossa (the red) for its terracotta rooftops. Its medieval porticoes are a UNESCO World Heritage Site.",
     highlights: ["Two Towers (Torre degli Asinelli)", "Piazza Maggiore", "Bologna University", "Archiginnasio", "Santo Stefano"],
     bestTime: "April to June, September to October",
@@ -790,7 +964,13 @@ const cities = [
     emoji: "🇩🇪",
     tagline: "Beethoven's Birthplace",
     image: "https://images.unsplash.com/photo-1596484552834-6a58f850e0a1?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1556482465-c2211e8131a2?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1586150729751-0f771e286c1b?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1586789821310-3c0941c56a4f?w=800&q=80" }
+    ],
     coordinates: { lat: 50.7374, lng: 7.0982 },
+    budget: {"low":{"accommodation":30,"food":13,"attractions":6,"transport":4,"total":53},"mid":{"accommodation":85,"food":39,"attractions":17,"transport":11,"total":152},"high":{"accommodation":220,"food":83,"attractions":33,"transport":28,"total":364}},
     description: "Bonn, the former capital of West Germany, sits along the Rhine River and is celebrated as the birthplace of Ludwig van Beethoven. The city blends political history with a relaxed university-town atmosphere and serves as a gateway to the Romantic Rhine Valley.",
     highlights: ["Beethoven House", "Bonn Minster", "Museum Mile", "Poppelsdorf Palace", "Rhine Promenade"],
     bestTime: "May to September",
@@ -817,7 +997,13 @@ const cities = [
     emoji: "🇫🇷",
     tagline: "The World Capital of Wine",
     image: "https://images.unsplash.com/photo-1493564738392-d148cfbd6eda?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1493564738392-d148cfbd6eda?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1509636902752-929c7497f3d4?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1536005566535-fc9a7a68f4c1?w=800&q=80" }
+    ],
     coordinates: { lat: 44.8378, lng: -0.5792 },
+    budget: {"low":{"accommodation":30,"food":14,"attractions":6,"transport":5,"total":55},"mid":{"accommodation":90,"food":42,"attractions":18,"transport":12,"total":162},"high":{"accommodation":240,"food":90,"attractions":36,"transport":30,"total":396}},
     description: "Bordeaux is a port city in southwestern France, globally renowned for its wine production and elegant 18th-century architecture. The entire historic center is a UNESCO World Heritage Site, offering grand squares, world-class cuisine, and access to legendary vineyards.",
     highlights: ["Place de la Bourse", "Cité du Vin", "Bordeaux Cathedral", "Grand Théâtre", "Pont de Pierre"],
     bestTime: "June to September",
@@ -844,7 +1030,13 @@ const cities = [
     emoji: "🇬🇧",
     tagline: "The Sunny South Coast Gem",
     image: "https://images.unsplash.com/photo-1502120955462-8c317dcaa903?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1502120955462-8c317dcaa903?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1516995660271-8186fcb31ef0?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1519938939651-1d09a0d4d31f?w=800&q=80" }
+    ],
     coordinates: { lat: 50.7196, lng: -1.8808 },
+    budget: {"low":{"accommodation":35,"food":16,"attractions":7,"transport":5,"total":63},"mid":{"accommodation":100,"food":46,"attractions":20,"transport":13,"total":179},"high":{"accommodation":260,"food":98,"attractions":39,"transport":33,"total":430}},
     description: "Bournemouth is a vibrant coastal resort town in southern England, famous for its seven miles of golden sandy beaches and Victorian architecture. With a lively student population and growing tech scene, it blends traditional seaside charm with modern energy.",
     highlights: ["Bournemouth Pier", "Russell-Cotes Art Gallery", "Lower Gardens", "Oceanarium", "Hengistbury Head"],
     bestTime: "June to September",
@@ -871,7 +1063,13 @@ const cities = [
     emoji: "🇸🇰",
     tagline: "The Little Big City",
     image: "https://images.unsplash.com/photo-1562779346-e43d30d2e647?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1562779346-e43d30d2e647?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1567072584703-e445170f9478?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1568567259979-a39016d968c7?w=800&q=80" }
+    ],
     coordinates: { lat: 48.1486, lng: 17.1077 },
+    budget: {"low":{"accommodation":15,"food":6,"attractions":3,"transport":2,"total":26},"mid":{"accommodation":40,"food":18,"attractions":8,"transport":5,"total":71},"high":{"accommodation":100,"food":38,"attractions":15,"transport":13,"total":166}},
     description: "Bratislava, Slovakia's capital, sits on the Danube River near the borders of Austria and Hungary. Its compact, colorful old town features medieval towers, Baroque palaces, and quirky statues, all overshadowed by a stark rectangular castle on the hill.",
     highlights: ["Bratislava Castle", "St. Martin's Cathedral", "Old Town Hall", "Blue Church", "Devin Castle"],
     bestTime: "April to October",
@@ -898,7 +1096,13 @@ const cities = [
     emoji: "🇩🇪",
     tagline: "City of the Town Musicians",
     image: "https://images.unsplash.com/photo-1514414249854-ac383ccd15ac?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1514414249854-ac383ccd15ac?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1542386649-58d7ed0249bf?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1572091363873-fe00324c4a1d?w=800&q=80" }
+    ],
     coordinates: { lat: 53.0793, lng: 8.8017 },
+    budget: {"low":{"accommodation":30,"food":13,"attractions":6,"transport":4,"total":53},"mid":{"accommodation":85,"food":39,"attractions":17,"transport":11,"total":152},"high":{"accommodation":220,"food":83,"attractions":33,"transport":28,"total":364}},
     description: "Bremen is a historic Hanseatic city in northwestern Germany, famous for the Brothers Grimm fairy tale of the Bremen Town Musicians. Its UNESCO-listed town hall and Roland statue anchor a charming old town along the Weser River.",
     highlights: ["Town Hall & Roland Statue", "Böttcherstraße", "Schnoor Quarter", "Bremen Cathedral", "Universum Science Center"],
     bestTime: "May to September",
@@ -925,7 +1129,13 @@ const cities = [
     emoji: "🇬🇧",
     tagline: "Where Creativity Runs Wild",
     image: "https://images.unsplash.com/photo-1516310806995-00dd2f9dfd8d?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1502732728614-8329a1bf1415?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1522361247687-02a0a2aa540e?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1555084657-094ec3e633e2?w=800&q=80" }
+    ],
     coordinates: { lat: 51.4545, lng: -2.5879 },
+    budget: {"low":{"accommodation":35,"food":16,"attractions":7,"transport":5,"total":63},"mid":{"accommodation":100,"food":46,"attractions":20,"transport":13,"total":179},"high":{"accommodation":260,"food":98,"attractions":39,"transport":33,"total":430}},
     description: "Bristol is a creative, fiercely independent city in southwest England, renowned for its street art heritage (including works by Banksy), historic maritime legacy, and thriving music scene. Its harbor-side setting and green hills give it a distinctive character.",
     highlights: ["Clifton Suspension Bridge", "SS Great Britain", "Bristol Museum & Art Gallery", "Bristol Cathedral", "Street Art Walking Tour"],
     bestTime: "May to September",
@@ -952,7 +1162,13 @@ const cities = [
     emoji: "🇧🇪",
     tagline: "The Heart of Europe",
     image: "https://images.unsplash.com/photo-1548092304-e0205cb0031b?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1548092304-e0205cb0031b?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1559113202-c916b8e44373?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1567031538170-3ca67c69b6bb?w=800&q=80" }
+    ],
     coordinates: { lat: 50.8503, lng: 4.3517 },
+    budget: {"low":{"accommodation":30,"food":13,"attractions":6,"transport":4,"total":53},"mid":{"accommodation":85,"food":39,"attractions":17,"transport":11,"total":152},"high":{"accommodation":220,"food":83,"attractions":33,"transport":28,"total":364}},
     description: "Brussels, the capital of Belgium and the European Union, is a city of grand squares, comic-strip murals, and extraordinary culinary traditions. The magnificent Grand-Place, ornate Art Nouveau buildings, and world-class chocolate make it a feast for all senses.",
     highlights: ["Grand-Place", "Atomium", "Manneken Pis", "Royal Palace", "Comic Strip Center"],
     bestTime: "April to October",
@@ -979,7 +1195,13 @@ const cities = [
     emoji: "🇷🇴",
     tagline: "The Little Paris of the East",
     image: "https://images.unsplash.com/photo-1559308573-0abf29faa17d?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1574616979112-f9f52d3747f8?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1574974915729-40753c60260d?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1584646098378-0874589d76b1?w=800&q=80" }
+    ],
     coordinates: { lat: 44.4268, lng: 26.1025 },
+    budget: {"low":{"accommodation":10,"food":5,"attractions":2,"transport":2,"total":19},"mid":{"accommodation":30,"food":14,"attractions":6,"transport":4,"total":54},"high":{"accommodation":80,"food":30,"attractions":12,"transport":10,"total":132}},
     description: "Bucharest, Romania's capital, is a city of striking contrasts where Belle Époque buildings stand alongside brutalist communist architecture. The enormous Palace of Parliament dominates the skyline, while the old town's charming streets buzz with cafés and nightlife.",
     highlights: ["Palace of Parliament", "Old Town (Lipscani)", "Village Museum", "Romanian Athenaeum", "Cărturești Carusel Bookstore"],
     bestTime: "April to June, September to October",
@@ -1006,7 +1228,13 @@ const cities = [
     emoji: "🇭🇺",
     tagline: "The Pearl of the Danube",
     image: "https://images.unsplash.com/photo-1541849546-216549ae216d?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1500078974918-738828bc0422?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1507622560124-621e26755fb8?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1518471152222-d42e38ce6873?w=800&q=80" }
+    ],
     coordinates: { lat: 47.4979, lng: 19.0402 },
+    budget: {"low":{"accommodation":15,"food":6,"attractions":3,"transport":2,"total":26},"mid":{"accommodation":40,"food":18,"attractions":8,"transport":5,"total":71},"high":{"accommodation":100,"food":38,"attractions":15,"transport":13,"total":166}},
     description: "Budapest, Hungary's capital, is divided by the Danube River into the hilly Buda and flat Pest sides. Famous for its thermal baths, stunning Parliament building, and ruin bar scene, it offers grand architecture and vibrant culture at remarkably affordable prices.",
     highlights: ["Hungarian Parliament", "Széchenyi Thermal Bath", "Buda Castle", "Fisherman's Bastion", "Great Market Hall"],
     bestTime: "March to May, September to November",
@@ -1033,7 +1261,13 @@ const cities = [
     emoji: "🇬🇧",
     tagline: "The Welsh Capital of Cool",
     image: "https://images.unsplash.com/photo-1600370421022-a46e01c33f95?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1528105162958-dc027e58ce6a?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1580987502658-6b7345783e6f?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1581617069577-4fa83042b2b1?w=800&q=80" }
+    ],
     coordinates: { lat: 51.4816, lng: -3.1791 },
+    budget: {"low":{"accommodation":35,"food":16,"attractions":7,"transport":5,"total":63},"mid":{"accommodation":100,"food":46,"attractions":20,"transport":13,"total":179},"high":{"accommodation":260,"food":98,"attractions":39,"transport":33,"total":430}},
     description: "Cardiff, the capital of Wales, is a compact and friendly city with a mighty medieval castle at its center. Its regenerated waterfront at Cardiff Bay, world-class sporting events, and thriving arts scene make it one of the UK's most dynamic smaller capitals.",
     highlights: ["Cardiff Castle", "Cardiff Bay", "Principality Stadium", "National Museum Cardiff", "Cardiff Market"],
     bestTime: "May to September",
@@ -1060,7 +1294,13 @@ const cities = [
     emoji: "🇲🇩",
     tagline: "Europe's Best-Kept Secret",
     image: "https://images.unsplash.com/photo-1567590035031-21a1cd2c6026?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1629045951387-6d86eb2aad3d?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1629045951640-fb182dba0a33?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1631611271532-3a2e4c46a38e?w=800&q=80" }
+    ],
     coordinates: { lat: 47.0105, lng: 28.8638 },
+    budget: {"low":{"accommodation":10,"food":4,"attractions":2,"transport":1,"total":17},"mid":{"accommodation":25,"food":11,"attractions":5,"transport":3,"total":44},"high":{"accommodation":60,"food":23,"attractions":9,"transport":8,"total":100}},
     description: "Chișinău, the capital of Moldova, is one of Europe's least-visited and most affordable capital cities. Surrounded by some of the world's best wine regions, it offers Soviet-era architecture, lush green parks, and a surprisingly vibrant café culture.",
     highlights: ["Triumphal Arch", "Stephen the Great Monument", "National Museum of History", "Central Market", "Cricova Winery"],
     bestTime: "May to September",
@@ -1087,7 +1327,13 @@ const cities = [
     emoji: "🇩🇪",
     tagline: "Where Cathedral Spires Touch the Sky",
     image: "https://images.unsplash.com/photo-1504801019156-beabdea673be?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1504801019156-beabdea673be?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1514348871858-1d3c20902571?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1517948812699-8c02585b30ba?w=800&q=80" }
+    ],
     coordinates: { lat: 50.9375, lng: 6.9603 },
+    budget: {"low":{"accommodation":30,"food":13,"attractions":6,"transport":4,"total":53},"mid":{"accommodation":85,"food":39,"attractions":17,"transport":11,"total":152},"high":{"accommodation":220,"food":83,"attractions":33,"transport":28,"total":364}},
     description: "Cologne is a vibrant city on the Rhine River, dominated by its breathtaking Gothic cathedral that took over 600 years to complete. Known for its warm and jovial locals (Kölner), legendary Carnival celebrations, and the world-famous Eau de Cologne fragrance.",
     highlights: ["Cologne Cathedral", "Hohenzollern Bridge", "Old Town", "Ludwig Museum", "Chocolate Museum"],
     bestTime: "May to October, February for Carnival",
@@ -1114,7 +1360,13 @@ const cities = [
     emoji: "🇩🇰",
     tagline: "The Happiest City on Earth",
     image: "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1499689496495-5bdf4421b725?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1513622118278-bc041b3c13ed?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=800&q=80" }
+    ],
     coordinates: { lat: 55.6761, lng: 12.5683 },
+    budget: {"low":{"accommodation":40,"food":19,"attractions":8,"transport":6,"total":73},"mid":{"accommodation":115,"food":54,"attractions":23,"transport":16,"total":208},"high":{"accommodation":310,"food":116,"attractions":47,"transport":39,"total":512}},
     description: "Copenhagen, Denmark's capital, seamlessly blends royal history with modern Scandinavian design and an unmatched commitment to sustainability. From the colorful Nyhavn harbor to the innovative Noma restaurant, it sets the standard for quality of life.",
     highlights: ["Tivoli Gardens", "Nyhavn", "The Little Mermaid", "Rosenborg Castle", "Strøget Shopping Street"],
     bestTime: "June to August",
@@ -1141,7 +1393,13 @@ const cities = [
     emoji: "\u{1F1E9}\u{1F1EA}",
     tagline: "Florence on the Elbe",
     image: "https://images.unsplash.com/photo-1619120810930-6ca5048deee1?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1538255107892-b53e90a842c0?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1586421382323-2c54e9d1be5e?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1593073564431-9605d3a3f658?w=800&q=80" }
+    ],
     coordinates: { lat: 51.0504, lng: 13.7373 },
+    budget: {"low":{"accommodation":30,"food":13,"attractions":6,"transport":4,"total":53},"mid":{"accommodation":85,"food":39,"attractions":17,"transport":11,"total":152},"high":{"accommodation":220,"food":83,"attractions":33,"transport":28,"total":364}},
     description: "Dresden, the capital of Saxony, is renowned for its stunning Baroque architecture and world-class art collections. Rebuilt after WWII, the city's historic center features the magnificent Frauenkirche and the Zwinger Palace along the banks of the Elbe River.",
     highlights: ["Frauenkirche", "Zwinger Palace", "Semperoper", "Br\u{00FC}hl's Terrace", "Green Vault"],
     bestTime: "May to September",
@@ -1168,7 +1426,13 @@ const cities = [
     emoji: "\u{1F1EE}\u{1F1EA}",
     tagline: "The Fair City",
     image: "https://images.unsplash.com/photo-1518005068251-37900150dfca?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1518005068251-37900150dfca?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1520361580263-96c088e660a3?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1530608031805-8e170c1b793a?w=800&q=80" }
+    ],
     coordinates: { lat: 53.3498, lng: -6.2603 },
+    budget: {"low":{"accommodation":35,"food":16,"attractions":7,"transport":5,"total":63},"mid":{"accommodation":100,"food":46,"attractions":20,"transport":13,"total":179},"high":{"accommodation":260,"food":98,"attractions":39,"transport":33,"total":430}},
     description: "Dublin, Ireland's vibrant capital, seamlessly blends centuries of literary history with a thriving modern culture. From the cobbled streets of Temple Bar to the grand Georgian squares, the city pulses with music, storytelling, and legendary pub culture.",
     highlights: ["Trinity College & Book of Kells", "Guinness Storehouse", "Kilmainham Gaol", "St. Patrick's Cathedral", "Phoenix Park"],
     bestTime: "June to August",
@@ -1195,7 +1459,13 @@ const cities = [
     emoji: "\u{1F1E9}\u{1F1EA}",
     tagline: "Where Fashion Meets the Rhine",
     image: "https://images.unsplash.com/photo-1548115184-bc6544d06a58?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1525208089064-ae0dcf68502e?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1546425934-1d838d0df3ac?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1564143806867-42419ed0b58d?w=800&q=80" }
+    ],
     coordinates: { lat: 51.2277, lng: 6.7735 },
+    budget: {"low":{"accommodation":30,"food":13,"attractions":6,"transport":4,"total":53},"mid":{"accommodation":85,"food":39,"attractions":17,"transport":11,"total":152},"high":{"accommodation":220,"food":83,"attractions":33,"transport":28,"total":364}},
     description: "D\u00FCsseldorf is a stylish city on the Rhine known for its fashion industry, cutting-edge architecture, and vibrant arts scene. The historic Altstadt boasts one of the longest bar counters in the world with nearly 300 pubs and bars.",
     highlights: ["Rheinturm Tower", "Media Harbour", "K\u00F6nigsallee", "Altstadt (Old Town)", "Kunstsammlung Nordrhein-Westfalen"],
     bestTime: "May to September",
@@ -1222,7 +1492,13 @@ const cities = [
     emoji: "\u{1F1EC}\u{1F1E7}",
     tagline: "Athens of the North",
     image: "https://images.unsplash.com/photo-1594929109002-01e2e17a964d?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1506377585622-bedcbb027afc?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1535448033526-c0e85c9e6968?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1557425769-de134747b1f6?w=800&q=80" }
+    ],
     coordinates: { lat: 55.9533, lng: -3.1883 },
+    budget: {"low":{"accommodation":35,"food":16,"attractions":7,"transport":5,"total":63},"mid":{"accommodation":100,"food":46,"attractions":20,"transport":13,"total":179},"high":{"accommodation":260,"food":98,"attractions":39,"transport":33,"total":430}},
     description: "Edinburgh, Scotland's dramatic capital, is a city of volcanic hills, medieval closes, and grand Georgian avenues. Its UNESCO-listed Old and New Towns frame a world-famous castle perched atop an ancient rock, while the annual Fringe Festival transforms the city each August.",
     highlights: ["Edinburgh Castle", "Royal Mile", "Arthur's Seat", "National Museum of Scotland", "Palace of Holyroodhouse"],
     bestTime: "August (for festivals), June to September",
@@ -1249,7 +1525,13 @@ const cities = [
     emoji: "\u{1F1F3}\u{1F1F1}",
     tagline: "City of Design and Innovation",
     image: "https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1551039226-821e296bdd9d?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1577533969765-066876b7df65?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1585535000064-1609aaccb716?w=800&q=80" }
+    ],
     coordinates: { lat: 51.4416, lng: 5.4697 },
+    budget: {"low":{"accommodation":30,"food":14,"attractions":6,"transport":5,"total":55},"mid":{"accommodation":90,"food":42,"attractions":18,"transport":12,"total":162},"high":{"accommodation":240,"food":90,"attractions":36,"transport":30,"total":396}},
     description: "Eindhoven is the Netherlands' technology and design hub, home to Philips and a thriving creative scene. Each autumn, the city transforms during Dutch Design Week, showcasing cutting-edge innovation across every discipline.",
     highlights: ["Van Abbemuseum", "Strijp-S Design District", "Phillips Museum", "Evoluon", "St. Catherine's Church"],
     bestTime: "April to September, October for Dutch Design Week",
@@ -1276,7 +1558,13 @@ const cities = [
     emoji: "\u{1F1EE}\u{1F1F9}",
     tagline: "Cradle of the Renaissance",
     image: "https://images.unsplash.com/photo-1476362174823-3a23f4aa6d76?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1472507393786-716cd8288c07?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1476362174823-3a23f4aa6d76?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1516186366443-0744a82bffef?w=800&q=80" }
+    ],
     coordinates: { lat: 43.7696, lng: 11.2558 },
+    budget: {"low":{"accommodation":25,"food":11,"attractions":5,"transport":4,"total":45},"mid":{"accommodation":70,"food":33,"attractions":14,"transport":10,"total":127},"high":{"accommodation":190,"food":71,"attractions":29,"transport":24,"total":314}},
     description: "Florence, the jewel of Tuscany, is a living museum of Renaissance art and architecture. The city's compact historic center overflows with masterpieces by Michelangelo, Botticelli, and Brunelleschi, all framed by terracotta rooftops and the rolling Tuscan hills.",
     highlights: ["Uffizi Gallery", "Duomo (Santa Maria del Fiore)", "Ponte Vecchio", "Accademia Gallery (David)", "Pitti Palace"],
     bestTime: "April to June, September to October",
@@ -1303,7 +1591,13 @@ const cities = [
     emoji: "\u{1F1E9}\u{1F1EA}",
     tagline: "Mainhattan on the River Main",
     image: "https://images.unsplash.com/photo-1600887368175-fc49c44256d0?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1540646794357-6cbbd6f3501e?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1546244964-65f4072c0915?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1565321326010-48a2c4ab4aae?w=800&q=80" }
+    ],
     coordinates: { lat: 50.1109, lng: 8.6821 },
+    budget: {"low":{"accommodation":30,"food":13,"attractions":6,"transport":4,"total":53},"mid":{"accommodation":85,"food":39,"attractions":17,"transport":11,"total":152},"high":{"accommodation":220,"food":83,"attractions":33,"transport":28,"total":364}},
     description: "Frankfurt am Main is Germany's financial powerhouse, famous for its futuristic skyline and the European Central Bank. Yet beneath the glass towers lies a charming city with a reconstructed medieval old town, world-class museums along the River Main, and the beloved Apfelwein taverns of Sachsenhausen.",
     highlights: ["R\u00F6merberg (Old Town)", "St\u00E4del Museum", "Main Tower", "Palmengarten", "Sachsenhausen"],
     bestTime: "May to September",
@@ -1330,7 +1624,13 @@ const cities = [
     emoji: "\u{1F1E9}\u{1F1EA}",
     tagline: "Green City of the Black Forest",
     image: "https://images.unsplash.com/photo-1490622070083-7147847ab898?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1490622070083-7147847ab898?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1565969359196-3aa336eb29a1?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1581958921308-99698dcf60bb?w=800&q=80" }
+    ],
     coordinates: { lat: 47.9990, lng: 7.8421 },
+    budget: {"low":{"accommodation":30,"food":13,"attractions":6,"transport":4,"total":53},"mid":{"accommodation":85,"food":39,"attractions":17,"transport":11,"total":152},"high":{"accommodation":220,"food":83,"attractions":33,"transport":28,"total":364}},
     description: "Freiburg im Breisgau is Germany's sunniest city, nestled at the edge of the Black Forest. Known for its sustainability, medieval cathedral, and charming B\u00E4chle (small water channels running through the streets), it is a delightful blend of university-town energy and natural beauty.",
     highlights: ["Freiburg M\u00FCnster", "Schlossberg Hill", "Historic Merchants' Hall", "Augustiner Museum", "Black Forest trails"],
     bestTime: "May to October",
@@ -1357,7 +1657,13 @@ const cities = [
     emoji: "\u{1F1F5}\u{1F1F1}",
     tagline: "Pearl of the Baltic",
     image: "https://images.unsplash.com/photo-1505658752126-8996bbb1d5fe?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1505658752126-8996bbb1d5fe?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1505659645613-28348af82dd6?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1535232843222-a40c29436fd3?w=800&q=80" }
+    ],
     coordinates: { lat: 54.3520, lng: 18.6466 },
+    budget: {"low":{"accommodation":15,"food":6,"attractions":3,"transport":2,"total":26},"mid":{"accommodation":40,"food":18,"attractions":8,"transport":5,"total":71},"high":{"accommodation":100,"food":38,"attractions":15,"transport":13,"total":166}},
     description: "Gda\u0144sk is a stunning Baltic port city with a rich Hanseatic heritage, colorful merchant houses, and a pivotal place in modern European history. The city's meticulously reconstructed Old Town along the Mot\u0142awa River is one of Poland's most beautiful urban landscapes.",
     highlights: ["Long Market (D\u0142ugi Targ)", "St. Mary's Church", "Westerplatte", "European Solidarity Centre", "Gda\u0144sk Crane"],
     bestTime: "June to August",
@@ -1384,7 +1690,13 @@ const cities = [
     emoji: "\u{1F1E8}\u{1F1ED}",
     tagline: "Peace Capital of the World",
     image: "https://images.unsplash.com/photo-1502904550040-7534597429ae?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1522420534349-36aacf7bc7f0?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1548002181-1b5d96fd717c?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1550913052-56eb528b8e7c?w=800&q=80" }
+    ],
     coordinates: { lat: 46.2044, lng: 6.1432 },
+    budget: {"low":{"accommodation":45,"food":22,"attractions":9,"transport":7,"total":83},"mid":{"accommodation":135,"food":63,"attractions":27,"transport":18,"total":243},"high":{"accommodation":360,"food":135,"attractions":54,"transport":45,"total":594}},
     description: "Geneva sits at the foot of the Alps on the shores of Lake Geneva, combining international diplomacy with Swiss elegance. The iconic Jet d'Eau fountain, flower-lined promenades, and a rich watchmaking heritage make it one of Europe's most refined cities.",
     highlights: ["Jet d'Eau", "Old Town", "United Nations Office", "P\u00E2quis Baths", "St. Pierre Cathedral"],
     bestTime: "June to September",
@@ -1411,7 +1723,13 @@ const cities = [
     emoji: "\u{1F1E7}\u{1F1EA}",
     tagline: "Belgium's Best-Kept Secret",
     image: "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1543408268-006eaf95c2f7?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1550925835-3f41dd86644d?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1557154154-039c3575e58e?w=800&q=80" }
+    ],
     coordinates: { lat: 51.0543, lng: 3.7174 },
+    budget: {"low":{"accommodation":30,"food":13,"attractions":6,"transport":4,"total":53},"mid":{"accommodation":85,"food":39,"attractions":17,"transport":11,"total":152},"high":{"accommodation":220,"food":83,"attractions":33,"transport":28,"total":364}},
     description: "Ghent is a captivating medieval city where Gothic cathedrals, a formidable castle, and scenic canals meet a thriving student population and cutting-edge cultural scene. Often overshadowed by Bruges, it offers all the charm with fewer crowds and more local character.",
     highlights: ["Gravensteen Castle", "St. Bavo's Cathedral (Ghent Altarpiece)", "Graslei & Korenlei", "Belfry of Ghent", "St. Bavo's Abbey"],
     bestTime: "April to September",
@@ -1438,7 +1756,13 @@ const cities = [
     emoji: "\u{1F1EC}\u{1F1E7}",
     tagline: "People Make Glasgow",
     image: "https://images.unsplash.com/photo-1472981829543-002249be3300?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1472981829543-002249be3300?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1531152127291-ea24c3b2a1da?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1531152369337-1d0b0b9ef20d?w=800&q=80" }
+    ],
     coordinates: { lat: 55.8642, lng: -4.2518 },
+    budget: {"low":{"accommodation":35,"food":16,"attractions":7,"transport":5,"total":63},"mid":{"accommodation":100,"food":46,"attractions":20,"transport":13,"total":179},"high":{"accommodation":260,"food":98,"attractions":39,"transport":33,"total":430}},
     description: "Glasgow is Scotland's largest city and a cultural powerhouse, famed for its Victorian architecture, thriving music scene, and legendary friendliness. From the kelvingrove Museum to the vibrant West End, Glasgow delivers grit and warmth in equal measure.",
     highlights: ["Kelvingrove Museum", "Glasgow Cathedral", "Riverside Museum", "The Necropolis", " Buchanan Street"],
     bestTime: "May to September",
@@ -1465,7 +1789,13 @@ const cities = [
     emoji: "\u{1F1F8}\u{1F1EA}",
     tagline: "Gateway to the Archipelago",
     image: "https://images.unsplash.com/photo-1580477667995-2b94f01c9516?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1512546846096-f8a42ee78520?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1543747325-a058c441b776?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1546620049-440f8f1fe144?w=800&q=80" }
+    ],
     coordinates: { lat: 57.7089, lng: 11.9746 },
+    budget: {"low":{"accommodation":35,"food":17,"attractions":7,"transport":6,"total":65},"mid":{"accommodation":105,"food":49,"attractions":21,"transport":14,"total":189},"high":{"accommodation":280,"food":105,"attractions":42,"transport":35,"total":462}},
     description: "Gothenburg, Sweden's second-largest city, sits on the west coast with a charming canal-lined center and easy access to a stunning archipelago. Known for its seafood, Volvo heritage, and laid-back vibe, it offers a distinctly Swedish coastal experience.",
     highlights: ["Liseberg Amusement Park", "Feskek\u00F4rka Fish Market", "Archipelago Islands", "Universeum", "Haga District"],
     bestTime: "June to August",
@@ -1492,7 +1822,13 @@ const cities = [
     emoji: "\u{1F1E6}\u{1F1F9}",
     tagline: "Austria's Culinary Capital",
     image: "https://images.unsplash.com/photo-1578950435899-d1c1bf932ab2?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1527314433802-34e7a76bfb4b?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1559139663-53755c54e788?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1559803509-40f78353d413?w=800&q=80" }
+    ],
     coordinates: { lat: 47.0707, lng: 15.4395 },
+    budget: {"low":{"accommodation":30,"food":13,"attractions":6,"transport":4,"total":53},"mid":{"accommodation":85,"food":39,"attractions":17,"transport":11,"total":152},"high":{"accommodation":220,"food":83,"attractions":33,"transport":28,"total":364}},
     description: "Graz, Austria's second-largest city, combines a beautifully preserved medieval old town with bold contemporary architecture. Surrounded by vineyards and dubbed the culinary capital of Austria, it rewards visitors with outstanding food, wine, and a relaxed Styrian atmosphere.",
     highlights: ["Schlossberg & Uhrturm", "Kunsthaus Graz", "Eggenberg Palace", "Grazer Landhaus", "Murinsel"],
     bestTime: "April to October",
@@ -1519,7 +1855,13 @@ const cities = [
     emoji: "\u{1F1E9}\u{1F1EA}",
     tagline: "Gateway to the World",
     image: "https://images.unsplash.com/photo-1449748872761-84c7fa2a03e6?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1473615695634-d284ec918736?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1526455858803-300d96d74f5e?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1551353471-1975b91e445b?w=800&q=80" }
+    ],
     coordinates: { lat: 53.5511, lng: 9.9937 },
+    budget: {"low":{"accommodation":30,"food":13,"attractions":6,"transport":4,"total":53},"mid":{"accommodation":85,"food":39,"attractions":17,"transport":11,"total":152},"high":{"accommodation":220,"food":83,"attractions":33,"transport":28,"total":364}},
     description: "Hamburg is Germany's largest port city and one of Europe's most dynamic urban centers. The city seamlessly blends maritime heritage with bold modern architecture, from the stunning Elbphilharmonie to the historic Speicherstadt warehouse district.",
     highlights: ["Elbphilharmonie", "Speicherstadt", "Miniatur Wunderland", "Port of Hamburg", "St. Michael's Church"],
     bestTime: "May to September",
@@ -1546,7 +1888,13 @@ const cities = [
     emoji: "\u{1F1E9}\u{1F1EA}",
     tagline: "The Green Metropolis",
     image: "https://images.unsplash.com/photo-1647680224480-c3422d3cb16c?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1629235505117-a0519f5213f1?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1629669568264-4c31f109784d?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1648112832533-55f654d14bc7?w=800&q=80" }
+    ],
     coordinates: { lat: 52.3759, lng: 9.7320 },
+    budget: {"low":{"accommodation":30,"food":13,"attractions":6,"transport":4,"total":53},"mid":{"accommodation":85,"food":39,"attractions":17,"transport":11,"total":152},"high":{"accommodation":220,"food":83,"attractions":33,"transport":28,"total":364}},
     description: "Hanover (Hannover) is a surprisingly green city with the largest urban forest in Europe and the magnificent Herrenhausen Gardens. As a major trade fair hub, it blends business energy with Lower Saxon charm and a vibrant cultural scene.",
     highlights: ["Herrenhausen Gardens", "New Town Hall (Neues Rathaus)", "Hanover Zoo", "Maschsee Lake", "Old Town"],
     bestTime: "May to September",
@@ -1573,7 +1921,13 @@ const cities = [
     emoji: "\u{1F1EB}\u{1F1EE}",
     tagline: "Daughter of the Baltic",
     image: "https://images.unsplash.com/photo-1520769669658-f07657f5a307?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1522885147691-06d859633fb8?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1538332576228-eb5b4c4de6f5?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1540799051881-f52f8d808bf3?w=800&q=80" }
+    ],
     coordinates: { lat: 60.1699, lng: 24.9384 },
+    budget: {"low":{"accommodation":35,"food":16,"attractions":7,"transport":5,"total":63},"mid":{"accommodation":100,"food":47,"attractions":20,"transport":14,"total":181},"high":{"accommodation":270,"food":101,"attractions":41,"transport":34,"total":446}},
     description: "Helsinki, Finland's seaside capital, is a masterpiece of Nordic design where functionalist architecture meets raw Baltic beauty. The city combines world-class design museums, a thriving food scene, and a unique island fortress \u2014 all within reach of pristine nature.",
     highlights: ["Suomenlinna Fortress", "Helsinki Cathedral", "Temppeliaukio Church", "Market Square", "Design Museum"],
     bestTime: "June to August (for midnight sun)",
@@ -1600,7 +1954,13 @@ const cities = [
     emoji: "\u{1F1F5}\u{1F1F1}",
     tagline: "Poland's Royal City",
     image: "https://images.unsplash.com/photo-1495181941197-70a606546974?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1495181941197-70a606546974?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1519922639192-e73293ca430e?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1522689764216-4e6966e5e444?w=800&q=80" }
+    ],
     coordinates: { lat: 50.0647, lng: 19.9450 },
+    budget: {"low":{"accommodation":10,"food":5,"attractions":2,"transport":2,"total":19},"mid":{"accommodation":35,"food":16,"attractions":7,"transport":5,"total":63},"high":{"accommodation":90,"food":34,"attractions":14,"transport":11,"total":149}},
     description: "Krak\u00F3w is Poland's cultural heart, a city of kings and dragons where the magnificent Wawel Castle presides over one of Europe's best-preserved medieval squares. Its rich history, thriving caf\u00E9 culture, and vibrant nightlife make it one of Eastern Europe's most beloved destinations.",
     highlights: ["Wawel Castle", "Main Market Square (Rynek)", "Kazimierz Jewish Quarter", "St. Mary's Basilica", "Wieliczka Salt Mine"],
     bestTime: "April to June, September to October",
@@ -1627,7 +1987,13 @@ const cities = [
     emoji: "\u{1F1FA}\u{1F1E6}",
     tagline: "City of Golden Domes",
     image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1540736358959-de4ce04b7254?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1559588512-cae70b7dd3d7?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1561542320-9a18cd340469?w=800&q=80" }
+    ],
     coordinates: { lat: 50.4501, lng: 30.5234 },
+    budget: {"low":{"accommodation":10,"food":4,"attractions":2,"transport":1,"total":17},"mid":{"accommodation":25,"food":12,"attractions":5,"transport":4,"total":46},"high":{"accommodation":70,"food":26,"attractions":11,"transport":9,"total":116}},
     description: "Kyiv, Ukraine's capital, is a city of golden-domed churches, tree-lined boulevards, and a resilient spirit. Its ancient monasteries, vibrant street art, and legendary nightlife create an unforgettable blend of deep history and contemporary energy.",
     highlights: ["Kyiv Pechersk Lavra", "St. Sophia's Cathedral", "Independence Square (Maidan)", "Andriyivskyy Descent", "Motherland Monument"],
     bestTime: "May to September",
@@ -1654,7 +2020,13 @@ const cities = [
     emoji: "\u{1F1E8}\u{1F1ED}",
     tagline: "Olympic Capital by the Lake",
     image: "https://images.unsplash.com/photo-1571296187184-682de5c3056a?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1571296187184-682de5c3056a?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1571296242627-99043222b0ce?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1571504532278-0486d021fa3d?w=800&q=80" }
+    ],
     coordinates: { lat: 46.5197, lng: 6.6323 },
+    budget: {"low":{"accommodation":45,"food":22,"attractions":9,"transport":7,"total":83},"mid":{"accommodation":135,"food":63,"attractions":27,"transport":18,"total":243},"high":{"accommodation":360,"food":135,"attractions":54,"transport":45,"total":594}},
     description: "Lausanne drapes across steep hills above Lake Geneva, offering dramatic Alpine views and the home of the International Olympic Committee. This vibrant university city combines medieval charm with a cutting-edge cultural scene and world-class vineyards just outside town.",
     highlights: ["Olympic Museum", "Lausanne Cathedral", "Ouchy Waterfront", "Sauvabelin Tower", "Collection de l'Art Brut"],
     bestTime: "June to September",
@@ -1681,7 +2053,13 @@ const cities = [
     emoji: "\u{1F1EC}\u{1F1E7}",
     tagline: "Yorkshire's Rising Star",
     image: "https://images.unsplash.com/photo-1643841372145-21f8567db26d?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1519144905-e2eee299f508?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1526637201259-da59cb348242?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1550057898-302166efd7f5?w=800&q=80" }
+    ],
     coordinates: { lat: 53.8008, lng: -1.5491 },
+    budget: {"low":{"accommodation":35,"food":16,"attractions":7,"transport":5,"total":63},"mid":{"accommodation":100,"food":46,"attractions":20,"transport":13,"total":179},"high":{"accommodation":260,"food":98,"attractions":39,"transport":33,"total":430}},
     description: "Leeds is a dynamic northern English city renowned for its Victorian architecture, thriving independent food scene, and legendary nightlife. Once an industrial powerhouse, it has reinvented itself as a cultural and shopping destination with Yorkshire warmth at its core.",
     highlights: ["Royal Armouries Museum", "Kirkstall Abbey", "Leeds Art Gallery", "Victoria Quarter", "Roundhay Park"],
     bestTime: "May to September",
@@ -1708,7 +2086,13 @@ const cities = [
     emoji: "\u{1F1EC}\u{1F1E7}",
     tagline: "City of Discovery",
     image: "https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1550085997-838afca7d3d4?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1555356221-186ef82fbb79?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1555356247-48be98c748d1?w=800&q=80" }
+    ],
     coordinates: { lat: 52.6369, lng: -1.1398 },
+    budget: {"low":{"accommodation":35,"food":16,"attractions":7,"transport":5,"total":63},"mid":{"accommodation":100,"food":46,"attractions":20,"transport":13,"total":179},"high":{"accommodation":260,"food":98,"attractions":39,"transport":33,"total":430}},
     description: "Leicester is one of England's most diverse cities, famous as the final resting place of King Richard III and home to the National Space Centre. Its multicultural population has created one of the UK's best curry scenes and a vibrant cultural tapestry.",
     highlights: ["King Richard III Visitor Centre", "National Space Centre", "Leicester Cathedral", "New Walk Museum", "Abbey Park"],
     bestTime: "May to September",
@@ -1735,7 +2119,13 @@ const cities = [
     emoji: "\u{1F1E9}\u{1F1EA}",
     tagline: "The New Berlin",
     image: "https://images.unsplash.com/photo-1550500371-cd3b8abe7413?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1550500371-cd3b8abe7413?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1554207017-bb9778234a44?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1554207529-d031f1588081?w=800&q=80" }
+    ],
     coordinates: { lat: 51.3397, lng: 12.3731 },
+    budget: {"low":{"accommodation":30,"food":13,"attractions":6,"transport":4,"total":53},"mid":{"accommodation":85,"food":39,"attractions":17,"transport":11,"total":152},"high":{"accommodation":220,"food":83,"attractions":33,"transport":28,"total":364}},
     description: "Leipzig is a city of music, art, and revolution \u2014 Bach and Mendelssohn worked here, and the peaceful protests that ended the GDR began at its churches. Today, it's one of Germany's coolest cities, with a booming arts scene and some of Europe's most spectacular industrial-revival spaces.",
     highlights: ["St. Thomas Church (Bach's Grave)", "Monument to the Battle of the Nations", "Spinnerei Art Complex", "Leipzig Gewandhaus", "St. Nicholas Church"],
     bestTime: "May to October",
@@ -1762,7 +2152,13 @@ const cities = [
     emoji: "\u{1F1E7}\u{1F1EA}",
     tagline: "The Fiery City",
     image: "https://images.unsplash.com/photo-1464793279436-9b124684bd85?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1557336685-ba9c1484121a?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1558051815-0f18e64e6280?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1562179303-c26c693256a3?w=800&q=80" }
+    ],
     coordinates: { lat: 50.6326, lng: 5.5797 },
+    budget: {"low":{"accommodation":30,"food":13,"attractions":6,"transport":4,"total":53},"mid":{"accommodation":85,"food":39,"attractions":17,"transport":11,"total":152},"high":{"accommodation":220,"food":83,"attractions":33,"transport":28,"total":364}},
     description: "Li\u00E8ge is a passionate Walloon city along the Meuse River, known for its hearty cuisine, independent spirit, and the spectacular Guillemins railway station by Santiago Calatrava. It offers authentic Belgian culture without the tourist crowds of Brussels or Bruges.",
     highlights: ["Guillemins Station", "Montagne de Bueren", "Prince-Bishops' Palace", "Curtius Museum", "La Batte Market"],
     bestTime: "April to September",
@@ -1789,7 +2185,13 @@ const cities = [
     emoji: "\u{1F1F5}\u{1F1F9}",
     tagline: "City of Seven Hills",
     image: "https://images.unsplash.com/photo-1536663815808-535e2280d2c2?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1501927023255-9063be98970c?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1525207934214-58e69a8f8a3e?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1533421821268-87e42c1d70b0?w=800&q=80" }
+    ],
     coordinates: { lat: 38.7223, lng: -9.1393 },
+    budget: {"low":{"accommodation":20,"food":8,"attractions":4,"transport":3,"total":35},"mid":{"accommodation":55,"food":25,"attractions":11,"transport":7,"total":98},"high":{"accommodation":140,"food":53,"attractions":21,"transport":18,"total":232}},
     description: "Lisbon, Europe's sunniest capital, cascades down seven hills to the Tagus River in a glorious mosaic of pastel facades, azulejo tiles, and rattling vintage trams. The city blends centuries of maritime history with a contemporary creative energy that makes it one of Europe's most magnetic destinations.",
     highlights: ["Bel\u00E9m Tower", "Jer\u00F3nimos Monastery", "Alfama District", "S\u00E3o Jorge Castle", "Pra\u00E7a do Com\u00E9rcio"],
     bestTime: "March to June, September to November",
@@ -1816,7 +2218,13 @@ const cities = [
     emoji: "\u{1F1EC}\u{1F1E7}",
     tagline: "World Capital of Pop",
     image: "https://images.unsplash.com/photo-1598522325074-042db73aa4e6?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1505833779582-e28ba8f922f8?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1517394834181-95ed159986c7?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1518188049456-7a3a9e263ab2?w=800&q=80" }
+    ],
     coordinates: { lat: 53.4084, lng: -2.9916 },
+    budget: {"low":{"accommodation":35,"food":16,"attractions":7,"transport":5,"total":63},"mid":{"accommodation":100,"food":46,"attractions":20,"transport":13,"total":179},"high":{"accommodation":260,"food":98,"attractions":39,"transport":33,"total":430}},
     description: "Liverpool is a city of legendary music, fierce football passion, and maritime grandeur. The UNESCO-listed waterfront, birthplace of The Beatles, and famously warm Scouse hospitality make it one of England's most characterful and visit-worthy cities.",
     highlights: ["Albert Dock", "The Beatles Story", "Liverpool Cathedral", "Royal Liver Building", "Anfield Stadium"],
     bestTime: "May to September",
@@ -1843,7 +2251,13 @@ const cities = [
     emoji: "\u{1F1F8}\u{1F1EE}",
     tagline: "Europe's Hidden Gem",
     image: "https://images.unsplash.com/photo-1567225591450-06036b3392a6?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1534754359223-fab5b6eadfdf?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1578313808543-4ca8f11c278d?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1578313808550-621d07f0c610?w=800&q=80" }
+    ],
     coordinates: { lat: 46.0569, lng: 14.5058 },
+    budget: {"low":{"accommodation":20,"food":10,"attractions":4,"transport":3,"total":37},"mid":{"accommodation":60,"food":28,"attractions":12,"transport":8,"total":108},"high":{"accommodation":160,"food":60,"attractions":24,"transport":20,"total":264}},
     description: "Ljubljana is a charming miniature capital where a dragon-guarded bridge spans the Ljubljanica River, pedestrian-only streets wind past Art Nouveau facades, and a hilltop castle surveys it all. Compact, green, and culturally rich, it's one of Europe's most delightful small cities.",
     highlights: ["Ljubljana Castle", "Triple Bridge", "Dragon Bridge", "Tivoli Park", "National Gallery"],
     bestTime: "May to September",
@@ -1870,7 +2284,13 @@ const cities = [
     emoji: "\u{1F1F1}\u{1F1FA}",
     tagline: "The Green Heart of Europe",
     image: "https://images.unsplash.com/photo-1508608725026-673848eb006c?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1433952206545-f507af9b26fd?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1507109746490-9baab65673dd?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1543930379-9c68a7de2be8?w=800&q=80" }
+    ],
     coordinates: { lat: 49.6117, lng: 6.1300 },
+    budget: {"low":{"accommodation":35,"food":17,"attractions":7,"transport":6,"total":65},"mid":{"accommodation":105,"food":49,"attractions":21,"transport":14,"total":189},"high":{"accommodation":280,"food":105,"attractions":42,"transport":35,"total":462}},
     description: "Luxembourg City is a tiny but mighty capital perched on dramatic cliffs above deep river valleys. Its fortified old town and ancient casemates are UNESCO-listed, while the modern Kirchberg quarter houses EU institutions and cutting-edge architecture.",
     highlights: ["Bock Casemates", "Grand Ducal Palace", "Adolphe Bridge", "Grund Valley", "Mudam Museum"],
     bestTime: "May to September",
@@ -1897,7 +2317,13 @@ const cities = [
     emoji: "\u{1F1EB}\u{1F1F7}",
     tagline: "Capital of French Gastronomy",
     image: "https://images.unsplash.com/photo-1537015125382-74e1f1c99ac4?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1537015125382-74e1f1c99ac4?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1569001178320-92c99c3f1a25?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1569087306794-db9947393580?w=800&q=80" }
+    ],
     coordinates: { lat: 45.7640, lng: 4.8357 },
+    budget: {"low":{"accommodation":30,"food":14,"attractions":6,"transport":5,"total":55},"mid":{"accommodation":90,"food":42,"attractions":18,"transport":12,"total":162},"high":{"accommodation":240,"food":90,"attractions":36,"transport":30,"total":396}},
     description: "Lyon, France's third-largest city, is universally regarded as the nation's gastronomic capital. Set at the confluence of the Rh\u00F4ne and Sa\u00F4ne rivers, it offers Renaissance quarters, hidden passageways (traboules), and a culinary tradition that has shaped the entire world of French cooking.",
     highlights: ["Vieux Lyon", "Basilica of Notre-Dame de Fourvi\u00E8re", "Mus\u00E9e des Confluences", "Traboules", "Parc de la T\u00EAte d'Or"],
     bestTime: "April to June, September to October",
@@ -1924,7 +2350,13 @@ const cities = [
     emoji: "\u{1F1EA}\u{1F1F8}",
     tagline: "Heart of Spain",
     image: "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1509845350455-fb0c36048db1?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1518620121781-adab13a3d1ef?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1533403611115-5b62680b6318?w=800&q=80" }
+    ],
     coordinates: { lat: 40.4168, lng: -3.7038 },
+    budget: {"low":{"accommodation":20,"food":10,"attractions":4,"transport":3,"total":37},"mid":{"accommodation":65,"food":30,"attractions":13,"transport":9,"total":117},"high":{"accommodation":170,"food":64,"attractions":26,"transport":21,"total":281}},
     description: "Madrid, Spain's vibrant capital, is a city that lives life to the fullest. From the Prado's masterpieces to the electric atmosphere of a tapas crawl through La Latina, Madrid combines world-class art, legendary nightlife, and an infectious passion for living well.",
     highlights: ["Prado Museum", "Royal Palace", "Retiro Park", "Plaza Mayor", "Reina Sof\u00EDa Museum"],
     bestTime: "March to June, September to November",
@@ -1951,7 +2383,13 @@ const cities = [
     emoji: "\u{1F1EA}\u{1F1F8}",
     tagline: "Costa del Sol Capital",
     image: "https://images.unsplash.com/photo-1509917507427-27155145aae4?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1509917507427-27155145aae4?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1512753360435-329c4535a9a7?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1526643039088-4120914af193?w=800&q=80" }
+    ],
     coordinates: { lat: 36.7213, lng: -4.4214 },
+    budget: {"low":{"accommodation":20,"food":10,"attractions":4,"transport":3,"total":37},"mid":{"accommodation":60,"food":28,"attractions":12,"transport":8,"total":108},"high":{"accommodation":160,"food":60,"attractions":24,"transport":20,"total":264}},
     description: "M\u00E1laga, birthplace of Picasso, is far more than a beach resort gateway. This Andalusian city boasts a stunning Moorish fortress, a vibrant art scene, and a revitalized historic center with some of southern Spain's best tapas and nightlife.",
     highlights: ["Alcazaba Fortress", "Picasso Museum", "M\u00E1laga Cathedral", "Gibralfaro Castle", "Muelle Uno"],
     bestTime: "March to June, September to November",
@@ -1978,7 +2416,13 @@ const cities = [
     emoji: "\u{1F1F8}\u{1F1EA}",
     tagline: "Sweden's Southern Star",
     image: "https://images.unsplash.com/photo-1540931532254-f03a93675e8a?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1539696511453-ed701e370daf?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1540931532254-f03a93675e8a?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1556802142-ad181001e013?w=800&q=80" }
+    ],
     coordinates: { lat: 55.6050, lng: 13.0038 },
+    budget: {"low":{"accommodation":35,"food":17,"attractions":7,"transport":6,"total":65},"mid":{"accommodation":105,"food":49,"attractions":21,"transport":14,"total":189},"high":{"accommodation":280,"food":105,"attractions":42,"transport":35,"total":462}},
     description: "Malm\u00F6, Sweden's third-largest city, sits at the southern tip of the country connected to Copenhagen by the iconic \u00D8resund Bridge. A diverse and creative city, it offers striking modern architecture, a historic Dutch-Renaissance center, and a growing reputation as Scandinavia's most multicultural city.",
     highlights: ["Turning Torso", "Malm\u00F6hus Castle", "Lilla Torg", "Ribersborg Beach", "Moderna Museet Malm\u00F6"],
     bestTime: "June to August",
@@ -2005,7 +2449,13 @@ const cities = [
     emoji: "\u{1F1EC}\u{1F1E7}",
     tagline: "Cradle of the Industrial Revolution",
     image: "https://images.unsplash.com/photo-1515859005217-8a1f08870f59?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1515586838455-8f8f940d6853?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1557778358-9fb87328a7db?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1585943764912-9eb79c420255?w=800&q=80" }
+    ],
     coordinates: { lat: 53.4808, lng: -2.2426 },
+    budget: {"low":{"accommodation":35,"food":16,"attractions":7,"transport":5,"total":63},"mid":{"accommodation":100,"food":46,"attractions":20,"transport":13,"total":179},"high":{"accommodation":260,"food":98,"attractions":39,"transport":33,"total":430}},
     description: "Manchester is a city of industrial heritage, musical legend, and relentless innovation. From the world's first railway station to the iconic Hacienda nightclub, this northern powerhouse has always been at the forefront of cultural change, with world-class football, museums, and an infectious can-do attitude.",
     highlights: ["Museum of Science and Industry", "Manchester Cathedral", "Old Trafford", "Northern Quarter", "Manchester Art Gallery"],
     bestTime: "May to September",
@@ -2032,7 +2482,13 @@ const cities = [
     emoji: "\u{1F1EB}\u{1F1F7}",
     tagline: "Mediterranean Melting Pot",
     image: "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1566838217578-1903568a76d9?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1576244348464-c7d393b6dfc0?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1597319327173-efb8c3e632ca?w=800&q=80" }
+    ],
     coordinates: { lat: 43.2965, lng: 5.3698 },
+    budget: {"low":{"accommodation":30,"food":14,"attractions":6,"transport":5,"total":55},"mid":{"accommodation":90,"food":42,"attractions":18,"transport":12,"total":162},"high":{"accommodation":240,"food":90,"attractions":36,"transport":30,"total":396}},
     description: "Marseille, France's oldest city, is a raw and passionate Mediterranean port where North African, Italian, and Proven\u00E7al cultures collide. From the fish markets of the Vieux-Port to the limestone cliffs of the Calanques, it offers an untamed beauty unlike any other French city.",
     highlights: ["Vieux-Port", "Notre-Dame de la Garde", "Calanques National Park", "Le Panier", "MuCEM"],
     bestTime: "May to October",
@@ -2059,7 +2515,13 @@ const cities = [
     emoji: "\u{1F1EE}\u{1F1F9}",
     tagline: "Fashion and Design Capital",
     image: "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1512236077335-f1cda9239c11?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1518797814703-ed31ee241ef8?w=800&q=80" }
+    ],
     coordinates: { lat: 45.4642, lng: 9.1900 },
+    budget: {"low":{"accommodation":25,"food":12,"attractions":5,"transport":4,"total":46},"mid":{"accommodation":75,"food":35,"attractions":15,"transport":10,"total":135},"high":{"accommodation":200,"food":75,"attractions":30,"transport":25,"total":330}},
     description: "Milan is Italy's city of style, where the breathtaking Duomo, Leonardo da Vinci's Last Supper, and world-class fashion houses coexist with a modern, forward-thinking energy. It's a city that works hard and plays hard, with aperitivo culture at its sophisticated heart.",
     highlights: ["Duomo di Milano", "The Last Supper", "Galleria Vittorio Emanuele II", "Sforza Castle", "Brera Art Gallery"],
     bestTime: "April to June, September to October",
@@ -2086,7 +2548,13 @@ const cities = [
     emoji: "\u{1F1E7}\u{1F1FE}",
     tagline: "Soviet Grandeur Reborn",
     image: "https://images.unsplash.com/photo-1584286462852-273ee2769b12?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1584286462852-273ee2769b12?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1590449184844-59c5cacb4b89?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1591509352193-c3e6676f71c2?w=800&q=80" }
+    ],
     coordinates: { lat: 53.9006, lng: 27.5590 },
+    budget: {"low":{"accommodation":10,"food":4,"attractions":2,"transport":1,"total":17},"mid":{"accommodation":25,"food":12,"attractions":5,"transport":4,"total":46},"high":{"accommodation":70,"food":26,"attractions":11,"transport":9,"total":116}},
     description: "Minsk is a city of monumental Stalinist architecture, broad avenues, and an unexpectedly vibrant modern scene. Nearly destroyed in WWII and rebuilt in Soviet grandeur, it now offers a fascinating blend of Soviet heritage, emerging caf\u00E9 culture, and warm Belarusian hospitality.",
     highlights: ["Independence Avenue", "National Library", "Island of Tears", "Victory Square", "Troitskoye Predmestye"],
     bestTime: "May to September",
@@ -2113,7 +2581,13 @@ const cities = [
     emoji: "\u{1F1F2}\u{1F1E8}",
     tagline: "Playground of the Rich and Famous",
     image: "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1491251880772-1fe1c8b6d5f6?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1518123522418-a0c837fd10ca?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1559385301-0187cb6eff46?w=800&q=80" }
+    ],
     coordinates: { lat: 43.7384, lng: 7.4246 },
+    budget: {"low":{"accommodation":50,"food":24,"attractions":10,"transport":8,"total":92},"mid":{"accommodation":150,"food":70,"attractions":30,"transport":20,"total":270},"high":{"accommodation":400,"food":150,"attractions":60,"transport":50,"total":660}},
     description: "Monaco is the world's most glamorous microstate, a glittering strip of Mediterranean coastline where superyachts fill the harbor, the Grand Prix thunders through the streets, and the legendary Casino de Monte-Carlo sparkles under the Riviera sun.",
     highlights: ["Casino de Monte-Carlo", "Prince's Palace", "Oceanographic Museum", "Exotic Garden", "Harbour (Port Hercules)"],
     bestTime: "May to September, May for Grand Prix",
@@ -2140,7 +2614,13 @@ const cities = [
     emoji: "\u{1F1EB}\u{1F1F7}",
     tagline: "Sun-Drenched Student City",
     image: "https://images.unsplash.com/photo-1531752148124-118ba196fc7b?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1596799235429-7078e253af25?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1598014718145-70c7690cd737?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1608728212004-04441ea6e3cf?w=800&q=80" }
+    ],
     coordinates: { lat: 43.6108, lng: 3.8767 },
+    budget: {"low":{"accommodation":30,"food":14,"attractions":6,"transport":5,"total":55},"mid":{"accommodation":90,"food":42,"attractions":18,"transport":12,"total":162},"high":{"accommodation":240,"food":90,"attractions":36,"transport":30,"total":396}},
     description: "Montpellier is one of France's fastest-growing cities, a sun-sooked Languedoc gem with a massive student population that keeps its medieval center buzzing with energy. Its elegant Place de la Com\u00E9die, modern Antigone district, and proximity to Mediterranean beaches make it irresistible.",
     highlights: ["Place de la Com\u00E9die", "Fabre Museum", "Antigone District", "Promenade du Peyrou", "Saint-Pierre Cathedral"],
     bestTime: "April to October",
@@ -2167,7 +2647,13 @@ const cities = [
     emoji: "\u{1F1F7}\u{1F1FA}",
     tagline: "Heart of the Bear",
     image: "https://images.unsplash.com/photo-1513326738677-b964603b136d?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1495542779398-9fec7dc7986c?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1512495039889-52a3b799c9bc?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1513326738677-b964603b136d?w=800&q=80" }
+    ],
     coordinates: { lat: 55.7558, lng: 37.6173 },
+    budget: {"low":{"accommodation":15,"food":7,"attractions":3,"transport":2,"total":27},"mid":{"accommodation":40,"food":19,"attractions":8,"transport":6,"total":73},"high":{"accommodation":110,"food":41,"attractions":17,"transport":14,"total":182}},
     description: "Moscow is a city of epic scale and staggering beauty, where the candy-colored domes of St. Basil's Cathedral rise above Red Square and the Kremlin's towers command the skyline. From the opulent Metro stations to the modern skyscrapers of Moscow City, it is a capital of immense grandeur.",
     highlights: ["Red Square & Kremlin", "St. Basil's Cathedral", "Bolshoi Theatre", "Tretyakov Gallery", "Moscow Metro"],
     bestTime: "May to September",
@@ -2194,7 +2680,13 @@ const cities = [
     emoji: "\u{1F1E9}\u{1F1EA}",
     tagline: "Millionendorf (City of a Million Villages)",
     image: "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1544267822-2d9ac57fc38b?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1577462281852-279bf4986f7b?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1577462282244-b58c2816d686?w=800&q=80" }
+    ],
     coordinates: { lat: 48.1351, lng: 11.5820 },
+    budget: {"low":{"accommodation":30,"food":14,"attractions":6,"transport":5,"total":55},"mid":{"accommodation":85,"food":40,"attractions":17,"transport":12,"total":154},"high":{"accommodation":230,"food":86,"attractions":35,"transport":29,"total":380}},
     description: "Munich is Bavaria's elegant capital, where Oktoberfest beer tents, high-tech industry, and Alpine proximity create a uniquely attractive city. Its grand architecture, world-class museums, English Garden, and legendary beer culture offer an irresistible mix of tradition and modernity.",
     highlights: ["Marienplatz & Glockenspiel", "Nymphenburg Palace", "English Garden", "BMW Museum", "Pinakothek Museums"],
     bestTime: "June to September, late September for Oktoberfest",
@@ -2221,7 +2713,13 @@ const cities = [
     emoji: "\u{1F1EB}\u{1F1F7}",
     tagline: "Where Art Meets the Loire",
     image: "https://images.unsplash.com/photo-1583571985035-2c73e7148fcd?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1512822999866-f690681f3952?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1544013592-1c2496aa255e?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1583571985035-2c73e7148fcd?w=800&q=80" }
+    ],
     coordinates: { lat: 47.2184, lng: -1.5536 },
+    budget: {"low":{"accommodation":30,"food":14,"attractions":6,"transport":5,"total":55},"mid":{"accommodation":90,"food":42,"attractions":18,"transport":12,"total":162},"high":{"accommodation":240,"food":90,"attractions":36,"transport":30,"total":396}},
     description: "Nantes, nestled along the Loire River in western France, is a vibrant city known for its artistic spirit and innovative public art installations. Once the capital of the Duchy of Brittany, it blends medieval heritage with cutting-edge creativity, exemplified by the fantastical Machines of the Isle of Nantes.",
     highlights: ["Machines of the Isle of Nantes", "Chateau des Ducs de Bretagne", "Jardin des Plantes", "Passage Pommeraye", "Les Machines de l'ile"],
     bestTime: "June to September",
@@ -2248,7 +2746,13 @@ const cities = [
     emoji: "\u{1F1EE}\u{1F1F9}",
     tagline: "The Soul of Southern Italy",
     image: "https://images.unsplash.com/photo-1610024804356-f814d8969399?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1527208043690-e3db1cc93456?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1572984446446-68afa780b1d9?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1572984446797-246d863d1f31?w=800&q=80" }
+    ],
     coordinates: { lat: 40.8518, lng: 14.2681 },
+    budget: {"low":{"accommodation":25,"food":11,"attractions":5,"transport":4,"total":45},"mid":{"accommodation":70,"food":32,"attractions":14,"transport":9,"total":125},"high":{"accommodation":180,"food":68,"attractions":27,"transport":23,"total":298}},
     description: "Naples, sprawling along the Bay of Naples beneath Mount Vesuvius, is one of Italy's most passionate and authentic cities. Birthplace of pizza, it boasts a UNESCO-listed historic center, world-class archaeological museums, and an energy that is raw, chaotic, and utterly captivating.",
     highlights: ["Pompeii Ruins", "Naples National Archaeological Museum", "Spaccanapoli", "Castel dell'Ovo", "Underground Naples"],
     bestTime: "April to June, September to October",
@@ -2275,7 +2779,13 @@ const cities = [
     emoji: "\u{1F1EC}\u{1F1E7}",
     tagline: "The Party Capital of the North",
     image: "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1507103418911-45d03b291916?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1529117827754-d7ee6b589c71?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1547377694-de3ae5e8a9cb?w=800&q=80" }
+    ],
     coordinates: { lat: 54.9783, lng: -1.6178 },
+    budget: {"low":{"accommodation":35,"food":16,"attractions":7,"transport":5,"total":63},"mid":{"accommodation":100,"food":46,"attractions":20,"transport":13,"total":179},"high":{"accommodation":260,"food":98,"attractions":39,"transport":33,"total":430}},
     description: "Newcastle upon Tyne, perched on the banks of the River Tyne in northeast England, is famous for its iconic bridges, world-class nightlife, and passionate Geordie spirit. The city blends industrial heritage with a thriving arts scene and some of the friendliest locals in the UK.",
     highlights: ["Tyne Bridge", "Newcastle Castle", "BALTIC Centre for Contemporary Art", "The Quayside", "St. James' Park"],
     bestTime: "May to September",
@@ -2302,7 +2812,13 @@ const cities = [
     emoji: "\u{1F1EB}\u{1F1F7}",
     tagline: "The Pearl of the French Riviera",
     image: "https://images.unsplash.com/photo-1503696967350-ad1874122058?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1491166617655-0723a0999cfc?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1503696967350-ad1874122058?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1521309033026-f3438b7c4264?w=800&q=80" }
+    ],
     coordinates: { lat: 43.7102, lng: 7.2620 },
+    budget: {"low":{"accommodation":30,"food":14,"attractions":6,"transport":5,"total":55},"mid":{"accommodation":90,"food":42,"attractions":18,"transport":12,"total":162},"high":{"accommodation":240,"food":90,"attractions":36,"transport":30,"total":396}},
     description: "Nice, the jewel of the Cote d'Azur, enchants visitors with its azure Mediterranean waters, elegant Promenade des Anglais, and a charming Old Town bursting with color. This sophisticated Riviera capital blends French chic with Italian flair, offering world-class museums, vibrant markets, and sun-drenched beaches.",
     highlights: ["Promenade des Anglais", "Vieux Nice (Old Town)", "Castle Hill", "Matisse Museum", "Cours Saleya Market"],
     bestTime: "May to September",
@@ -2329,7 +2845,13 @@ const cities = [
     emoji: "\u{1F1E8}\u{1F1FE}",
     tagline: "The World's Last Divided Capital",
     image: "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1596993869045-024b958fbe7a?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1612891128761-453978dd3251?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1626065028758-d30109b14895?w=800&q=80" }
+    ],
     coordinates: { lat: 35.1856, lng: 33.3823 },
+    budget: {"low":{"accommodation":20,"food":10,"attractions":4,"transport":3,"total":37},"mid":{"accommodation":60,"food":28,"attractions":12,"transport":8,"total":108},"high":{"accommodation":160,"food":60,"attractions":24,"transport":20,"total":264}},
     description: "Nicosia, the capital of Cyprus, is the world's last divided capital city, split between the Greek Cypriot south and the Turkish Cypriot north. This unique city offers a fascinating blend of cultures, with Venetian walls enclosing a charming old town filled with museums, cafes, and centuries of history.",
     highlights: ["Ledra Street Crossing", "Cyprus Museum", "Venetian Walls", "Selimiye Mosque", "Laiki Geitonia"],
     bestTime: "March to May, September to November",
@@ -2356,7 +2878,13 @@ const cities = [
     emoji: "\u{1F1EC}\u{1F1E7}",
     tagline: "Legendary Home of Robin Hood",
     image: "https://images.unsplash.com/photo-1514050566906-8d077bae7046?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1530380672122-3d14fd83dfdc?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1574853792641-6433c195081b?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1581550337586-36dd1f031d93?w=800&q=80" }
+    ],
     coordinates: { lat: 52.9548, lng: -1.1581 },
+    budget: {"low":{"accommodation":35,"food":16,"attractions":7,"transport":5,"total":63},"mid":{"accommodation":100,"food":46,"attractions":20,"transport":13,"total":179},"high":{"accommodation":260,"food":98,"attractions":39,"transport":33,"total":430}},
     description: "Nottingham, famously linked to the legendary Robin Hood, is a vibrant East Midlands city with a rich history, impressive cave networks, and a thriving cultural scene. The city combines its medieval heritage with modern shopping, award-winning restaurants, and a legendary music and nightlife culture.",
     highlights: ["Nottingham Castle", "City of Caves", "Wollaton Hall", "Old Market Square", "Ye Olde Trip to Jerusalem"],
     bestTime: "May to September",
@@ -2383,7 +2911,13 @@ const cities = [
     emoji: "\u{1F1F0}\u{1F1FF}",
     tagline: "The Futuristic Steppe Capital",
     image: "https://images.unsplash.com/photo-1554226321-24fdcddd5a55?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1554226321-24fdcddd5a55?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1585651094832-cae7c23bcb33?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1645368704630-b1af767f4b81?w=800&q=80" }
+    ],
     coordinates: { lat: 51.1694, lng: 71.4491 },
+    budget: {"low":{"accommodation":10,"food":4,"attractions":2,"transport":1,"total":17},"mid":{"accommodation":25,"food":12,"attractions":5,"transport":4,"total":46},"high":{"accommodation":70,"food":26,"attractions":11,"transport":9,"total":116}},
     description: "Nur-Sultan (formerly Astana) is Kazakhstan's purpose-built capital, rising from the vast Kazakh steppe as a showcase of futuristic architecture and bold urban planning. Designed by world-renowned architects, its skyline is filled with gleaming towers, golden domes, and avant-garde structures that make it one of the most unique cities in Central Asia.",
     highlights: ["Bayterek Tower", "Khan Shatyr Entertainment Center", "Palace of Peace and Reconciliation", "Hazrat Sultan Mosque", "Astana Opera"],
     bestTime: "May to September",
@@ -2410,7 +2944,13 @@ const cities = [
     emoji: "\u{1F1E9}\u{1F1EA}",
     tagline: "Where History Lives in Every Stone",
     image: "https://images.unsplash.com/photo-1508086171957-7e2d64a75c6a?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1508086171957-7e2d64a75c6a?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1562519252-463d6fb108dd?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1564395555740-f801ee068ffe?w=800&q=80" }
+    ],
     coordinates: { lat: 49.4521, lng: 11.0767 },
+    budget: {"low":{"accommodation":30,"food":13,"attractions":6,"transport":4,"total":53},"mid":{"accommodation":85,"food":39,"attractions":17,"transport":11,"total":152},"high":{"accommodation":220,"food":83,"attractions":33,"transport":28,"total":364}},
     description: "Nuremberg, Bavaria's second-largest city, is a place where medieval charm meets profound modern history. Its imposing castle, half-timbered houses, and famous Christmas market draw millions, while the Nazi rally grounds and Documentation Center offer sobering lessons from the 20th century.",
     highlights: ["Nuremberg Castle", "Documentation Center Nazi Party Rally Grounds", "St. Sebaldus Church", "Germanisches Nationalmuseum", "Christkindlesmarkt"],
     bestTime: "May to September, December for Christmas market",
@@ -2437,7 +2977,13 @@ const cities = [
     emoji: "\u{1F1F3}\u{1F1F4}",
     tagline: "The Nordic Capital of Cool",
     image: "https://images.unsplash.com/photo-1433757741270-94a3bcadc2f3?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1433757741270-94a3bcadc2f3?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1468930830753-6699377de411?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1516630294856-68665df1db49?w=800&q=80" }
+    ],
     coordinates: { lat: 59.9139, lng: 10.7522 },
+    budget: {"low":{"accommodation":45,"food":21,"attractions":9,"transport":7,"total":82},"mid":{"accommodation":130,"food":61,"attractions":26,"transport":18,"total":235},"high":{"accommodation":350,"food":131,"attractions":53,"transport":44,"total":578}},
     description: "Oslo, Norway's capital, sits at the head of the Oslofjord, seamlessly blending cutting-edge architecture with deep Nordic traditions. The city's world-class museums, vibrant food scene, and proximity to pristine nature make it a compelling destination that proves Scandinavian cool is more than just a design aesthetic.",
     highlights: ["Oslo Opera House", "Vigeland Park", "Munch Museum", "Aker Brygge", "Holmenkollen Ski Museum"],
     bestTime: "June to August",
@@ -2464,7 +3010,13 @@ const cities = [
     emoji: "\u{1F1EC}\u{1F1E7}",
     tagline: "The City of Dreaming Spires",
     image: "https://images.unsplash.com/photo-1565008576549-57569a49371d?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1472121779802-43c68a9f405f?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1547546494-07e9b31ad9bd?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1579628151787-e17a97e79feb?w=800&q=80" }
+    ],
     coordinates: { lat: 51.7520, lng: -1.2577 },
+    budget: {"low":{"accommodation":35,"food":16,"attractions":7,"transport":5,"total":63},"mid":{"accommodation":100,"food":46,"attractions":20,"transport":13,"total":179},"high":{"accommodation":260,"food":98,"attractions":39,"transport":33,"total":430}},
     description: "Oxford, home to the oldest university in the English-speaking world, is a city where centuries of academic excellence echo through honey-colored college walls. Beyond the dreaming spires, it offers world-class museums, punting on the Cherwell, lively pubs, and the magical atmosphere that inspired both Tolkien and Lewis Carroll.",
     highlights: ["Bodleian Library", "Christ Church College", "Radcliffe Camera", "Ashmolean Museum", "Botanic Garden"],
     bestTime: "April to September",
@@ -2491,7 +3043,13 @@ const cities = [
     emoji: "\u{1F1EA}\u{1F1F8}",
     tagline: "Mediterranean Island Elegance",
     image: "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1421284621639-884f4129b61d?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1506634064465-7dab4de896ed?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1514125669375-59ee3985d08b?w=800&q=80" }
+    ],
     coordinates: { lat: 39.5696, lng: 2.6502 },
+    budget: {"low":{"accommodation":20,"food":10,"attractions":4,"transport":3,"total":37},"mid":{"accommodation":60,"food":28,"attractions":12,"transport":8,"total":108},"high":{"accommodation":160,"food":60,"attractions":24,"transport":20,"total":264}},
     description: "Palma de Mallorca, the capital of the Balearic Islands, is a stunning Mediterranean city that combines Gothic grandeur with beachside relaxation. Its magnificent cathedral, vibrant old town, stylish marinas, and easy access to pristine coves make it one of Spain's most desirable destinations.",
     highlights: ["Cathedral of Santa Maria (La Seu)", "Bellver Castle", "Royal Palace of La Almudaina", "Palma Old Town", "Passeig del Born"],
     bestTime: "May to October",
@@ -2518,7 +3076,13 @@ const cities = [
     emoji: "\u{1F1F2}\u{1F1EA}",
     tagline: "Gateway to Montenegrin Adventures",
     image: "https://images.unsplash.com/photo-1521450799163-3731c972e762?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1521450799163-3731c972e762?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1576613939131-f51bdf638505?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1641899936619-b3cc3cfe2cbd?w=800&q=80" }
+    ],
     coordinates: { lat: 42.4411, lng: 19.2636 },
+    budget: {"low":{"accommodation":10,"food":5,"attractions":2,"transport":2,"total":19},"mid":{"accommodation":35,"food":16,"attractions":7,"transport":5,"total":63},"high":{"accommodation":90,"food":34,"attractions":14,"transport":11,"total":149}},
     description: "Podgorica, Montenegro's capital, is a city of contrasts where Ottoman-era bridges cross turquoise rivers and modern blocks sit alongside ancient ruins. While often overlooked in favor of the coast, it serves as an excellent base for exploring Montenegro's dramatic mountains, canyons, and vineyards.",
     highlights: ["Millennium Bridge", "Old Ribnica River Bridge", "King Nikola's Palace", "Cathedral of the Resurrection", "Lake Skadar"],
     bestTime: "May to October",
@@ -2545,7 +3109,13 @@ const cities = [
     emoji: "\u{1F1F5}\u{1F1F9}",
     tagline: "Where Port Wine Flows Like Water",
     image: "https://images.unsplash.com/photo-1569959595862-1c84553361c1?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1511968822213-92de73315bba?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1513735492246-483525079686?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1544121415-acc4ed3e785c?w=800&q=80" }
+    ],
     coordinates: { lat: 41.1579, lng: -8.6291 },
+    budget: {"low":{"accommodation":20,"food":8,"attractions":4,"transport":3,"total":35},"mid":{"accommodation":55,"food":25,"attractions":11,"transport":7,"total":98},"high":{"accommodation":140,"food":53,"attractions":21,"transport":18,"total":232}},
     description: "Porto, Portugal's second city, cascades down steep hillsides to the Douro River in a glorious jumble of colorful tiles, wine lodges, and atmospheric alleyways. Famous worldwide for its namesake port wine, the city also captivates with its azulejo-tiled churches, ribeira waterfront, and an increasingly sophisticated food scene.",
     highlights: ["Ribeira District", "Dom Luis I Bridge", "Livraria Lello", "Clerigos Tower", "Port Wine Cellars"],
     bestTime: "May to October",
@@ -2572,7 +3142,13 @@ const cities = [
     emoji: "\u{1F1EC}\u{1F1E7}",
     tagline: "Britain's Historic Naval Fortress",
     image: "https://images.unsplash.com/photo-1650546865356-068a8779d1d9?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1584168452924-f23eea6fc1a7?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1588934575031-bcc81832f077?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1592403149114-6104978e905a?w=800&q=80" }
+    ],
     coordinates: { lat: 50.8198, lng: -1.0880 },
+    budget: {"low":{"accommodation":35,"food":16,"attractions":7,"transport":5,"total":63},"mid":{"accommodation":100,"food":46,"attractions":20,"transport":13,"total":179},"high":{"accommodation":260,"food":98,"attractions":39,"transport":33,"total":430}},
     description: "Portsmouth, the UK's only island city, is steeped in naval history and maritime heritage. Home to the Historic Dockyard and the legendary HMS Victory, it also offers vibrant waterfront dining, a thriving creative scene, and sweeping views across the Solent to the Isle of Wight.",
     highlights: ["Historic Dockyard", "Spinnaker Tower", "HMS Victory", "Southsea Castle", "Mary Rose Museum"],
     bestTime: "May to September",
@@ -2599,7 +3175,13 @@ const cities = [
     emoji: "\u{1F1F5}\u{1F1F1}",
     tagline: "The Cradle of Polish Statehood",
     image: "https://images.unsplash.com/photo-1545320069-7bb7f8bd6f2e?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1545320069-7bb7f8bd6f2e?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1591516750077-1638cdffd091?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1595187164798-18fa4570bc5d?w=800&q=80" }
+    ],
     coordinates: { lat: 52.4064, lng: 16.9252 },
+    budget: {"low":{"accommodation":15,"food":6,"attractions":3,"transport":2,"total":26},"mid":{"accommodation":40,"food":18,"attractions":8,"transport":5,"total":71},"high":{"accommodation":100,"food":38,"attractions":15,"transport":13,"total":166}},
     description: "Poznan, one of Poland's oldest and most dynamic cities, is where the Polish state was born. Its stunning Renaissance-style Old Market Square, vibrant culinary scene, and entrepreneurial spirit make it a hidden gem that rivals better-known Polish cities. The famous mechanical goats on the town hall clock are a beloved symbol of the city.",
     highlights: ["Old Market Square", "Poznan Town Hall", "Imperial Castle", "Ostrów Tumski", "Lake Malta"],
     bestTime: "May to September",
@@ -2626,7 +3208,13 @@ const cities = [
     emoji: "\u{1F1E8}\u{1F1FF}",
     tagline: "The City of a Hundred Spires",
     image: "https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1458150945447-7fb764c11a92?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1503410781609-75b1d892dd28?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=800&q=80" }
+    ],
     coordinates: { lat: 50.0755, lng: 14.4378 },
+    budget: {"low":{"accommodation":15,"food":7,"attractions":3,"transport":2,"total":27},"mid":{"accommodation":40,"food":19,"attractions":8,"transport":6,"total":73},"high":{"accommodation":110,"food":41,"attractions":17,"transport":14,"total":182}},
     description: "Prague, the capital of the Czech Republic, is a fairy-tale city of Gothic spires, Baroque palaces, and cobblestone streets that have inspired artists and writers for centuries. From the iconic Charles Bridge to the astronomical clock, every corner reveals architectural treasures and a rich history that spans over a millennium.",
     highlights: ["Charles Bridge", "Prague Castle", "Old Town Square", "Astronomical Clock", "Josefov (Jewish Quarter)"],
     bestTime: "April to June, September to October",
@@ -2653,7 +3241,13 @@ const cities = [
     emoji: "\u{1F1FD}\u{1F1F0}",
     tagline: "Europe's Youngest Capital",
     image: "https://images.unsplash.com/photo-1633536028458-7e59d6d605fa?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1633536028458-7e59d6d605fa?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1638874202640-8f5ff48d5acc?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1647440076173-d7e80d86c115?w=800&q=80" }
+    ],
     coordinates: { lat: 42.6629, lng: 21.1655 },
+    budget: {"low":{"accommodation":10,"food":4,"attractions":2,"transport":1,"total":17},"mid":{"accommodation":25,"food":11,"attractions":5,"transport":3,"total":44},"high":{"accommodation":60,"food":23,"attractions":9,"transport":8,"total":100}},
     description: "Pristina, the capital of Kosovo, is one of Europe's youngest and most energetic cities. With a predominantly youthful population, it pulses with an entrepreneurial spirit, vibrant cafe culture, and a growing arts scene. The city's mix of Ottoman remnants, communist-era architecture, and modern developments tells the complex story of a nation finding its identity.",
     highlights: ["National Library", "Ethnographic Museum", "Newborn Monument", "Gracanica Monastery", "Mother Teresa Boulevard"],
     bestTime: "May to September",
@@ -2680,7 +3274,13 @@ const cities = [
     emoji: "\u{1F1EB}\u{1F1F7}",
     tagline: "Brittany's Vibrant Capital",
     image: "https://images.unsplash.com/photo-1634658522830-58debe2b3ea9?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1550786180-35a0aeba728b?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1559894790-52e7d9294de0?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1568231407122-a56e9e9c0a01?w=800&q=80" }
+    ],
     coordinates: { lat: 48.1173, lng: -1.6778 },
+    budget: {"low":{"accommodation":30,"food":14,"attractions":6,"transport":5,"total":55},"mid":{"accommodation":90,"food":42,"attractions":18,"transport":12,"total":162},"high":{"accommodation":240,"food":90,"attractions":36,"transport":30,"total":396}},
     description: "Rennes, the capital of Brittany in northwest France, is a dynamic university city that seamlessly blends medieval half-timbered houses with modern architecture. Known for its thriving student population, excellent food scene, and the famous Les Champs Libres cultural center, it offers authentic Breton culture without the tourist crowds.",
     highlights: ["Parlement de Bretagne", "Thabor Garden", "Les Champs Libres", "Place des Lices", "Rennes Cathedral"],
     bestTime: "June to September",
@@ -2707,7 +3307,13 @@ const cities = [
     emoji: "\u{1F1EE}\u{1F1F8}",
     tagline: "Where Fire Meets Ice",
     image: "https://images.unsplash.com/photo-1504829857797-ddff29c27927?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1462993340984-49bd9e0f32dd?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1465353471565-b77e538f34c9?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1474690870753-1b92efa1f2d8?w=800&q=80" }
+    ],
     coordinates: { lat: 64.1466, lng: -21.9426 },
+    budget: {"low":{"accommodation":40,"food":20,"attractions":8,"transport":7,"total":75},"mid":{"accommodation":125,"food":58,"attractions":25,"transport":17,"total":225},"high":{"accommodation":330,"food":124,"attractions":50,"transport":41,"total":545}},
     description: "Reykjavik, the world's northernmost capital, is a small but mighty city packed with colorful corrugated-iron houses, world-class restaurants, and an infectious creative energy. Surrounded by volcanic landscapes and the North Atlantic, it serves as the gateway to Iceland's otherworldly natural wonders, from geysers to glaciers.",
     highlights: ["Hallgrimskirkja", "Harpa Concert Hall", "Sun Voyager Sculpture", "Laugavegur Shopping Street", "Whale Watching Tours"],
     bestTime: "June to August (midnight sun), September to March (northern lights)",
@@ -2734,7 +3340,13 @@ const cities = [
     emoji: "\u{1F1F1}\u{1F1FB}",
     tagline: "The Pearl of the Baltics",
     image: "https://images.unsplash.com/photo-1522054541898-adc6abd570e5?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1522054541898-adc6abd570e5?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1567669721460-221b82865ee0?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1608931787924-65722578fff9?w=800&q=80" }
+    ],
     coordinates: { lat: 56.9496, lng: 24.1052 },
+    budget: {"low":{"accommodation":15,"food":6,"attractions":3,"transport":2,"total":26},"mid":{"accommodation":40,"food":18,"attractions":8,"transport":5,"total":71},"high":{"accommodation":100,"food":38,"attractions":15,"transport":13,"total":166}},
     description: "Riga, Latvia's capital, is the largest city in the Baltics and a treasure trove of Art Nouveau architecture, with over 750 buildings in the style. Its UNESCO-listed Old Town, vibrant Central Market housed in old zeppelin hangars, and a dynamic food and arts scene make it one of Northern Europe's most underrated destinations.",
     highlights: ["Old Town (Vecriga)", "Art Nouveau District", "Riga Central Market", "House of the Black Heads", "Freedom Monument"],
     bestTime: "May to September",
@@ -2761,7 +3373,13 @@ const cities = [
     emoji: "\u{1F1F3}\u{1F1F1}",
     tagline: "The City That Rebuilt Itself",
     image: "https://images.unsplash.com/photo-1545893835-abaa50cbe628?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1465032995827-c3dce1d71c2a?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1526283706298-03ba520844d1?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1526505917130-857817501277?w=800&q=80" }
+    ],
     coordinates: { lat: 51.9244, lng: 4.4777 },
+    budget: {"low":{"accommodation":30,"food":14,"attractions":6,"transport":5,"total":55},"mid":{"accommodation":90,"food":42,"attractions":18,"transport":12,"total":162},"high":{"accommodation":240,"food":90,"attractions":36,"transport":30,"total":396}},
     description: "Rotterdam, Europe's largest port city, was rebuilt from the ashes of WWII with bold modern architecture that makes it unlike any other Dutch city. Its futuristic skyline, innovative food halls, thriving arts scene, and raw urban energy give it a distinctly different character from Amsterdam's canal-house charm.",
     highlights: ["Cube Houses", "Markthal", "Erasmus Bridge", "Museum Boijmans Van Beuningen", "Euromast Tower"],
     bestTime: "April to September",
@@ -2788,7 +3406,13 @@ const cities = [
     emoji: "\u{1F1F8}\u{1F1F2}",
     tagline: "The Most Serene Microstate",
     image: "https://images.unsplash.com/photo-1510513260777-51d462dbaec9?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1510513260777-51d462dbaec9?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1552751118-2080c52c63c4?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1557217713-d9fd1a8370d2?w=800&q=80" }
+    ],
     coordinates: { lat: 43.9424, lng: 12.4578 },
+    budget: {"low":{"accommodation":25,"food":12,"attractions":5,"transport":4,"total":46},"mid":{"accommodation":75,"food":35,"attractions":15,"transport":10,"total":135},"high":{"accommodation":200,"food":75,"attractions":30,"transport":25,"total":330}},
     description: "San Marino, one of the world's oldest and smallest republics, sits atop a dramatic mountain in the heart of Italy. Its medieval fortresses, stunning Apennine views, and well-preserved historic center make this tiny microstate a fascinating day trip or weekend escape from the Italian mainland.",
     highlights: ["Three Towers of San Marino", "Palazzo Pubblico", "Basilica di San Marino", "Guaita Fortress", "Mount Titano"],
     bestTime: "April to October",
@@ -2815,7 +3439,13 @@ const cities = [
     emoji: "\u{1F1E7}\u{1F1E6}",
     tagline: "The Jerusalem of Europe",
     image: "https://images.unsplash.com/photo-1513034751734-9f02f697ac3a?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1513034751734-9f02f697ac3a?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1544673442-5721288cf573?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1544673442-97c212ad48df?w=800&q=80" }
+    ],
     coordinates: { lat: 43.8563, lng: 18.4131 },
+    budget: {"low":{"accommodation":10,"food":4,"attractions":2,"transport":1,"total":17},"mid":{"accommodation":25,"food":12,"attractions":5,"transport":4,"total":46},"high":{"accommodation":70,"food":26,"attractions":11,"transport":9,"total":116}},
     description: "Sarajevo, cradled in a valley surrounded by mountains, is a city where East truly meets West. Mosques, churches, and synagogues stand within walking distance of each other, earning it the nickname 'Jerusalem of Europe.' Despite its turbulent recent history, Sarajevo's resilient spirit, incredible food, and warm hospitality make it one of the Balkans' most captivating cities.",
     highlights: ["Bascarsija (Old Bazaar)", "Latin Bridge", "Tunnel of Hope", "Yellow Fortress", "City Hall (Vijecnica)"],
     bestTime: "April to October",
@@ -2842,7 +3472,13 @@ const cities = [
     emoji: "\u{1F1EA}\u{1F1F8}",
     tagline: "The Soul of Andalusia",
     image: "https://images.unsplash.com/photo-1515443961218-a51367888e4b?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1509840841025-9088ba78a826?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1542115049-3af45a7e0ff4?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1542224505-dc4c0cb6e63c?w=800&q=80" }
+    ],
     coordinates: { lat: 37.3891, lng: -5.9845 },
+    budget: {"low":{"accommodation":20,"food":10,"attractions":4,"transport":3,"total":37},"mid":{"accommodation":60,"food":28,"attractions":12,"transport":8,"total":108},"high":{"accommodation":160,"food":60,"attractions":24,"transport":20,"total":264}},
     description: "Seville, the capital of Andalusia, is Spain at its most passionate. The city of flamenco, bullfighting, and tapas overflows with ornate Moorish architecture, orange-tree-lined streets, and a festival culture that lights up the calendar. Its cathedral, the largest Gothic building in the world, and the exquisite Alcazar are UNESCO treasures.",
     highlights: ["Royal Alcazar", "Seville Cathedral and Giralda", "Plaza de Espana", "Triana District", "Metropol Parasol"],
     bestTime: "March to May, September to November",
@@ -2869,7 +3505,13 @@ const cities = [
     emoji: "\u{1F1EC}\u{1F1E7}",
     tagline: "The Outdoor City",
     image: "https://images.unsplash.com/photo-1550057899-4c98740dc057?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1550057899-4c98740dc057?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1558131716-d66954baf4e4?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1572012440589-57c1dd99adfb?w=800&q=80" }
+    ],
     coordinates: { lat: 53.3811, lng: -1.4701 },
+    budget: {"low":{"accommodation":35,"food":16,"attractions":7,"transport":5,"total":63},"mid":{"accommodation":100,"food":46,"attractions":20,"transport":13,"total":179},"high":{"accommodation":260,"food":98,"attractions":39,"transport":33,"total":430}},
     description: "Sheffield, nestled between seven hills at the edge of the Peak District, uniquely combines vibrant urban culture with immediate access to some of England's finest countryside. Once the steel capital of the world, it has reinvented itself as a city of independent businesses, craft breweries, and outdoor enthusiasts.",
     highlights: ["Peak District National Park", "Winter Garden", "Kelham Island Museum", "Sheffield Botanical Gardens", "Millennium Gallery"],
     bestTime: "May to September",
@@ -2896,7 +3538,13 @@ const cities = [
     emoji: "\u{1F1F2}\u{1F1F0}",
     tagline: "Where Antiquity Meets Kitsch",
     image: "https://images.unsplash.com/photo-1501354018142-3de64d837417?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1501354018142-3de64d837417?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1570654672073-fc434f47e6a4?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1581590289956-143ff11f2b4f?w=800&q=80" }
+    ],
     coordinates: { lat: 41.9973, lng: 21.4280 },
+    budget: {"low":{"accommodation":10,"food":4,"attractions":2,"transport":1,"total":17},"mid":{"accommodation":25,"food":12,"attractions":5,"transport":4,"total":46},"high":{"accommodation":70,"food":26,"attractions":11,"transport":9,"total":116}},
     description: "Skopje, North Macedonia's capital, is a city of fascinating contrasts where an Ottoman-era bazaar meets an ambitious neoclassical makeover. The historic Old Bazaar, one of the oldest in the Balkans, sits across the Stone Bridge from a city center filled with grandiose statues and modern buildings, creating a uniquely eclectic atmosphere.",
     highlights: ["Old Bazaar", "Stone Bridge", "Kale Fortress", "Mother Teresa Memorial", "Matka Canyon"],
     bestTime: "May to October",
@@ -2923,7 +3571,13 @@ const cities = [
     emoji: "\u{1F1E7}\u{1F1EC}",
     tagline: "Europe's Most Affordable Capital",
     image: "https://images.unsplash.com/photo-1512757257124-b6bec9a213d1?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1512757257124-b6bec9a213d1?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1519429753079-3b0f0a95dea8?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1562655966-663054e42737?w=800&q=80" }
+    ],
     coordinates: { lat: 42.6977, lng: 23.3219 },
+    budget: {"low":{"accommodation":10,"food":5,"attractions":2,"transport":2,"total":19},"mid":{"accommodation":30,"food":14,"attractions":6,"transport":4,"total":54},"high":{"accommodation":80,"food":30,"attractions":12,"transport":10,"total":132}},
     description: "Sofia, Bulgaria's capital, sits at the foot of Mount Vitosha and layers thousands of years of history from Roman ruins to Ottoman mosques to Soviet-era monuments. One of Europe's most affordable capitals, it offers incredible value with outstanding food, vibrant nightlife, and a growing contemporary arts scene.",
     highlights: ["Alexander Nevsky Cathedral", "Vitosha Mountain", "Serdica Roman Ruins", "National Palace of Culture", "Boyana Church"],
     bestTime: "May to October",
@@ -2950,7 +3604,13 @@ const cities = [
     emoji: "\u{1F1EC}\u{1F1E7}",
     tagline: "Gateway to the Seas",
     image: "https://images.unsplash.com/photo-1579045846018-9e5fbbb51c5f?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1579045846018-9e5fbbb51c5f?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1579045846121-299dc925c614?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1584289226996-f5ee42cf81be?w=800&q=80" }
+    ],
     coordinates: { lat: 50.9097, lng: -1.4044 },
+    budget: {"low":{"accommodation":35,"food":16,"attractions":7,"transport":5,"total":63},"mid":{"accommodation":100,"food":46,"attractions":20,"transport":13,"total":179},"high":{"accommodation":260,"food":98,"attractions":39,"transport":33,"total":430}},
     description: "Southampton, a major port city on England's south coast, is forever linked to maritime history as the departure point of the Titanic. Today it is a vibrant, multicultural city with excellent shopping, a thriving cultural quarter, and easy access to the New Forest and the Isle of Wight.",
     highlights: ["SeaCity Museum", "Tudor House and Garden", "Southampton City Walls", "Ocean Village", "Solent Sky Museum"],
     bestTime: "May to September",
@@ -2977,7 +3637,13 @@ const cities = [
     emoji: "\u{1F1F8}\u{1F1EA}",
     tagline: "Beauty on Water",
     image: "https://images.unsplash.com/photo-1509356843151-3e7d96241e11?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1508189860359-777d945909ef?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1509356843151-3e7d96241e11?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1517824488624-8d6e5cdbf991?w=800&q=80" }
+    ],
     coordinates: { lat: 59.3293, lng: 18.0686 },
+    budget: {"low":{"accommodation":35,"food":17,"attractions":7,"transport":6,"total":65},"mid":{"accommodation":110,"food":51,"attractions":22,"transport":15,"total":198},"high":{"accommodation":290,"food":109,"attractions":44,"transport":36,"total":479}},
     description: "Stockholm, spread across 14 islands connected by bridges, is Scandinavia's most elegant capital. The city seamlessly combines its medieval Gamla Stan old town with cutting-edge design, world-class restaurants, and a progressive, eco-conscious culture. Surrounded by water and green spaces, it consistently ranks among the world's most livable cities.",
     highlights: ["Gamla Stan (Old Town)", "Vasa Museum", "Skansen Open-Air Museum", "Stockholm Palace", "ABBA Museum"],
     bestTime: "June to August",
@@ -3004,7 +3670,13 @@ const cities = [
     emoji: "\u{1F1EB}\u{1F1F7}",
     tagline: "Where France Meets Germany",
     image: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1502132043341-412103586212?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1552326859-b25d03868ead?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1572965735971-82a251c84b82?w=800&q=80" }
+    ],
     coordinates: { lat: 48.5734, lng: 7.7521 },
+    budget: {"low":{"accommodation":30,"food":14,"attractions":6,"transport":5,"total":55},"mid":{"accommodation":90,"food":42,"attractions":18,"transport":12,"total":162},"high":{"accommodation":240,"food":90,"attractions":36,"transport":30,"total":396}},
     description: "Strasbourg, the capital of the Alsace region and seat of the European Parliament, is a city where French and German cultures blend harmoniously. Its stunning UNESCO-listed Grande Ile features a magnificent cathedral, picturesque canals in La Petite France, and half-timbered houses that look straight from a fairy tale.",
     highlights: ["Strasbourg Cathedral", "La Petite France", "European Parliament", "Palais Rohan", "Covered Bridges"],
     bestTime: "May to October, December for Christmas market",
@@ -3031,7 +3703,13 @@ const cities = [
     emoji: "\u{1F1E9}\u{1F1EA}",
     tagline: "The Cradle of the Automobile",
     image: "https://images.unsplash.com/photo-1570798865256-e3c2b3ebae7c?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1570798865256-e3c2b3ebae7c?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1579558449098-2bb4e1cfc3ed?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1580419529534-2bc023f73d7a?w=800&q=80" }
+    ],
     coordinates: { lat: 48.7758, lng: 9.1829 },
+    budget: {"low":{"accommodation":30,"food":13,"attractions":6,"transport":4,"total":53},"mid":{"accommodation":85,"food":39,"attractions":17,"transport":11,"total":152},"high":{"accommodation":220,"food":83,"attractions":33,"transport":28,"total":364}},
     description: "Stuttgart, nestled in a valley surrounded by vineyards, is the birthplace of the automobile and home to both Mercedes-Benz and Porsche. Beyond its automotive heritage, the city surprises with excellent wine culture, green spaces, a vibrant cultural scene, and some of Germany's best Swabian cuisine.",
     highlights: ["Mercedes-Benz Museum", "Porsche Museum", "Wilhelma Zoo", "Stuttgart TV Tower", "Neues Schloss"],
     bestTime: "May to September",
@@ -3058,7 +3736,13 @@ const cities = [
     emoji: "\u{1F1EA}\u{1F1E7}",
     tagline: "Medieval Meets Digital",
     image: "https://images.unsplash.com/photo-1452868195396-89c1af3b1b2e?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1452868195396-89c1af3b1b2e?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1518975513267-071132b42e06?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1564951537954-29dd59397b90?w=800&q=80" }
+    ],
     coordinates: { lat: 59.4370, lng: 24.7536 },
+    budget: {"low":{"accommodation":15,"food":7,"attractions":3,"transport":2,"total":27},"mid":{"accommodation":45,"food":21,"attractions":9,"transport":6,"total":81},"high":{"accommodation":120,"food":45,"attractions":18,"transport":15,"total":198}},
     description: "Tallinn, Estonia's capital, is a remarkable city where a perfectly preserved medieval old town sits alongside one of the world's most digitally advanced societies. Its UNESCO-listed Old Town is a maze of cobblestone streets, Gothic spires, and atmospheric courtyards, while the modern district of Telliskivi showcases the country's tech-savvy creative culture.",
     highlights: ["Old Town (Vanalinn)", "Toompea Hill", "Kumu Art Museum", "Telliskivi Creative City", "Kadriorg Palace"],
     bestTime: "May to September",
@@ -3085,7 +3769,13 @@ const cities = [
     emoji: "\u{1F1EC}\u{1F1EA}",
     tagline: "Where Europe Meets Asia",
     image: "https://images.unsplash.com/photo-1505294399615-2479253a4990?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1505294399615-2479253a4990?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1542871549-b0fc1efbace7?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1559787248-5beaa0e086bc?w=800&q=80" }
+    ],
     coordinates: { lat: 41.7151, lng: 44.8271 },
+    budget: {"low":{"accommodation":10,"food":4,"attractions":2,"transport":1,"total":17},"mid":{"accommodation":25,"food":11,"attractions":5,"transport":3,"total":44},"high":{"accommodation":60,"food":23,"attractions":9,"transport":8,"total":100}},
     description: "Tbilisi, Georgia's capital, is a city of warm sulfur baths, ancient churches, and a wine culture that predates any in Europe. Straddling the Mtkvari River in a dramatic valley setting, it enchants visitors with its mix of Art Nouveau, Soviet modernism, and traditional Georgian architecture, all bathed in legendary Georgian hospitality.",
     highlights: ["Old Town (Kala)", "Narikala Fortress", "Sulfur Baths", "Holy Trinity Cathedral", "Bridge of Peace"],
     bestTime: "May to October",
@@ -3112,7 +3802,13 @@ const cities = [
     emoji: "\u{1F1F3}\u{1F1F1}",
     tagline: "Royal City by the Sea",
     image: "https://images.unsplash.com/photo-1540814278684-95ae5c15f9ca?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1540814278684-95ae5c15f9ca?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1542988538-eead3f3a040a?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1551039495-a95308f3f6b4?w=800&q=80" }
+    ],
     coordinates: { lat: 52.0705, lng: 4.3007 },
+    budget: {"low":{"accommodation":30,"food":14,"attractions":6,"transport":5,"total":55},"mid":{"accommodation":90,"food":42,"attractions":18,"transport":12,"total":162},"high":{"accommodation":240,"food":90,"attractions":36,"transport":30,"total":396}},
     description: "The Hague, seat of the Dutch government and home to the International Court of Justice, is a sophisticated city where royal palaces meet wide North Sea beaches. Its elegant streets house world-class museums, while the seaside resort of Scheveningen offers the best of coastal living within a major city.",
     highlights: ["Mauritshuis Museum", "Peace Palace", "Scheveningen Beach", "Binnenhof", "Madurodam"],
     bestTime: "May to September",
@@ -3139,7 +3835,13 @@ const cities = [
     emoji: "\u{1F1E9}\u{1F1EA}",
     tagline: "From Coal to Culture",
     image: "https://images.unsplash.com/photo-1433023396640-673394a1faa8?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1433023396640-673394a1faa8?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1587645327897-36476fcdd29b?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1590666127778-f1ba07c8fe71?w=800&q=80" }
+    ],
     coordinates: { lat: 51.4344, lng: 7.0040 },
+    budget: {"low":{"accommodation":30,"food":13,"attractions":6,"transport":4,"total":53},"mid":{"accommodation":85,"food":39,"attractions":17,"transport":11,"total":152},"high":{"accommodation":220,"food":83,"attractions":33,"transport":28,"total":364}},
     description: "The Ruhr region, Germany's former industrial heartland, has transformed itself from a landscape of coal mines and steelworks into one of Europe's most exciting cultural destinations. The UNESCO-listed Zeche Zollverein coal mine, world-class museums, and vibrant urban spaces now define a region that celebrates its industrial heritage while embracing the future.",
     highlights: ["Zeche Zollverein", "Gasometer Oberhausen", "Landschaftspark Duisburg-Nord", "Museum Folkwang", "Tetraeder Bottrop"],
     bestTime: "May to September",
@@ -3166,7 +3868,13 @@ const cities = [
     emoji: "\u{1F1E6}\u{1F1F1}",
     tagline: "The Colorful Balkan Surprise",
     image: "https://images.unsplash.com/photo-1528563066973-f5e4230fc89f?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1528563066973-f5e4230fc89f?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1557787451-4e55c8ab92a9?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1586674572976-68d3c69d3a7f?w=800&q=80" }
+    ],
     coordinates: { lat: 41.3275, lng: 19.8187 },
+    budget: {"low":{"accommodation":10,"food":4,"attractions":2,"transport":1,"total":17},"mid":{"accommodation":25,"food":12,"attractions":5,"transport":4,"total":46},"high":{"accommodation":70,"food":26,"attractions":11,"transport":9,"total":116}},
     description: "Tirana, Albania's energetic capital, has reinvented itself from a drab communist outpost into a vibrant, colorful city. Buildings painted in bold hues, a thriving cafe culture, and an infectious youthful energy make this one of the Balkans' most exciting cities. Surrounded by mountains, it offers both urban exploration and easy access to nature.",
     highlights: ["Skanderbeg Square", "Bunk'Art Museum", "Dajti Mountain Cable Car", "Et'hem Bey Mosque", "Blloku District"],
     bestTime: "May to October",
@@ -3193,7 +3901,13 @@ const cities = [
     emoji: "\u{1F1EB}\u{1F1F7}",
     tagline: "La Ville Rose",
     image: "https://images.unsplash.com/photo-1634658638671-e9cffa0ce7c9?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1533375954403-dcc42d37d33a?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1541792344043-3f5b1630e42d?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1563517987202-fcc3b7eb13fe?w=800&q=80" }
+    ],
     coordinates: { lat: 43.6047, lng: 1.4442 },
+    budget: {"low":{"accommodation":30,"food":14,"attractions":6,"transport":5,"total":55},"mid":{"accommodation":90,"food":42,"attractions":18,"transport":12,"total":162},"high":{"accommodation":240,"food":90,"attractions":36,"transport":30,"total":396}},
     description: "Toulouse, known as La Ville Rose for its distinctive brick architecture, is France's fourth-largest city and the capital of the European aerospace industry. This vibrant university city blends a rich medieval heritage with cutting-edge technology, offering excellent food, a lively student atmosphere, and the romantic Canal du Midi running through its heart.",
     highlights: ["Capitole de Toulouse", "Cite de l'Espace", "Basilique Saint-Sernin", "Canal du Midi", "Les Abattoirs Museum"],
     bestTime: "May to October",
@@ -3220,7 +3934,13 @@ const cities = [
     emoji: "\u{1F1F3}\u{1F1F1}",
     tagline: "Amsterdam's Charming Little Sister",
     image: "https://images.unsplash.com/photo-1486631481453-036d90ebd89b?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1486631481453-036d90ebd89b?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1489747125620-900d12828f0d?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1555676820-aff818cb98af?w=800&q=80" }
+    ],
     coordinates: { lat: 52.0907, lng: 5.1214 },
+    budget: {"low":{"accommodation":30,"food":14,"attractions":6,"transport":5,"total":55},"mid":{"accommodation":90,"food":42,"attractions":18,"transport":12,"total":162},"high":{"accommodation":240,"food":90,"attractions":36,"transport":30,"total":396}},
     description: "Utrecht, the Netherlands' fourth-largest city, offers canal-side charm without Amsterdam's tourist crowds. Its unique wharf-level cellars along the Oudegracht are now home to cozy cafes and restaurants, while the iconic Dom Tower dominates the skyline. A vibrant student city with a rich history, it feels both cosmopolitan and intimately livable.",
     highlights: ["Dom Tower", "Oudegracht Canal", "Rietveld Schroder House", "Centraal Museum", "De Haar Castle"],
     bestTime: "April to September",
@@ -3247,7 +3967,13 @@ const cities = [
     emoji: "\u{1F1F1}\u{1F1EE}",
     tagline: "A Tiny Kingdom in the Alps",
     image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1512424113276-fa9f6a112384?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1589218186452-e8be6e710eba?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1625138385193-bca1f03448ce?w=800&q=80" }
+    ],
     coordinates: { lat: 47.1410, lng: 9.5215 },
+    budget: {"low":{"accommodation":45,"food":20,"attractions":9,"transport":7,"total":81},"mid":{"accommodation":130,"food":60,"attractions":26,"transport":17,"total":233},"high":{"accommodation":340,"food":128,"attractions":51,"transport":43,"total":562}},
     description: "Vaduz, the capital of Liechtenstein, is one of the world's smallest national capitals. Nestled in the Rhine Valley with the Alps as a backdrop, this diminutive city offers a surprising cultural richness with excellent museums, a hilltop prince's castle, and the unique experience of exploring a country smaller than many cities.",
     highlights: ["Vaduz Castle", "Kunstmuseum Liechtenstein", "Liechtenstein National Museum", "Postage Stamp Museum", "Alpine Hiking Trails"],
     bestTime: "June to September",
@@ -3274,7 +4000,13 @@ const cities = [
     emoji: "\u{1F1EA}\u{1F1F8}",
     tagline: "Where Paella Was Born",
     image: "https://images.unsplash.com/photo-1526578664097-be6599f42415?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1529437971227-3344caa48ce2?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1529686398651-b8112f4bb98c?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1565768502719-571073a68b4c?w=800&q=80" }
+    ],
     coordinates: { lat: 39.4699, lng: -0.3763 },
+    budget: {"low":{"accommodation":20,"food":10,"attractions":4,"transport":3,"total":37},"mid":{"accommodation":60,"food":28,"attractions":12,"transport":8,"total":108},"high":{"accommodation":160,"food":60,"attractions":24,"transport":20,"total":264}},
     description: "Valencia, Spain's third-largest city, is a sun-drenched Mediterranean gem where futuristic architecture meets historic grandeur. Birthplace of paella and home to the spectacular City of Arts and Sciences, it offers golden beaches, lush parks in a former riverbed, and a vibrant cultural scene without the crowds of Barcelona or Madrid.",
     highlights: ["City of Arts and Sciences", "Valencia Cathedral", "Central Market", "Turia Gardens", "La Malvarrosa Beach"],
     bestTime: "March to June, September to November",
@@ -3301,7 +4033,13 @@ const cities = [
     emoji: "\u{1F1F2}\u{1F1F9}",
     tagline: "A Mediterranean Island Nation",
     image: "https://images.unsplash.com/photo-1513543806865-85e29a7c0352?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1512679186997-081a6da4e083?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1513543806865-85e29a7c0352?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1522307617379-e982f8754d27?w=800&q=80" }
+    ],
     coordinates: { lat: 35.9375, lng: 14.3754 },
+    budget: {"low":{"accommodation":20,"food":10,"attractions":4,"transport":3,"total":37},"mid":{"accommodation":60,"food":28,"attractions":12,"transport":8,"total":108},"high":{"accommodation":160,"food":60,"attractions":24,"transport":20,"total":264}},
     description: "Malta is a sun-drenched Mediterranean archipelago between Sicily and North Africa, packing 7,000 years of history into just 316 square kilometers. From the fortified capital Valletta — a UNESCO World Heritage site built by the Knights of St. John — to the silent medieval city of Mdina, the azure waters of the Blue Grotto, and the laid-back sister island of Gozo, Malta offers ancient temples, baroque architecture, world-class diving, and a vibrant food scene all within a short bus ride.",
     highlights: ["Valletta (UNESCO)", "St. John's Co-Cathedral", "Mdina (Silent City)", "Blue Grotto", "Gozo & Azure Window site", "Comino Blue Lagoon", "Hagar Qim Temples", "Three Cities"],
     bestTime: "March to June, September to November",
@@ -3331,7 +4069,13 @@ const cities = [
     emoji: "\u{1F1EE}\u{1F1F9}",
     tagline: "The Floating City",
     image: "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1453747063559-36695c8771bd?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1476802379768-84b0af3e39ab?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1482690205767-61deebe15ef7?w=800&q=80" }
+    ],
     coordinates: { lat: 45.4408, lng: 12.3155 },
+    budget: {"low":{"accommodation":30,"food":13,"attractions":6,"transport":4,"total":53},"mid":{"accommodation":85,"food":39,"attractions":17,"transport":11,"total":152},"high":{"accommodation":220,"food":83,"attractions":33,"transport":28,"total":364}},
     description: "Venice, built on 118 small islands connected by bridges and canals, is one of the most extraordinary cities ever created. Its labyrinthine streets lead to magnificent palaces, art-filled churches, and hidden squares, all reflected in the waters of its legendary canals. A city without cars, it remains as magical and disorienting as ever.",
     highlights: ["St. Mark's Square", "Rialto Bridge", "Doge's Palace", "Grand Canal", "St. Mark's Basilica"],
     bestTime: "April to June, September to November",
@@ -3358,7 +4102,13 @@ const cities = [
     emoji: "\u{1F1E6}\u{1F1F9}",
     tagline: "The City of Music",
     image: "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1519923041107-e4dc8d9193da?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1526581671404-349f224db79b?w=800&q=80" }
+    ],
     coordinates: { lat: 48.2082, lng: 16.3738 },
+    budget: {"low":{"accommodation":30,"food":13,"attractions":6,"transport":4,"total":53},"mid":{"accommodation":85,"food":39,"attractions":17,"transport":11,"total":152},"high":{"accommodation":220,"food":83,"attractions":33,"transport":28,"total":364}},
     description: "Vienna, the former capital of the Habsburg Empire, is a city of imperial grandeur, musical heritage, and coffeehouse culture. Its magnificent Ringstrasse boulevard encircles a historic center packed with palaces, museums, and concert halls, while its legendary Kaffeehaus tradition ensures there is always time for a slice of Sachertorte.",
     highlights: ["Schonbrunn Palace", "St. Stephen's Cathedral", "Belvedere Palace", "Hofburg Palace", "Vienna State Opera"],
     bestTime: "April to October",
@@ -3385,7 +4135,13 @@ const cities = [
     emoji: "\u{1F1F1}\u{1F1F9}",
     tagline: "Baltic Baroque Beauty",
     image: "https://images.unsplash.com/photo-1549891472-991e6bc75d1e?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1549891472-991e6bc75d1e?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1569359268637-aea1d77614c9?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1571851544672-da6ec7746b84?w=800&q=80" }
+    ],
     coordinates: { lat: 54.6872, lng: 25.2797 },
+    budget: {"low":{"accommodation":15,"food":6,"attractions":3,"transport":2,"total":26},"mid":{"accommodation":40,"food":18,"attractions":8,"transport":5,"total":71},"high":{"accommodation":100,"food":38,"attractions":15,"transport":13,"total":166}},
     description: "Vilnius, Lithuania's capital, has one of the largest and best-preserved medieval old towns in Eastern Europe, a UNESCO World Heritage Site brimming with Baroque churches, hidden courtyards, and cobbled lanes. This compact, affordable city also boasts a vibrant arts scene, excellent restaurants, and a republic within its borders, the bohemian Uzupis.",
     highlights: ["Vilnius Old Town", "Gediminas Tower", "Uzupis Republic", "Vilnius Cathedral", "Gate of Dawn"],
     bestTime: "May to September",
@@ -3412,7 +4168,13 @@ const cities = [
     emoji: "\u{1F1F5}\u{1F1F1}",
     tagline: "The Phoenix City",
     image: "https://images.unsplash.com/photo-1519197924294-4ba991a11128?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1496046906094-ab55b3670ea4?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1519197924294-4ba991a11128?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1548495009-79fcdbf1a4e7?w=800&q=80" }
+    ],
     coordinates: { lat: 52.2297, lng: 21.0122 },
+    budget: {"low":{"accommodation":15,"food":6,"attractions":3,"transport":2,"total":26},"mid":{"accommodation":40,"food":18,"attractions":8,"transport":5,"total":71},"high":{"accommodation":100,"food":38,"attractions":15,"transport":13,"total":166}},
     description: "Warsaw, Poland's capital, is a city that has risen from the ashes of wartime destruction to become one of Europe's most dynamic metropolises. Its meticulously reconstructed Old Town stands alongside bold modern architecture, a thriving food scene, and an energetic cultural life that reflects Poland's remarkable resilience and optimism.",
     highlights: ["Old Town (Stare Miasto)", "Royal Castle", "Wilanow Palace", "POLIN Museum", "Lazienki Park"],
     bestTime: "May to September",
@@ -3439,7 +4201,13 @@ const cities = [
     emoji: "\u{1F1F5}\u{1F1F1}",
     tagline: "The City of Dwarfs",
     image: "https://images.unsplash.com/photo-1459011200906-bc15a5c65573?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1459011200906-bc15a5c65573?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1527244813949-d7291562cc56?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1532157345990-d3ab4df99902?w=800&q=80" }
+    ],
     coordinates: { lat: 51.1079, lng: 17.0385 },
+    budget: {"low":{"accommodation":15,"food":6,"attractions":3,"transport":2,"total":26},"mid":{"accommodation":40,"food":18,"attractions":8,"transport":5,"total":71},"high":{"accommodation":100,"food":38,"attractions":15,"transport":13,"total":166}},
     description: "Wroclaw, spread across islands on the Oder River in southwest Poland, is one of the country's most charming and progressive cities. Famous for its hundreds of tiny dwarf statues scattered throughout the city, it offers a stunning market square, a unique pantheon of painted tenants' houses, and a vibrant student atmosphere.",
     highlights: ["Market Square (Rynek)", "Ostrow Tumski", "Panorama of Raclawice", "Centennial Hall", "Wroclaw Dwarfs"],
     bestTime: "May to September",
@@ -3466,7 +4234,13 @@ const cities = [
     emoji: "\u{1F1E6}\u{1F1F2}",
     tagline: "The Pink City",
     image: "https://images.unsplash.com/photo-1536645152842-6b5fbacf1153?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1536645152842-6b5fbacf1153?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1567960095052-d15f59a1a309?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1582798144276-d6c2e81b3025?w=800&q=80" }
+    ],
     coordinates: { lat: 40.1792, lng: 44.4991 },
+    budget: {"low":{"accommodation":10,"food":4,"attractions":2,"transport":1,"total":17},"mid":{"accommodation":25,"food":11,"attractions":5,"transport":3,"total":44},"high":{"accommodation":60,"food":23,"attractions":9,"transport":8,"total":100}},
     description: "Yerevan, one of the world's oldest continuously inhabited cities, is built from pink volcanic tufa stone that gives it the nickname 'The Pink City.' With the snow-capped peak of Mount Ararat as its eternal backdrop, Armenia's capital offers a captivating mix of ancient history, Soviet-era grandeur, and a burgeoning contemporary arts and food scene.",
     highlights: ["Republic Square", "Cascade Complex", "Matenadaran Manuscript Museum", "Tsitsernakaberd (Armenian Genocide Memorial)", "Vernissage Market"],
     bestTime: "May to October",
@@ -3493,7 +4267,13 @@ const cities = [
     emoji: "\u{1F1ED}\u{1F1F7}",
     tagline: "Croatia's Cultural Heart",
     image: "https://images.unsplash.com/photo-1532005780162-dcbe09ba025f?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1532005780162-dcbe09ba025f?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1543438853-846a663e58d4?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1555780460-13a58e4e6ec7?w=800&q=80" }
+    ],
     coordinates: { lat: 45.8150, lng: 15.9819 },
+    budget: {"low":{"accommodation":20,"food":8,"attractions":4,"transport":3,"total":35},"mid":{"accommodation":55,"food":25,"attractions":11,"transport":7,"total":98},"high":{"accommodation":140,"food":53,"attractions":21,"transport":18,"total":232}},
     description: "Zagreb, Croatia's capital, is a city of elegant Austro-Hungarian architecture, leafy parks, and a thriving cafe culture that rivals Vienna's. Split between the medieval Upper Town and the more modern Lower Town, it offers world-class museums, vibrant street markets, and a culinary scene that has blossomed into one of Central Europe's best.",
     highlights: ["Ban Jelacic Square", "Upper Town (Gornji Grad)", "Museum of Broken Relationships", "Dolac Market", "St. Mark's Church"],
     bestTime: "April to October",
@@ -3520,7 +4300,13 @@ const cities = [
     emoji: "\u{1F1E8}\u{1F1ED}",
     tagline: "Where Precision Meets Beauty",
     image: "https://images.unsplash.com/photo-1515488764276-beab7607c1e6?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1515488764276-beab7607c1e6?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1544392827-1fc9d8111cb1?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1556918380-e1eea4592bb3?w=800&q=80" }
+    ],
     coordinates: { lat: 47.3769, lng: 8.5417 },
+    budget: {"low":{"accommodation":50,"food":23,"attractions":10,"transport":8,"total":91},"mid":{"accommodation":145,"food":67,"attractions":29,"transport":19,"total":260},"high":{"accommodation":380,"food":143,"attractions":57,"transport":48,"total":628}},
     description: "Zurich, Switzerland's largest city, combines financial power with artistic soul in a stunning lakeside setting. Its well-preserved medieval Altstadt, world-class museums, pristine lake, and nearby Alps make it far more than a banking hub. The city consistently ranks among the world's most livable, with a quality of life that is palpable in every street and square.",
     highlights: ["Lake Zurich", "Old Town (Altstadt)", "Kunsthaus Zurich", "Bahnhofstrasse", "Uetliberg Mountain"],
     bestTime: "June to September",

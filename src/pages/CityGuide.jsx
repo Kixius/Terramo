@@ -3,6 +3,9 @@ import cities from '../data/cities';
 import ChatAssistant from '../components/ChatAssistant';
 import ItineraryPlanner from '../components/ItineraryPlanner';
 import TransportInfo from '../components/TransportInfo';
+import CurrencyConverter from '../components/CurrencyConverter';
+import BudgetCard from '../components/BudgetCard';
+import PhotoGallery from '../components/PhotoGallery';
 import useFavorites from '../hooks/useFavorites';
 import WeatherWidget from '../components/WeatherWidget';
 
@@ -42,6 +45,7 @@ export default function CityGuide() {
       </div>
 
       <div className="city-content">
+        {city.images && <PhotoGallery images={city.images} />}
         <p className="city-description">{city.description}</p>
 
         <div className="city-info-grid">
@@ -58,6 +62,8 @@ export default function CityGuide() {
             <p>{city.language}</p>
           </div>
           <WeatherWidget coordinates={city.coordinates} />
+          <CurrencyConverter cityCurrency={city.currency} />
+          <BudgetCard budget={city.budget} cityCurrency={city.currency} />
         </div>
 
         <TransportInfo city={city} />

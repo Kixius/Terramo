@@ -52,6 +52,15 @@ export default defineConfig({
               cacheableResponse: { statuses: [0, 200] },
             },
           },
+          {
+            urlPattern: /^https:\/\/open\.er-api\.com\/.*/i,
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'exchange-rates',
+              expiration: { maxEntries: 5, maxAgeSeconds: 60 * 60 * 24 },
+              cacheableResponse: { statuses: [0, 200] },
+            },
+          },
         ],
       },
     }),

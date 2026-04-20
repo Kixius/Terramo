@@ -40,6 +40,21 @@ a {
 
 /* Navbar removed — controls overlay the map */
 
+/* Offline Indicator */
+.offline-indicator {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  background: var(--primary);
+  color: white;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
 /* Home page — fullscreen map */
 .map-search-overlay {
   position: absolute;
@@ -145,6 +160,334 @@ a {
 
 .map-controls-overlay .theme-toggle:hover {
   transform: scale(1.08);
+}
+
+.map-nav-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform var(--transition);
+  text-decoration: none;
+}
+
+.map-nav-btn:hover {
+  transform: scale(1.08);
+}
+
+/* Compare Page */
+.compare-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.compare-header-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.compare-header-bar h1 {
+  font-size: 1.5rem;
+}
+
+.compare-selector {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.compare-column {
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.compare-input {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+  font-family: inherit;
+  outline: none;
+  background: var(--white);
+  color: var(--text);
+}
+
+.compare-input:focus {
+  border-color: var(--primary-light);
+}
+
+.compare-option {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  background: var(--white);
+  text-align: left;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.compare-option:hover {
+  background: var(--bg);
+}
+
+.compare-chosen {
+  padding: 0.6rem 0.75rem;
+  background: var(--primary);
+  color: white;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.compare-vs {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-lighter);
+  align-self: center;
+  padding-top: 0.5rem;
+}
+
+.compare-go-btn {
+  width: 100%;
+  padding: 0.8rem;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.compare-go-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.comparison-grid {
+  width: 100%;
+}
+
+.comparison-header,
+.comparison-row {
+  display: grid;
+  grid-template-columns: 140px 1fr 1fr;
+  gap: 0;
+}
+
+.comparison-header {
+  font-weight: 700;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.comparison-city-header {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 1.1rem;
+}
+
+.comparison-emoji {
+  font-size: 1.3rem;
+}
+
+.comparison-row {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.comparison-row.alt {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.comparison-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-lighter);
+  font-weight: 600;
+  padding-right: 1rem;
+}
+
+.comparison-value {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  padding-right: 1rem;
+}
+
+.compare-again-btn {
+  display: block;
+  margin: 1.5rem auto;
+  padding: 0.6rem 1.5rem;
+  background: var(--white);
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.compare-again-btn:hover {
+  background: #fff5ef;
+}
+
+/* Trips */
+.trips-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.trip-create-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.trip-create-form .compare-input {
+  flex: 1;
+}
+
+.trips-empty {
+  text-align: center;
+  color: var(--text-lighter);
+  padding: 3rem 0;
+}
+
+.trips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.trip-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  box-shadow: var(--shadow);
+}
+
+.trip-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.trip-card-header h3 {
+  font-size: 1.1rem;
+}
+
+.trip-delete-btn {
+  background: none;
+  border: none;
+  color: var(--text-lighter);
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.2rem 0.4rem;
+}
+
+.trip-delete-btn:hover {
+  color: #c0392b;
+}
+
+.trip-card-cities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.trip-city-chip {
+  background: var(--bg);
+  padding: 0.2rem 0.5rem;
+  border-radius: 100px;
+  font-size: 0.8rem;
+}
+
+.trip-card-date {
+  font-size: 0.75rem;
+  color: var(--text-lighter);
+}
+
+.trip-detail {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.trip-city-row {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.trip-city-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.trip-city-link {
+  font-size: 0.8rem;
+  color: var(--primary);
+}
+
+.trip-remove-btn {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: var(--text-lighter);
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.trip-remove-btn:hover {
+  color: #c0392b;
+}
+
+.trip-note-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: var(--radius-sm);
+  font-family: inherit;
+  font-size: 0.85rem;
+  resize: vertical;
+  min-height: 50px;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.trip-add-city {
+  margin-top: 0.75rem;
+}
+
+.trip-add-city .compare-option {
+  border: 1px solid rgba(0, 0, 0, 0.04);
 }
 
 .world-map {
@@ -384,7 +727,236 @@ a {
   font-size: 0.95rem;
 }
 
+/* Currency Converter */
+.currency-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.3rem;
+}
+
+.currency-select {
+  padding: 0.3rem 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-family: inherit;
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.currency-pair {
+  font-size: 0.8rem;
+  color: var(--text-lighter);
+  margin-bottom: 0.5rem;
+}
+
+.currency-table {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.currency-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.currency-arrow {
+  color: var(--text-lighter);
+}
+
+/* Budget Card */
+.budget-card {
+  grid-column: span 2;
+}
+
+.budget-tiers {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.budget-tier-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  padding: 0.45rem 0.5rem;
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-light);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.budget-tier-btn:hover {
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.budget-tier-btn.active {
+  background: rgba(0, 0, 0, 0.03);
+  border-width: 2px;
+}
+
+.budget-tier-icon {
+  font-size: 0.9rem;
+}
+
+.budget-tier-label {
+  font-size: 0.75rem;
+}
+
+.budget-breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.budget-row, .budget-total {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.budget-total {
+  margin-top: 0.35rem;
+  padding-top: 0.35rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.budget-cat-icon {
+  font-size: 0.9rem;
+  width: 1.5rem;
+  text-align: center;
+}
+
+.budget-cat-label {
+  flex: 1;
+  color: var(--text-light);
+}
+
+.budget-cat-value {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.budget-note {
+  font-size: 0.7rem;
+  color: var(--text-lighter);
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .budget-card {
+    grid-column: span 1;
+  }
+}
+
 /* City Sections */
+
+/* Photo Gallery */
+.photo-gallery-strip {
+  display: flex;
+  gap: 0.5rem;
+  padding: 1rem 0;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.photo-gallery-thumb {
+  width: 120px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  transition: transform 0.2s ease;
+}
+
+.photo-gallery-thumb:hover {
+  transform: scale(1.05);
+}
+
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: lightbox-in 0.2s ease;
+}
+
+@keyframes lightbox-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.lightbox-image {
+  max-width: 90vw;
+  max-height: 85vh;
+  object-fit: contain;
+  border-radius: var(--radius-sm);
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 2;
+  line-height: 1;
+}
+
+.lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  color: white;
+  font-size: 2.5rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  z-index: 2;
+  transition: background 0.2s ease;
+}
+
+.lightbox-nav:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.lightbox-prev { left: 1rem; }
+.lightbox-next { right: 1rem; }
+
+.lightbox-caption {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+  text-align: center;
+  max-width: 80vw;
+}
 .city-section {
   margin-bottom: 2.5rem;
 }
