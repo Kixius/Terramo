@@ -9,6 +9,7 @@ import BudgetCard from '../components/BudgetCard';
 import PhotoGallery from '../components/PhotoGallery';
 import useFavorites from '../hooks/useFavorites';
 import WeatherWidget from '../components/WeatherWidget';
+import EmergencyCard from '../components/EmergencyCard';
 
 function getUserCurrency() {
   try {
@@ -74,6 +75,21 @@ export default function CityGuide() {
           <WeatherWidget coordinates={city.coordinates} />
           <CurrencyConverter cityCurrency={city.currency} targetCurrency={targetCurrency} setTargetCurrency={setTargetCurrency} />
           <BudgetCard budget={city.budget} cityCurrency={city.currency} targetCurrency={targetCurrency} />
+          <EmergencyCard city={city} />
+          {city.kidFriendly && (
+            <div className="info-card kid-friendly-card">
+              <h3>Kid-Friendly</h3>
+              <div className="kid-rating">
+                {[1,2,3,4,5].map(star => (
+                  <span key={star} className={`kid-rating-star ${star <= city.kidFriendly.rating ? '' : 'empty'}`}>
+                    {star <= city.kidFriendly.rating ? '★' : '☆'}
+                  </span>
+                ))}
+                <span style={{marginLeft: '0.3rem', fontSize: '0.85rem'}}>{city.kidFriendly.rating}/5</span>
+              </div>
+              <p className="kid-summary">{city.kidFriendly.summary}</p>
+            </div>
+          )}
         </div>
 
         <TransportInfo city={city} />
