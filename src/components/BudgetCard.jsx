@@ -15,26 +15,17 @@ const CATEGORIES = [
   { key: 'transport', label: 'Transport', icon: '🚌' },
 ];
 
-function getUserCurrency() {
-  try {
-    return Intl.NumberFormat(undefined, { style: 'currency' }).resolvedOptions().currency;
-  } catch {
-    return 'USD';
-  }
-}
-
-export default function BudgetCard({ budget, cityCurrency }) {
+export default function BudgetCard({ budget, cityCurrency, targetCurrency }) {
   const [tier, setTier] = useState('mid');
   const { convert, rates } = useExchangeRates();
-  const userCurrency = getUserCurrency();
   const cityCode = currencyMap[cityCurrency];
 
-  const showConversion = rates && cityCode && cityCode !== userCurrency;
+  const showConversion = rates && targetCurrency && targetCurrency !== 'USD';
 
   const fmt = (usd) => {
     if (!showConversion) return `$${usd}`;
-    const converted = convert(usd, 'USD', userCurrency);
-    return converted !== null ? `${Math.round(converted)} ${userCurrency}` : `$${usd}`;
+    const converted = convert(usd, 'USD', targetCurrency);
+    return converted !== null ? `${Math.round(converted)} ${targetCurrency}` : `$${usd}`;
   };
 
   if (!budget) return null;
@@ -74,7 +65,7 @@ export default function BudgetCard({ budget, cityCurrency }) {
         </div>
       </div>
       {showConversion && (
-        <p className="budget-note">Converted from USD to {userCurrency}</p>
+        <p className="budget-note">Converted from USD to {targetCurrency}</p>
       )}
     </div>
   );

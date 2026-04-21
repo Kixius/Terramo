@@ -4324,7 +4324,87 @@ const cities = [
       { name: "Zurich West", vibe: "Industrial-chic, galleries, nightlife, Freitag Tower" },
       { name: "Seefeld", vibe: "Lakeside, upscale, art galleries, parks" }
     ]
-  }
+  },
+  {
+    id: "ohrid",
+    name: "Ohrid",
+    country: "North Macedonia",
+    continent: "Europe",
+    emoji: "\u{1F1F2}\u{1F1F0}",
+    tagline: "The Jerusalem of the Balkans",
+    image: "https://images.unsplash.com/photo-1719314076597-323287807e9c?w=800&q=80",
+    images: [
+      { url: "https://images.unsplash.com/photo-1719314076597-323287807e9c?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1719388192635-895ab64c6fe8?w=800&q=80" },
+      { url: "https://images.unsplash.com/photo-1607807221613-e45e9130432c?w=800&q=80" }
+    ],
+    coordinates: {
+      lat: 41.1231,
+      lng: 20.8016
+    },
+    budget: {
+      low: {
+        accommodation: 12,
+        food: 5,
+        attractions: 2,
+        transport: 1,
+        total: 20
+      },
+      mid: {
+        accommodation: 30,
+        food: 14,
+        attractions: 6,
+        transport: 4,
+        total: 54
+      },
+      high: {
+        accommodation: 80,
+        food: 28,
+        attractions: 12,
+        transport: 10,
+        total: 130
+      }
+    },
+    description: "Ohrid is a UNESCO World Heritage city perched on the shores of Lake Ohrid, one of Europe's oldest and deepest lakes. With over 365 churches once standing within its walls — one for each day of the year — it earned the nickname 'Jerusalem of the Balkans'. Its cobblestone streets, medieval fortress, and crystal-clear waters make it North Macedonia's most magical destination.",
+    highlights: [
+      "Church of St. John at Kaneo",
+      "Ohrid Fortress (Samuil's Fortress)",
+      "Ancient Theatre",
+      "Bay of Bones",
+      "Monastery of St. Naum",
+      "Lake Ohrid boat trip"
+    ],
+    bestTime: "June to September",
+    currency: "Macedonian Denar (MKD)",
+    language: "Macedonian",
+    tips: [
+      "Swim at Kaneo beach below St. John's Church — the water is crystal clear and the view is iconic",
+      "Take a boat trip to the Monastery of St. Naum — the springs there bubble up from underground caves",
+      "Climb Samuil's Fortress at golden hour for the best panoramic views of the lake",
+      "Try the local Ohrid trout (pastrmka) — it's unique to this lake and served fresh everywhere"
+    ],
+    foods: [
+      "Ohrid Trout (Pastrmka)",
+      "Tavce Gravce",
+      "Shopska Salad",
+      "Ajvar",
+      "Rakija"
+    ],
+    neighborhoods: [
+      {
+        name: "Old Town",
+        vibe: "Cobblestone streets, medieval churches, Ottoman houses"
+      },
+      {
+        name: "Kaneo",
+        vibe: "Lakeside, swimming, the iconic cliffside church"
+      },
+      {
+        name: "Waterfront Promenade",
+        vibe: "Lively boardwalk with cafes, bars, and lake views"
+      }
+    ]
+  },
 ];
 
 export default cities;

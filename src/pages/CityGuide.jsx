@@ -1,4 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
+import { useState } from 'react';
 import cities from '../data/cities';
 import ChatAssistant from '../components/ChatAssistant';
 import ItineraryPlanner from '../components/ItineraryPlanner';
@@ -9,10 +10,19 @@ import PhotoGallery from '../components/PhotoGallery';
 import useFavorites from '../hooks/useFavorites';
 import WeatherWidget from '../components/WeatherWidget';
 
+function getUserCurrency() {
+  try {
+    return Intl.NumberFormat(undefined, { style: 'currency' }).resolvedOptions().currency;
+  } catch {
+    return 'USD';
+  }
+}
+
 export default function CityGuide() {
   const { cityId } = useParams();
   const city = cities.find(c => c.id === cityId);
   const { isFavorite, toggleFavorite } = useFavorites();
+  const [targetCurrency, setTargetCurrency] = useState(getUserCurrency);
 
   if (!city) {
     return (
@@ -62,8 +72,8 @@ export default function CityGuide() {
             <p>{city.language}</p>
           </div>
           <WeatherWidget coordinates={city.coordinates} />
-          <CurrencyConverter cityCurrency={city.currency} />
-          <BudgetCard budget={city.budget} cityCurrency={city.currency} />
+          <CurrencyConverter cityCurrency={city.currency} targetCurrency={targetCurrency} setTargetCurrency={setTargetCurrency} />
+          <BudgetCard budget={city.budget} cityCurrency={city.currency} targetCurrency={targetCurrency} />
         </div>
 
         <TransportInfo city={city} />

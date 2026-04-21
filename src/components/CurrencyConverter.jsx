@@ -1,4 +1,3 @@
-import { useMemo, useState } from 'react';
 import useExchangeRates from '../hooks/useExchangeRates';
 import currencyMap from '../data/currencyMap';
 
@@ -10,19 +9,9 @@ const POPULAR_CURRENCIES = [
   'THB', 'INR', 'KRW', 'ZAR',
 ];
 
-function getUserCurrency() {
-  try {
-    return Intl.NumberFormat(undefined, { style: 'currency' }).resolvedOptions().currency;
-  } catch {
-    return 'USD';
-  }
-}
-
-export default function CurrencyConverter({ cityCurrency }) {
+export default function CurrencyConverter({ cityCurrency, targetCurrency, setTargetCurrency }) {
   const { convert, rates, loading } = useExchangeRates();
   const cityCode = currencyMap[cityCurrency];
-  const detectedCurrency = useMemo(() => getUserCurrency(), []);
-  const [targetCurrency, setTargetCurrency] = useState(detectedCurrency);
 
   if (!cityCode || loading || !rates) return null;
 

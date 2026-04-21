@@ -7725,591 +7725,591 @@ const itineraries = [
     "cityId": "barcelona",
     "days3": [
       {
-        "title": "City Highlights",
+        "title": "Iconic Landmarks",
         "morning": {
-          "activity": "Barceloneta Beach",
-          "description": "Urban beach — eat paella at one of the beachfront restaurants",
-          "location": "Barceloneta Beach, Barcelona",
+          "activity": "Sagrada Familia",
+          "description": "Gaudi's unfinished masterpiece — the tallest church in the world when complete, with light-filtering stained glass that paints the interior in color",
+          "location": "Carrer de Mallorca, 401, Barcelona",
+          "cost": "€26+",
+          "duration": "1.5-2 hours",
+          "tip": "Book the Nativity Facade tower access — the views over the Eixample grid are unmatched and worth the extra €7",
+          "coordinates": {
+            "lat": 41.4036,
+            "lng": 2.1744
+          }
+        },
+        "afternoon": {
+          "activity": "Gothic Quarter (Barri Gotic)",
+          "description": "Medieval labyrinth of narrow streets, Roman ruins, and the Barcelona Cathedral with its famous geese",
+          "location": "Barri Gotic, Ciutat Vella, Barcelona",
+          "cost": "Free",
+          "duration": "2-3 hours",
+          "tip": "The Roman temple of Augustus is hidden inside Carrer del Paradis 10 — push the door open, it's free and almost empty",
+          "coordinates": {
+            "lat": 41.3833,
+            "lng": 2.1761
+          }
+        },
+        "evening": {
+          "activity": "La Rambla & Placa Reial",
+          "description": "Barcelona's famous tree-lined boulevard from Placa Catalunya to the port, ending at the elegant Placa Reial square",
+          "location": "La Rambla, Ciutat Vella, Barcelona",
           "cost": "Free",
           "duration": "1-2 hours",
-          "tip": "Urban beach — eat paella at one of the beachfront restaurants",
+          "tip": "Skip the boulevard stalls and turn onto Carrer del Carme for better tapas at half the price",
+          "coordinates": {
+            "lat": 41.3796,
+            "lng": 2.1734
+          }
+        }
+      },
+      {
+        "title": "Gaudi & Modernisme",
+        "morning": {
+          "activity": "Park Guell",
+          "description": "Gaudi's whimsical hilltop garden with mosaic salamander, gingerbread gatehouses, and panoramic city views",
+          "location": "Carrer d'Olot, 5, Barcelona",
+          "cost": "€10",
+          "duration": "1.5-2 hours",
+          "tip": "Take the Lesseps metro and use the escalators on Carrer de Larrard — the uphill walk is brutal otherwise",
+          "coordinates": {
+            "lat": 41.4145,
+            "lng": 2.1527
+          }
+        },
+        "afternoon": {
+          "activity": "Casa Batllo",
+          "description": "Gaudi's dragon-roofed masterpiece on Passeig de Gracia with skeletal balconies and an ocean-inspired interior",
+          "location": "Passeig de Gracia, 43, Barcelona",
+          "cost": "€35+",
+          "duration": "1-1.5 hours",
+          "tip": "The night visit (8-10pm) includes a glass of cava on the rooftop while the dragon scales glow with projections",
+          "coordinates": {
+            "lat": 41.3916,
+            "lng": 2.165
+          }
+        },
+        "evening": {
+          "activity": "El Born District",
+          "description": "Trendy medieval neighborhood packed with tapas bars, boutique shops, and the stunning Santa Maria del Mar basilica",
+          "location": "El Born, Ciutat Vella, Barcelona",
+          "cost": "Free",
+          "duration": "2-3 hours",
+          "tip": "Carrer de la Princesa has the best pintxos bars — order by the toothpick, pay by count at the end",
+          "coordinates": {
+            "lat": 41.3853,
+            "lng": 2.1818
+          }
+        }
+      },
+      {
+        "title": "Beach & Montjuic",
+        "morning": {
+          "activity": "Barceloneta Beach",
+          "description": "Golden urban beach stretching from the W Hotel to Port Olimpic with chiringuitos and seafood restaurants",
+          "location": "Platja de la Barceloneta, Barcelona",
+          "cost": "Free",
+          "duration": "1-2 hours",
+          "tip": "Walk past the beachfront restaurants — the better seafood is one block inland on Carrer de Baluart",
           "coordinates": {
             "lat": 41.378,
             "lng": 2.19
           }
         },
         "afternoon": {
-          "activity": "La Rambla",
-          "description": "Walk from Placa Catalunya to the port — watch for pickpockets",
-          "location": "La Rambla, Barcelona",
-          "cost": "Free",
-          "duration": "1 hour",
-          "tip": "Walk from Placa Catalunya to the port — watch for pickpockets",
-          "coordinates": {
-            "lat": 41.3796,
-            "lng": 2.1734
-          }
-        },
-        "evening": {
-          "activity": "Camp Nou (FC Barcelona)",
-          "description": "Stadium tour includes the trophy room and press box",
-          "location": "Camp Nou (FC Barcelona), Barcelona",
-          "cost": "28 EUR",
-          "duration": "1.5 hours",
-          "tip": "Stadium tour includes the trophy room and press box",
-          "coordinates": {
-            "lat": 41.3809,
-            "lng": 2.1228
-          }
-        }
-      },
-      {
-        "title": "Culture & History",
-        "morning": {
           "activity": "La Boqueria Market",
-          "description": "Enter from La Rambla — the fruit juices and tapas bars in the back are best",
-          "location": "La Boqueria Market, Barcelona",
-          "cost": "Free",
-          "duration": "30 min",
-          "tip": "Enter from La Rambla — the fruit juices and tapas bars in the back are best",
+          "description": "Europe's most famous food market — a kaleidoscope of fresh fruit, cured meats, seafood, and bustling tapas counters",
+          "location": "La Rambla, 91, Barcelona",
+          "cost": "€5-20",
+          "duration": "1-1.5 hours",
+          "tip": "Pinotxo Bar (stall 466) is the most famous — Juan's daily stew sells out by 1pm, so come before noon",
           "coordinates": {
-            "lat": 41.3815,
-            "lng": 2.1715
-          }
-        },
-        "afternoon": {
-          "activity": "Gothic Quarter (Barri Gotic)",
-          "description": "The cathedral cloister has 13 white geese — explore the Roman walls",
-          "location": "Gothic Quarter (Barri Gotic), Barcelona",
-          "cost": "Free",
-          "duration": "1-2 hours",
-          "tip": "The cathedral cloister has 13 white geese — explore the Roman walls",
-          "coordinates": {
-            "lat": 41.3825,
-            "lng": 2.176
+            "lat": 41.3816,
+            "lng": 2.1719
           }
         },
         "evening": {
-          "activity": "Picasso Museum",
-          "description": "Free on Thursday afternoons — five medieval palaces housing the collection",
-          "location": "Picasso Museum, Barcelona",
-          "cost": "12 EUR",
-          "duration": "1 hour",
-          "tip": "Free on Thursday afternoons — five medieval palaces housing the collection",
+          "activity": "Montjuic & Magic Fountain",
+          "description": "Hilltop fortress, botanical gardens, and the spectacular light-and-water fountain show at Placa d'Espanya",
+          "location": "Montjuic, Barcelona",
+          "cost": "Free (cable car €12)",
+          "duration": "2-3 hours",
+          "tip": "The 9:30pm fountain show is least crowded — take the funicular from Parallel metro, it's covered by your T-Casual ticket",
           "coordinates": {
-            "lat": 41.3851,
-            "lng": 2.181
-          }
-        }
-      },
-      {
-        "title": "Local Flavors",
-        "morning": {
-          "activity": "Casa Batllo",
-          "description": "Book the early morning or night experience — the roof dragon scales are iconic",
-          "location": "Casa Batllo, Barcelona",
-          "cost": "35 EUR",
-          "duration": "1 hour",
-          "tip": "Book the early morning or night experience — the roof dragon scales are iconic",
-          "coordinates": {
-            "lat": 41.3916,
-            "lng": 2.165
-          }
-        },
-        "afternoon": {
-          "activity": "Park Guell",
-          "description": "Book a morning slot — the free area outside the monument zone is also beautiful",
-          "location": "Park Guell, Barcelona",
-          "cost": "10 EUR",
-          "duration": "1.5 hours",
-          "tip": "Book a morning slot — the free area outside the monument zone is also beautiful",
-          "coordinates": {
-            "lat": 41.4145,
-            "lng": 2.1527
-          }
-        },
-        "evening": {
-          "activity": "Sagrada Familia",
-          "description": "Book online 2-3 weeks ahead — the tower access is worth the extra cost",
-          "location": "Sagrada Familia, Barcelona",
-          "cost": "26 EUR",
-          "duration": "1.5 hours",
-          "tip": "Book online 2-3 weeks ahead — the tower access is worth the extra cost",
-          "coordinates": {
-            "lat": 41.4036,
-            "lng": 2.1744
+            "lat": 41.3693,
+            "lng": 2.1536
           }
         }
       }
     ],
     "days5": [
       {
-        "title": "Welcome & Icons",
+        "title": "Sagrada Familia & Gothic Quarter",
         "morning": {
-          "activity": "Montjuic & Magic Fountain",
-          "description": "Cable car from the port — the fountain light show runs Thursday-Sunday evenings",
-          "location": "Montjuic & Magic Fountain, Barcelona",
-          "cost": "Free",
-          "duration": "1-2 hours",
-          "tip": "Cable car from the port — the fountain light show runs Thursday-Sunday evenings",
+          "activity": "Sagrada Familia",
+          "description": "Gaudi's unfinished masterpiece — the tallest church in the world when complete, with light-filtering stained glass that paints the interior in color",
+          "location": "Carrer de Mallorca, 401, Barcelona",
+          "cost": "€26+",
+          "duration": "1.5-2 hours",
+          "tip": "Afternoon light (2-4pm) turns the interior into a kaleidoscope of red, orange, and gold through the stained glass",
           "coordinates": {
-            "lat": 41.368,
-            "lng": 2.153
-          }
-        },
-        "afternoon": {
-          "activity": "Barceloneta Beach",
-          "description": "Urban beach — eat paella at one of the beachfront restaurants",
-          "location": "Barceloneta Beach, Barcelona",
-          "cost": "Free",
-          "duration": "1-2 hours",
-          "tip": "Urban beach — eat paella at one of the beachfront restaurants",
-          "coordinates": {
-            "lat": 41.378,
-            "lng": 2.19
-          }
-        },
-        "evening": {
-          "activity": "La Rambla",
-          "description": "Walk from Placa Catalunya to the port — watch for pickpockets",
-          "location": "La Rambla, Barcelona",
-          "cost": "Free",
-          "duration": "1 hour",
-          "tip": "Walk from Placa Catalunya to the port — watch for pickpockets",
-          "coordinates": {
-            "lat": 41.3796,
-            "lng": 2.1734
-          }
-        }
-      },
-      {
-        "title": "Historic Quarter",
-        "morning": {
-          "activity": "La Rambla",
-          "description": "Walk from Placa Catalunya to the port — watch for pickpockets",
-          "location": "La Rambla, Barcelona",
-          "cost": "Free",
-          "duration": "1 hour",
-          "tip": "Walk from Placa Catalunya to the port — watch for pickpockets",
-          "coordinates": {
-            "lat": 41.3796,
-            "lng": 2.1734
-          }
-        },
-        "afternoon": {
-          "activity": "Camp Nou (FC Barcelona)",
-          "description": "Stadium tour includes the trophy room and press box",
-          "location": "Camp Nou (FC Barcelona), Barcelona",
-          "cost": "28 EUR",
-          "duration": "1.5 hours",
-          "tip": "Stadium tour includes the trophy room and press box",
-          "coordinates": {
-            "lat": 41.3809,
-            "lng": 2.1228
-          }
-        },
-        "evening": {
-          "activity": "La Boqueria Market",
-          "description": "Enter from La Rambla — the fruit juices and tapas bars in the back are best",
-          "location": "La Boqueria Market, Barcelona",
-          "cost": "Free",
-          "duration": "30 min",
-          "tip": "Enter from La Rambla — the fruit juices and tapas bars in the back are best",
-          "coordinates": {
-            "lat": 41.3815,
-            "lng": 2.1715
-          }
-        }
-      },
-      {
-        "title": "Art & Culture",
-        "morning": {
-          "activity": "Montjuic & Magic Fountain",
-          "description": "Cable car from the port — the fountain light show runs Thursday-Sunday evenings",
-          "location": "Montjuic & Magic Fountain, Barcelona",
-          "cost": "Free",
-          "duration": "1-2 hours",
-          "tip": "Cable car from the port — the fountain light show runs Thursday-Sunday evenings",
-          "coordinates": {
-            "lat": 41.368,
-            "lng": 2.153
+            "lat": 41.4036,
+            "lng": 2.1744
           }
         },
         "afternoon": {
           "activity": "Gothic Quarter (Barri Gotic)",
-          "description": "The cathedral cloister has 13 white geese — explore the Roman walls",
-          "location": "Gothic Quarter (Barri Gotic), Barcelona",
+          "description": "Medieval labyrinth of narrow streets, Roman ruins, and the Barcelona Cathedral with its famous geese",
+          "location": "Barri Gotic, Ciutat Vella, Barcelona",
           "cost": "Free",
-          "duration": "1-2 hours",
-          "tip": "The cathedral cloister has 13 white geese — explore the Roman walls",
+          "duration": "2-3 hours",
+          "tip": "Placa del Rei has underground Roman ruins — the Barcelona History Museum entrance is here and worth the €7",
           "coordinates": {
-            "lat": 41.3825,
-            "lng": 2.176
+            "lat": 41.3833,
+            "lng": 2.1761
           }
         },
         "evening": {
-          "activity": "Picasso Museum",
-          "description": "Free on Thursday afternoons — five medieval palaces housing the collection",
-          "location": "Picasso Museum, Barcelona",
-          "cost": "12 EUR",
-          "duration": "1 hour",
-          "tip": "Free on Thursday afternoons — five medieval palaces housing the collection",
+          "activity": "El Born District",
+          "description": "Trendy medieval neighborhood packed with tapas bars, cocktail lounges, and the stunning illuminated Santa Maria del Mar basilica",
+          "location": "El Born, Ciutat Vella, Barcelona",
+          "cost": "Free",
+          "duration": "2-3 hours",
+          "tip": "Santa Maria del Mar is free to enter and known as the Cathedral of the Sea — climb the rooftop for €8",
           "coordinates": {
-            "lat": 41.3851,
-            "lng": 2.181
+            "lat": 41.3853,
+            "lng": 2.1818
           }
         }
       },
       {
-        "title": "Markets & Food",
+        "title": "Gaudi Masterpieces",
         "morning": {
-          "activity": "Montjuic & Magic Fountain",
-          "description": "Cable car from the port — the fountain light show runs Thursday-Sunday evenings",
-          "location": "Montjuic & Magic Fountain, Barcelona",
-          "cost": "Free",
-          "duration": "1-2 hours",
-          "tip": "Cable car from the port — the fountain light show runs Thursday-Sunday evenings",
+          "activity": "Park Guell",
+          "description": "Gaudi's whimsical hilltop garden with mosaic salamander, gingerbread gatehouses, and sweeping city views",
+          "location": "Carrer d'Olot, 5, Barcelona",
+          "cost": "€10",
+          "duration": "1.5-2 hours",
+          "tip": "The salamander statue at the entrance is always mobbed — the gingerbread gatehouses are better photo spots with no crowds",
           "coordinates": {
-            "lat": 41.368,
-            "lng": 2.153
+            "lat": 41.4145,
+            "lng": 2.1527
           }
         },
         "afternoon": {
           "activity": "Casa Batllo",
-          "description": "Book the early morning or night experience — the roof dragon scales are iconic",
-          "location": "Casa Batllo, Barcelona",
-          "cost": "35 EUR",
-          "duration": "1 hour",
-          "tip": "Book the early morning or night experience — the roof dragon scales are iconic",
+          "description": "Gaudi's dragon-roofed masterpiece with skeletal balconies, undulating stone facade, and an ocean-inspired interior",
+          "location": "Passeig de Gracia, 43, Barcelona",
+          "cost": "€35+",
+          "duration": "1-1.5 hours",
+          "tip": "Book the early morning 9am slot for the best photos without crowds in the Noble Floor rooms",
           "coordinates": {
             "lat": 41.3916,
             "lng": 2.165
           }
         },
         "evening": {
-          "activity": "Casa Mila (La Pedrera)",
-          "description": "The rooftop with warrior chimneys is the highlight — night visits include a light show",
-          "location": "Casa Mila (La Pedrera), Barcelona",
-          "cost": "25 EUR",
-          "duration": "1 hour",
-          "tip": "The rooftop with warrior chimneys is the highlight — night visits include a light show",
+          "activity": "Passeig de Gracia",
+          "description": "Barcelona's grandest boulevard lined with Modernisme gems, luxury boutiques, and lively terrace cafes",
+          "location": "Passeig de Gracia, Eixample, Barcelona",
+          "cost": "Free",
+          "duration": "1-2 hours",
+          "tip": "The Block of Discord has three rival Modernisme buildings side by side — Gaudi, Puig i Cadafalch, and Domenech i Montaner competing on one block",
           "coordinates": {
-            "lat": 41.3952,
-            "lng": 2.162
+            "lat": 41.393,
+            "lng": 2.1647
           }
         }
       },
       {
-        "title": "Hidden Gems",
+        "title": "Beach & Markets",
         "morning": {
-          "activity": "Montjuic & Magic Fountain",
-          "description": "Cable car from the port — the fountain light show runs Thursday-Sunday evenings",
-          "location": "Montjuic & Magic Fountain, Barcelona",
+          "activity": "Barceloneta Beach",
+          "description": "Golden urban beach stretching from the W Hotel to Port Olimpic with chiringuitos and fresh sea breeze",
+          "location": "Platja de la Barceloneta, Barcelona",
           "cost": "Free",
           "duration": "1-2 hours",
-          "tip": "Cable car from the port — the fountain light show runs Thursday-Sunday evenings",
+          "tip": "Rent a beach umbrella from the blue stations near the W Hotel — much cheaper than hotel rentals",
           "coordinates": {
-            "lat": 41.368,
-            "lng": 2.153
+            "lat": 41.378,
+            "lng": 2.19
           }
         },
         "afternoon": {
-          "activity": "Park Guell",
-          "description": "Book a morning slot — the free area outside the monument zone is also beautiful",
-          "location": "Park Guell, Barcelona",
-          "cost": "10 EUR",
-          "duration": "1.5 hours",
-          "tip": "Book a morning slot — the free area outside the monument zone is also beautiful",
+          "activity": "La Boqueria Market",
+          "description": "Europe's most famous food market — a kaleidoscope of fresh fruit, cured meats, seafood, and bustling tapas counters",
+          "location": "La Rambla, 91, Barcelona",
+          "cost": "€5-20",
+          "duration": "1-1.5 hours",
+          "tip": "Avoid the front-row juice stalls — they charge €5 for the same fresh juice you'll find deeper inside for €2.50",
           "coordinates": {
-            "lat": 41.4145,
-            "lng": 2.1527
+            "lat": 41.3816,
+            "lng": 2.1719
           }
         },
         "evening": {
-          "activity": "Sagrada Familia",
-          "description": "Book online 2-3 weeks ahead — the tower access is worth the extra cost",
-          "location": "Sagrada Familia, Barcelona",
-          "cost": "26 EUR",
-          "duration": "1.5 hours",
-          "tip": "Book online 2-3 weeks ahead — the tower access is worth the extra cost",
+          "activity": "El Raval Neighborhood",
+          "description": "Edgy, multicultural neighborhood with vibrant street art, late-night cocktail bars, and some of Barcelona's best international cuisine",
+          "location": "El Raval, Ciutat Vella, Barcelona",
+          "cost": "Free",
+          "duration": "2-3 hours",
+          "tip": "Carrer dels Tallers has the best record shops and vintage stores — look for the street art mural of Santana",
           "coordinates": {
-            "lat": 41.4036,
-            "lng": 2.1744
+            "lat": 41.3799,
+            "lng": 2.1685
+          }
+        }
+      },
+      {
+        "title": "Football & Montjuic",
+        "morning": {
+          "activity": "Camp Nou (FC Barcelona)",
+          "description": "World's largest football stadium — the tour includes the trophy room, press box, players' tunnel, and chapel",
+          "location": "Carrer d'Aristides Maillol, 12, Barcelona",
+          "cost": "€28+",
+          "duration": "1.5-2 hours",
+          "tip": "The away-team changing room is the one shown on tour — the home room is kept private for superstition",
+          "coordinates": {
+            "lat": 41.3809,
+            "lng": 2.1228
+          }
+        },
+        "afternoon": {
+          "activity": "Montjuic & Magic Fountain",
+          "description": "Hilltop fortress, botanical gardens, art museums, and the spectacular light-and-water fountain show",
+          "location": "Montjuic, Barcelona",
+          "cost": "Free (cable car €12)",
+          "duration": "2-3 hours",
+          "tip": "The Joan Miro Foundation has a rooftop terrace with panoramic views that few tourists know about",
+          "coordinates": {
+            "lat": 41.3693,
+            "lng": 2.1536
+          }
+        },
+        "evening": {
+          "activity": "Placa d'Espanya & Arenas",
+          "description": "Grand circular plaza with Venetian towers and a former bullring converted into a rooftop shopping center with 360-degree city views",
+          "location": "Placa d'Espanya, Barcelona",
+          "cost": "Free",
+          "duration": "1-1.5 hours",
+          "tip": "Take the elevator to the Arenas de Barcelona rooftop at sunset — the views of Montjuic and the Magic Fountain are unbeatable",
+          "coordinates": {
+            "lat": 41.3753,
+            "lng": 2.149
+          }
+        }
+      },
+      {
+        "title": "Art & Gracia",
+        "morning": {
+          "activity": "Picasso Museum",
+          "description": "Over 4,000 works spanning Picasso's entire career, housed in five adjoining medieval palaces in the Born district",
+          "location": "Carrer de Montcada, 15-23, Barcelona",
+          "cost": "€12",
+          "duration": "1-1.5 hours",
+          "tip": "The Las Meninas series in rooms 12-14 shows Picasso reimagining Velazquez's masterpiece 58 times — the creative evolution is staggering",
+          "coordinates": {
+            "lat": 41.3851,
+            "lng": 2.1811
+          }
+        },
+        "afternoon": {
+          "activity": "Casa Mila (La Pedrera)",
+          "description": "Gaudi's undulating stone apartment building with warrior chimneys on the roof and a wave-patterned iron balcony facade",
+          "location": "Passeig de Gracia, 92, Barcelona",
+          "cost": "€25-35",
+          "duration": "1-1.5 hours",
+          "tip": "The attic space with its 270 brick catenary arches is the architectural highlight — most people rush past it to the roof",
+          "coordinates": {
+            "lat": 41.3951,
+            "lng": 2.162
+          }
+        },
+        "evening": {
+          "activity": "Gracia Neighborhood",
+          "description": "Charming village-within-a-city with leafy plazas, independent boutiques, and a thriving local restaurant scene",
+          "location": "Gracia, Barcelona",
+          "cost": "Free",
+          "duration": "2-3 hours",
+          "tip": "Placa del Sol is the liveliest square at night — grab a drink at any terrace and watch the neighborhood come alive after 9pm",
+          "coordinates": {
+            "lat": 41.4034,
+            "lng": 2.1565
           }
         }
       }
     ],
     "days7": [
       {
-        "title": "Welcome to the City",
+        "title": "Sagrada Familia & Gothic Heart",
         "morning": {
-          "activity": "La Rambla",
-          "description": "Walk from Placa Catalunya to the port — watch for pickpockets",
-          "location": "La Rambla, Barcelona",
-          "cost": "Free",
-          "duration": "1 hour",
-          "tip": "Walk from Placa Catalunya to the port — watch for pickpockets",
+          "activity": "Sagrada Familia",
+          "description": "Gaudi's unfinished masterpiece — the tallest church in the world when complete, with light-filtering stained glass that paints the interior in color",
+          "location": "Carrer de Mallorca, 401, Barcelona",
+          "cost": "€26+",
+          "duration": "1.5-2 hours",
+          "tip": "The crypt where Gaudi is buried is in the underground level — most visitors skip it but it's included in your ticket",
           "coordinates": {
-            "lat": 41.3796,
-            "lng": 2.1734
+            "lat": 41.4036,
+            "lng": 2.1744
           }
         },
         "afternoon": {
-          "activity": "Montjuic & Magic Fountain",
-          "description": "Cable car from the port — the fountain light show runs Thursday-Sunday evenings",
-          "location": "Montjuic & Magic Fountain, Barcelona",
-          "cost": "Free",
-          "duration": "1-2 hours",
-          "tip": "Cable car from the port — the fountain light show runs Thursday-Sunday evenings",
-          "coordinates": {
-            "lat": 41.368,
-            "lng": 2.153
-          }
-        },
-        "evening": {
-          "activity": "Barceloneta Beach",
-          "description": "Urban beach — eat paella at one of the beachfront restaurants",
-          "location": "Barceloneta Beach, Barcelona",
-          "cost": "Free",
-          "duration": "1-2 hours",
-          "tip": "Urban beach — eat paella at one of the beachfront restaurants",
-          "coordinates": {
-            "lat": 41.378,
-            "lng": 2.19
-          }
-        }
-      },
-      {
-        "title": "Historic Landmarks",
-        "morning": {
-          "activity": "Barceloneta Beach",
-          "description": "Urban beach — eat paella at one of the beachfront restaurants",
-          "location": "Barceloneta Beach, Barcelona",
-          "cost": "Free",
-          "duration": "1-2 hours",
-          "tip": "Urban beach — eat paella at one of the beachfront restaurants",
-          "coordinates": {
-            "lat": 41.378,
-            "lng": 2.19
-          }
-        },
-        "afternoon": {
-          "activity": "Montjuic & Magic Fountain",
-          "description": "Cable car from the port — the fountain light show runs Thursday-Sunday evenings",
-          "location": "Montjuic & Magic Fountain, Barcelona",
-          "cost": "Free",
-          "duration": "1-2 hours",
-          "tip": "Cable car from the port — the fountain light show runs Thursday-Sunday evenings",
-          "coordinates": {
-            "lat": 41.368,
-            "lng": 2.153
-          }
-        },
-        "evening": {
-          "activity": "La Rambla",
-          "description": "Walk from Placa Catalunya to the port — watch for pickpockets",
-          "location": "La Rambla, Barcelona",
-          "cost": "Free",
-          "duration": "1 hour",
-          "tip": "Walk from Placa Catalunya to the port — watch for pickpockets",
-          "coordinates": {
-            "lat": 41.3796,
-            "lng": 2.1734
-          }
-        }
-      },
-      {
-        "title": "Art & Museums",
-        "morning": {
-          "activity": "Montjuic & Magic Fountain",
-          "description": "Cable car from the port — the fountain light show runs Thursday-Sunday evenings",
-          "location": "Montjuic & Magic Fountain, Barcelona",
-          "cost": "Free",
-          "duration": "1-2 hours",
-          "tip": "Cable car from the port — the fountain light show runs Thursday-Sunday evenings",
-          "coordinates": {
-            "lat": 41.368,
-            "lng": 2.153
-          }
-        },
-        "afternoon": {
-          "activity": "Camp Nou (FC Barcelona)",
-          "description": "Stadium tour includes the trophy room and press box",
-          "location": "Camp Nou (FC Barcelona), Barcelona",
-          "cost": "28 EUR",
-          "duration": "1.5 hours",
-          "tip": "Stadium tour includes the trophy room and press box",
-          "coordinates": {
-            "lat": 41.3809,
-            "lng": 2.1228
-          }
-        },
-        "evening": {
-          "activity": "La Boqueria Market",
-          "description": "Enter from La Rambla — the fruit juices and tapas bars in the back are best",
-          "location": "La Boqueria Market, Barcelona",
-          "cost": "Free",
-          "duration": "30 min",
-          "tip": "Enter from La Rambla — the fruit juices and tapas bars in the back are best",
-          "coordinates": {
-            "lat": 41.3815,
-            "lng": 2.1715
-          }
-        }
-      },
-      {
-        "title": "Local Neighborhoods",
-        "morning": {
-          "activity": "La Boqueria Market",
-          "description": "Enter from La Rambla — the fruit juices and tapas bars in the back are best",
-          "location": "La Boqueria Market, Barcelona",
-          "cost": "Free",
-          "duration": "30 min",
-          "tip": "Enter from La Rambla — the fruit juices and tapas bars in the back are best",
-          "coordinates": {
-            "lat": 41.3815,
-            "lng": 2.1715
-          }
-        },
-        "afternoon": {
-          "activity": "Montjuic & Magic Fountain",
-          "description": "Cable car from the port — the fountain light show runs Thursday-Sunday evenings",
-          "location": "Montjuic & Magic Fountain, Barcelona",
-          "cost": "Free",
-          "duration": "1-2 hours",
-          "tip": "Cable car from the port — the fountain light show runs Thursday-Sunday evenings",
-          "coordinates": {
-            "lat": 41.368,
-            "lng": 2.153
-          }
-        },
-        "evening": {
           "activity": "Gothic Quarter (Barri Gotic)",
-          "description": "The cathedral cloister has 13 white geese — explore the Roman walls",
-          "location": "Gothic Quarter (Barri Gotic), Barcelona",
+          "description": "Medieval labyrinth of narrow streets, Roman ruins, and the Barcelona Cathedral with its 13 resident geese",
+          "location": "Barri Gotic, Ciutat Vella, Barcelona",
           "cost": "Free",
-          "duration": "1-2 hours",
-          "tip": "The cathedral cloister has 13 white geese — explore the Roman walls",
+          "duration": "2-3 hours",
+          "tip": "Look up while walking — the Gothic Quarter has the city's best medieval gargoyles staring down from every corner",
           "coordinates": {
-            "lat": 41.3825,
-            "lng": 2.176
-          }
-        }
-      },
-      {
-        "title": "Food & Markets",
-        "morning": {
-          "activity": "Montjuic & Magic Fountain",
-          "description": "Cable car from the port — the fountain light show runs Thursday-Sunday evenings",
-          "location": "Montjuic & Magic Fountain, Barcelona",
-          "cost": "Free",
-          "duration": "1-2 hours",
-          "tip": "Cable car from the port — the fountain light show runs Thursday-Sunday evenings",
-          "coordinates": {
-            "lat": 41.368,
-            "lng": 2.153
-          }
-        },
-        "afternoon": {
-          "activity": "Picasso Museum",
-          "description": "Free on Thursday afternoons — five medieval palaces housing the collection",
-          "location": "Picasso Museum, Barcelona",
-          "cost": "12 EUR",
-          "duration": "1 hour",
-          "tip": "Free on Thursday afternoons — five medieval palaces housing the collection",
-          "coordinates": {
-            "lat": 41.3851,
-            "lng": 2.181
+            "lat": 41.3833,
+            "lng": 2.1761
           }
         },
         "evening": {
-          "activity": "Casa Batllo",
-          "description": "Book the early morning or night experience — the roof dragon scales are iconic",
-          "location": "Casa Batllo, Barcelona",
-          "cost": "35 EUR",
-          "duration": "1 hour",
-          "tip": "Book the early morning or night experience — the roof dragon scales are iconic",
+          "activity": "El Born District",
+          "description": "Trendy medieval neighborhood with tapas bars, design shops, and the stunning Santa Maria del Mar basilica",
+          "location": "El Born, Ciutat Vella, Barcelona",
+          "cost": "Free",
+          "duration": "2-3 hours",
+          "tip": "Santa Maria del Mar is known as the Cathedral of the Sea — the rooftop climb at sunset gives 360-degree views of the old port",
           "coordinates": {
-            "lat": 41.3916,
-            "lng": 2.165
+            "lat": 41.3853,
+            "lng": 2.1818
           }
         }
       },
       {
-        "title": "Nature & Parks",
+        "title": "Gaudi's Greatest",
         "morning": {
-          "activity": "Casa Batllo",
-          "description": "Book the early morning or night experience — the roof dragon scales are iconic",
-          "location": "Casa Batllo, Barcelona",
-          "cost": "35 EUR",
-          "duration": "1 hour",
-          "tip": "Book the early morning or night experience — the roof dragon scales are iconic",
-          "coordinates": {
-            "lat": 41.3916,
-            "lng": 2.165
-          }
-        },
-        "afternoon": {
-          "activity": "Montjuic & Magic Fountain",
-          "description": "Cable car from the port — the fountain light show runs Thursday-Sunday evenings",
-          "location": "Montjuic & Magic Fountain, Barcelona",
-          "cost": "Free",
-          "duration": "1-2 hours",
-          "tip": "Cable car from the port — the fountain light show runs Thursday-Sunday evenings",
-          "coordinates": {
-            "lat": 41.368,
-            "lng": 2.153
-          }
-        },
-        "evening": {
-          "activity": "Casa Mila (La Pedrera)",
-          "description": "The rooftop with warrior chimneys is the highlight — night visits include a light show",
-          "location": "Casa Mila (La Pedrera), Barcelona",
-          "cost": "25 EUR",
-          "duration": "1 hour",
-          "tip": "The rooftop with warrior chimneys is the highlight — night visits include a light show",
-          "coordinates": {
-            "lat": 41.3952,
-            "lng": 2.162
-          }
-        }
-      },
-      {
-        "title": "Farewell Tour",
-        "morning": {
-          "activity": "Montjuic & Magic Fountain",
-          "description": "Cable car from the port — the fountain light show runs Thursday-Sunday evenings",
-          "location": "Montjuic & Magic Fountain, Barcelona",
-          "cost": "Free",
-          "duration": "1-2 hours",
-          "tip": "Cable car from the port — the fountain light show runs Thursday-Sunday evenings",
-          "coordinates": {
-            "lat": 41.368,
-            "lng": 2.153
-          }
-        },
-        "afternoon": {
           "activity": "Park Guell",
-          "description": "Book a morning slot — the free area outside the monument zone is also beautiful",
-          "location": "Park Guell, Barcelona",
-          "cost": "10 EUR",
-          "duration": "1.5 hours",
-          "tip": "Book a morning slot — the free area outside the monument zone is also beautiful",
+          "description": "Gaudi's whimsical hilltop garden with mosaic salamander, gingerbread gatehouses, and sweeping city views",
+          "location": "Carrer d'Olot, 5, Barcelona",
+          "cost": "€10",
+          "duration": "1.5-2 hours",
+          "tip": "The hypostyle hall's ceiling mosaics are made from broken tile shards (trencadis) — Gaudi's signature technique on full display",
           "coordinates": {
             "lat": 41.4145,
             "lng": 2.1527
           }
         },
-        "evening": {
-          "activity": "Sagrada Familia",
-          "description": "Book online 2-3 weeks ahead — the tower access is worth the extra cost",
-          "location": "Sagrada Familia, Barcelona",
-          "cost": "26 EUR",
-          "duration": "1.5 hours",
-          "tip": "Book online 2-3 weeks ahead — the tower access is worth the extra cost",
+        "afternoon": {
+          "activity": "Casa Batllo",
+          "description": "Gaudi's dragon-roofed masterpiece with skeletal balconies, undulating stone facade, and an ocean-inspired interior",
+          "location": "Passeig de Gracia, 43, Barcelona",
+          "cost": "€35+",
+          "duration": "1-1.5 hours",
+          "tip": "The bone-like balcony pillars were controversial when built — neighbors called it the House of Yawns and tried to block construction",
           "coordinates": {
-            "lat": 41.4036,
-            "lng": 2.1744
+            "lat": 41.3916,
+            "lng": 2.165
+          }
+        },
+        "evening": {
+          "activity": "Passeig de Gracia",
+          "description": "Barcelona's grandest boulevard lined with Modernisme gems, luxury boutiques, and lively terrace cafes",
+          "location": "Passeig de Gracia, Eixample, Barcelona",
+          "cost": "Free",
+          "duration": "1-2 hours",
+          "tip": "The Block of Discord (Illa de la Discordia) has three rival Modernisme buildings side by side — architects literally competing on one block",
+          "coordinates": {
+            "lat": 41.393,
+            "lng": 2.1647
+          }
+        }
+      },
+      {
+        "title": "Coastal Barcelona",
+        "morning": {
+          "activity": "Barceloneta Beach",
+          "description": "Golden urban beach stretching from the W Hotel to Port Olimpic with chiringuitos and fresh sea breeze",
+          "location": "Platja de la Barceloneta, Barcelona",
+          "cost": "Free",
+          "duration": "1-2 hours",
+          "tip": "The beach showers near Port Olimpic are the cleanest — use them before heading back into the city",
+          "coordinates": {
+            "lat": 41.378,
+            "lng": 2.19
+          }
+        },
+        "afternoon": {
+          "activity": "La Boqueria Market",
+          "description": "Europe's most famous food market — a kaleidoscope of fresh fruit, cured meats, seafood, and bustling tapas counters",
+          "location": "La Rambla, 91, Barcelona",
+          "cost": "€5-20",
+          "duration": "1-1.5 hours",
+          "tip": "Arrive before 9am to watch the vendors set up — the tuna auction at the central counter is mesmerizing to watch",
+          "coordinates": {
+            "lat": 41.3816,
+            "lng": 2.1719
+          }
+        },
+        "evening": {
+          "activity": "Port Olimpic",
+          "description": "The 1992 Olympics waterfront with twin skyscrapers, a casino, and Barcelona's biggest nightclub cluster",
+          "location": "Port Olimpic, Barcelona",
+          "cost": "Free",
+          "duration": "2-3 hours",
+          "tip": "The twin towers have a golden fish sculpture between them by Frank Gehry — great photo at dusk when the copper glows",
+          "coordinates": {
+            "lat": 41.3867,
+            "lng": 2.1984
+          }
+        }
+      },
+      {
+        "title": "Football & Montjuic",
+        "morning": {
+          "activity": "Camp Nou (FC Barcelona)",
+          "description": "World's largest football stadium — the tour covers the trophy room, press box, players' tunnel, and chapel",
+          "location": "Carrer d'Aristides Maillol, 12, Barcelona",
+          "cost": "€28+",
+          "duration": "1.5-2 hours",
+          "tip": "Book the guided tour over the self-guided — you get access to the press conference room and the players' chapel",
+          "coordinates": {
+            "lat": 41.3809,
+            "lng": 2.1228
+          }
+        },
+        "afternoon": {
+          "activity": "Montjuic & Magic Fountain",
+          "description": "Hilltop fortress, botanical gardens, art museums, and the spectacular light-and-water fountain show",
+          "location": "Montjuic, Barcelona",
+          "cost": "Free (cable car €12)",
+          "duration": "2-3 hours",
+          "tip": "The cable car from Barceloneta to Montjuic is the most scenic route — sit on the right side for harbor views",
+          "coordinates": {
+            "lat": 41.3693,
+            "lng": 2.1536
+          }
+        },
+        "evening": {
+          "activity": "Poble Espanyol",
+          "description": "Open-air architectural museum with 117 full-scale replicas of buildings from every region of Spain",
+          "location": "Av. de Francesc Ferer i Guardia, 13, Barcelona",
+          "cost": "€14",
+          "duration": "1.5-2 hours",
+          "tip": "Stays open late on summer Fridays with live flamenco and outdoor dining — the craft workshops sell genuine artisan goods",
+          "coordinates": {
+            "lat": 41.369,
+            "lng": 2.148
+          }
+        }
+      },
+      {
+        "title": "Art & Architecture",
+        "morning": {
+          "activity": "Picasso Museum",
+          "description": "Over 4,000 works spanning Picasso's entire career, housed in five adjoining medieval palaces",
+          "location": "Carrer de Montcada, 15-23, Barcelona",
+          "cost": "€12",
+          "duration": "1-1.5 hours",
+          "tip": "Free on Thursday afternoons (5-8pm) but fills up fast — arrive at 4:45 to queue for a spot",
+          "coordinates": {
+            "lat": 41.3851,
+            "lng": 2.1811
+          }
+        },
+        "afternoon": {
+          "activity": "Casa Mila (La Pedrera)",
+          "description": "Gaudi's undulating stone apartment building with warrior chimneys on the roof and a wave-patterned iron balcony facade",
+          "location": "Passeig de Gracia, 92, Barcelona",
+          "cost": "€25-35",
+          "duration": "1-1.5 hours",
+          "tip": "The warrior chimneys on the roof inspired Darth Vader's helmet — George Lucas visited in the 1970s and sketched them",
+          "coordinates": {
+            "lat": 41.3951,
+            "lng": 2.162
+          }
+        },
+        "evening": {
+          "activity": "Gracia Neighborhood",
+          "description": "Bohemian village-within-a-city with leafy plazas, independent boutiques, and a thriving local bar and restaurant scene",
+          "location": "Gracia, Barcelona",
+          "cost": "Free",
+          "duration": "2-3 hours",
+          "tip": "Placa del Sol is the liveliest square at night — grab a drink at any terrace and watch the neighborhood come alive after 9pm",
+          "coordinates": {
+            "lat": 41.4034,
+            "lng": 2.1565
+          }
+        }
+      },
+      {
+        "title": "Views & Green Spaces",
+        "morning": {
+          "activity": "Tibidabo Amusement Park",
+          "description": "Century-old hilltop amusement park with vintage rides, a stunning church, and the highest panoramic views in Barcelona",
+          "location": "Placa del Tibidabo, 3-4, Barcelona",
+          "cost": "€15-30",
+          "duration": "2-3 hours",
+          "tip": "Take the Tramvia Blau (Blue Tram) from Av. del Tibidabo — it's the oldest tram in Barcelona and a ride itself",
+          "coordinates": {
+            "lat": 41.4178,
+            "lng": 2.1186
+          }
+        },
+        "afternoon": {
+          "activity": "Parc de la Ciutadella",
+          "description": "Lush city park with a monumental waterfall, the Catalan Parliament, rowing lake, and the city zoo",
+          "location": "Passeig de Picasso, 1, Barcelona",
+          "cost": "Free",
+          "duration": "1-2 hours",
+          "tip": "The waterfall (Cascada) was partly designed by a young Gaudi — the north side has the best angle to see the golden statues",
+          "coordinates": {
+            "lat": 41.3882,
+            "lng": 2.186
+          }
+        },
+        "evening": {
+          "activity": "Arc de Triomf & Raval",
+          "description": "Red-brick triumphal arch built for the 1888 World's Fair, leading into the vibrant Raval neighborhood for dinner",
+          "location": "Passeig de Lluis Companys, Barcelona",
+          "cost": "Free",
+          "duration": "2-3 hours",
+          "tip": "Walk from the Arc down Carrer de Sant Pau — it's the longest medieval street in Barcelona and ends at the Raval's best tapas strip",
+          "coordinates": {
+            "lat": 41.3908,
+            "lng": 2.1812
+          }
+        }
+      },
+      {
+        "title": "Hidden Gems & Farewell",
+        "morning": {
+          "activity": "Sant Pau Recinte Modernista",
+          "description": "UNESCO-listed Art Nouveau hospital complex — a hidden masterpiece by Domenech i Montaner with mosaic-covered pavilions and underground tunnels",
+          "location": "Carrer de Sant Quinti, 89, Barcelona",
+          "cost": "€16",
+          "duration": "1.5-2 hours",
+          "tip": "The underground tunnels connecting the pavilions were used to transport patients — they're beautifully tiled and echo your footsteps",
+          "coordinates": {
+            "lat": 41.4121,
+            "lng": 2.1742
+          }
+        },
+        "afternoon": {
+          "activity": "El Raval Neighborhood",
+          "description": "Edgy multicultural quarter with vibrant street art, vintage shops, and Barcelona's best late-night bars and international eateries",
+          "location": "El Raval, Ciutat Vella, Barcelona",
+          "cost": "Free",
+          "duration": "2-3 hours",
+          "tip": "The MACBA plaza is Barcelona's skateboarding mecca — grab a drink at a terrace and watch the skaters under the floodlights",
+          "coordinates": {
+            "lat": 41.3799,
+            "lng": 2.1685
+          }
+        },
+        "evening": {
+          "activity": "Flamenco Night at Tablao",
+          "description": "Authentic flamenco show in an intimate venue — dancers, singers, and guitarists perform Spain's iconic art form",
+          "location": "Various tablao venues, Barcelona",
+          "cost": "€30-50",
+          "duration": "1.5-2 hours",
+          "tip": "Tablao Cordobes on La Rambla is the most famous, but Los Tarantos in Placa Reial is more intimate and half the price",
+          "coordinates": {
+            "lat": 41.3803,
+            "lng": 2.1735
           }
         }
       }
@@ -76888,6 +76888,600 @@ const itineraries = [
       }
     ],
     "cityId": "zurich"
+  },
+  {
+    "cityId": "ohrid",
+    "days3": [
+      {
+        "title": "Old Town & Fortress",
+        "morning": {
+          "activity": "Samuil's Fortress",
+          "description": "Medieval hilltop fortress with panoramic views over Lake Ohrid and the red-roofed old town below",
+          "location": "Varosh, Ohrid",
+          "cost": "60 MKN (€1)",
+          "duration": "1-1.5 hours",
+          "tip": "Climb to the highest tower platform — on a clear day you can see the lake stretching all the way to Albania",
+          "coordinates": {
+            "lat": 41.1188,
+            "lng": 20.797
+          }
+        },
+        "afternoon": {
+          "activity": "Ancient Theatre of Ohrid",
+          "description": "A 2,000-year-old Hellenistic theatre unearthed in the 1980s, now used for summer concerts and the Ohrid Summer Festival",
+          "location": "Varosh, Ohrid",
+          "cost": "Free",
+          "duration": "30-45 minutes",
+          "tip": "Sit in the top row — the acoustics still work perfectly after two millennia and you get the best photo angle",
+          "coordinates": {
+            "lat": 41.1176,
+            "lng": 20.796
+          }
+        },
+        "evening": {
+          "activity": "Old Town Cobblestone Walk",
+          "description": "Wander the lantern-lit cobblestone alleys past Ottoman-era houses, tiny churches, and family-run taverns serving homemade rakija",
+          "location": "Varosh, Ohrid",
+          "cost": "Free",
+          "duration": "1-2 hours",
+          "tip": "Stop at a local tavern on Ul. Car Samoil and ask for house rakija — most families age their own and love sharing it",
+          "coordinates": {
+            "lat": 41.117,
+            "lng": 20.796
+          }
+        }
+      },
+      {
+        "title": "Churches & Lake",
+        "morning": {
+          "activity": "Church of St. John at Kaneo",
+          "description": "The most photographed spot in North Macedonia — a 13th-century church perched on a cliff above the turquoise lake",
+          "location": "Kaneo, Ohrid",
+          "cost": "Free (church interior 120 MKN)",
+          "duration": "1-1.5 hours",
+          "tip": "Arrive before 9am to have the cliffside viewpoint to yourself — by 10am the tour groups arrive",
+          "coordinates": {
+            "lat": 41.1139,
+            "lng": 20.7896
+          }
+        },
+        "afternoon": {
+          "activity": "Kaneo Beach & Swimming",
+          "description": "Pebble beach directly below St. John's Church with some of the clearest freshwater swimming in Europe",
+          "location": "Kaneo, Ohrid",
+          "cost": "Free",
+          "duration": "1-2 hours",
+          "tip": "The water drops off quickly — swim out 20 meters and look down, the visibility is over 15 meters deep",
+          "coordinates": {
+            "lat": 41.113,
+            "lng": 20.789
+          }
+        },
+        "evening": {
+          "activity": "Waterfront Promenade",
+          "description": "Lively boardwalk stretching along the lakefront with cafes, ice cream shops, and locals strolling at sunset",
+          "location": "Ohrid Waterfront, Ohrid",
+          "cost": "Free",
+          "duration": "1-2 hours",
+          "tip": "Grab a gelato from the kiosk near the port and walk to the end of the pier — the sunset over the lake turns the water gold",
+          "coordinates": {
+            "lat": 41.1215,
+            "lng": 20.7935
+          }
+        }
+      },
+      {
+        "title": "Prehistory & Monastery",
+        "morning": {
+          "activity": "Bay of Bones",
+          "description": "Reconstructed prehistoric stilt-house settlement on the lake shore, built on a 3,000-year-old pile dwelling site",
+          "location": "Gradište, near Ohrid",
+          "cost": "150 MKN (€2.50)",
+          "duration": "1-1.5 hours",
+          "tip": "Walk out onto the wooden platform over the water — you can see the original underwater pile remains through the glass floor sections",
+          "coordinates": {
+            "lat": 41.1084,
+            "lng": 20.8117
+          }
+        },
+        "afternoon": {
+          "activity": "Monastery of St. Naum",
+          "description": "9th-century monastery 30km south of Ohrid, set in lush gardens with peacocks and stunning lake views near the Albanian border",
+          "location": "St. Naum, near Ohrid",
+          "cost": "120 MKN (€2)",
+          "duration": "2-3 hours",
+          "tip": "Walk behind the monastery to the springs — the water emerges from 15 underwater caves and the color is impossibly blue",
+          "coordinates": {
+            "lat": 40.9142,
+            "lng": 20.7388
+          }
+        },
+        "evening": {
+          "activity": "Traditional Ohrid Dinner",
+          "description": "Fresh Ohrid trout grilled over charcoal, served at a family-run restaurant overlooking the harbor as the fishing boats come in",
+          "location": "Ohrid Harbor, Ohrid",
+          "cost": "€8-15",
+          "duration": "1.5-2 hours",
+          "tip": "Order the pastrmka (trout) po Tarska — it's unique to this lake and endangered in the wild, so make sure the restaurant sources from local farms",
+          "coordinates": {
+            "lat": 41.122,
+            "lng": 20.793
+          }
+        }
+      }
+    ],
+    "days5": [
+      {
+        "title": "Fortress & Ancient Theatre",
+        "morning": {
+          "activity": "Samuil's Fortress",
+          "description": "Medieval hilltop fortress with panoramic views over Lake Ohrid and the red-roofed old town below",
+          "location": "Varosh, Ohrid",
+          "cost": "60 MKN (€1)",
+          "duration": "1-1.5 hours",
+          "tip": "Bring a jacket — the fortress hilltop catches a wind that the lakeside doesn't, even on warm days",
+          "coordinates": {
+            "lat": 41.1188,
+            "lng": 20.797
+          }
+        },
+        "afternoon": {
+          "activity": "Ancient Theatre of Ohrid",
+          "description": "A 2,000-year-old Hellenistic theatre unearthed in the 1980s, now used for summer concerts and the Ohrid Summer Festival",
+          "location": "Varosh, Ohrid",
+          "cost": "Free",
+          "duration": "30-45 minutes",
+          "tip": "If visiting in July or August, check the Ohrid Summer Festival schedule — you might catch a concert in this 2,000-year-old venue",
+          "coordinates": {
+            "lat": 41.1176,
+            "lng": 20.796
+          }
+        },
+        "evening": {
+          "activity": "Old Town Cobblestone Walk",
+          "description": "Wander the lantern-lit cobblestone alleys past Ottoman-era houses, tiny churches, and family-run taverns serving homemade rakija",
+          "location": "Varosh, Ohrid",
+          "cost": "Free",
+          "duration": "1-2 hours",
+          "tip": "Stop at a local tavern on Ul. Car Samoil and ask for house rakija — most families age their own and love sharing it",
+          "coordinates": {
+            "lat": 41.117,
+            "lng": 20.796
+          }
+        }
+      },
+      {
+        "title": "Iconic Churches",
+        "morning": {
+          "activity": "Church of St. John at Kaneo",
+          "description": "The most photographed spot in North Macedonia — a 13th-century church perched on a cliff above the turquoise lake",
+          "location": "Kaneo, Ohrid",
+          "cost": "Free (church interior 120 MKN)",
+          "duration": "1-1.5 hours",
+          "tip": "The church interior is tiny but the 13th-century frescoes inside are remarkably preserved — worth the small entry fee",
+          "coordinates": {
+            "lat": 41.1139,
+            "lng": 20.7896
+          }
+        },
+        "afternoon": {
+          "activity": "Church of St. Sophia",
+          "description": "11th-century cathedral with some of the most important Byzantine frescoes in the Balkans, now a concert venue",
+          "location": "Varosh, Ohrid",
+          "cost": "100 MKN (€1.50)",
+          "duration": "45 minutes-1 hour",
+          "tip": "The narthex frescoes depicting the Last Judgment are the finest in North Macedonia — spend time in this room",
+          "coordinates": {
+            "lat": 41.1165,
+            "lng": 20.794
+          }
+        },
+        "evening": {
+          "activity": "Waterfront Promenade",
+          "description": "Lively boardwalk along the lakefront with cafes, ice cream shops, and locals strolling at sunset",
+          "location": "Ohrid Waterfront, Ohrid",
+          "cost": "Free",
+          "duration": "1-2 hours",
+          "tip": "Grab a gelato from the kiosk near the port and walk to the end of the pier — the sunset over the lake turns the water gold",
+          "coordinates": {
+            "lat": 41.1215,
+            "lng": 20.7935
+          }
+        }
+      },
+      {
+        "title": "Lake & Beach",
+        "morning": {
+          "activity": "Kaneo Beach & Swimming",
+          "description": "Pebble beach directly below St. John's Church with some of the clearest freshwater swimming in Europe",
+          "location": "Kaneo, Ohrid",
+          "cost": "Free",
+          "duration": "1-2 hours",
+          "tip": "The water drops off quickly — swim out 20 meters and look down, the visibility is over 15 meters deep",
+          "coordinates": {
+            "lat": 41.113,
+            "lng": 20.789
+          }
+        },
+        "afternoon": {
+          "activity": "Lake Ohrid Boat Trip",
+          "description": "Private or shared boat ride along the coastline, passing cliffside churches, hidden beaches, and fishing villages",
+          "location": "Ohrid Harbor",
+          "cost": "€10-20",
+          "duration": "2-3 hours",
+          "tip": "Negotiate directly with a boat captain at the harbor — skip the tour agencies and you'll pay half price for the same route",
+          "coordinates": {
+            "lat": 41.122,
+            "lng": 20.793
+          }
+        },
+        "evening": {
+          "activity": "Traditional Ohrid Dinner",
+          "description": "Fresh Ohrid trout grilled over charcoal at a family-run restaurant overlooking the harbor",
+          "location": "Ohrid Harbor, Ohrid",
+          "cost": "€8-15",
+          "duration": "1.5-2 hours",
+          "tip": "Order the pastrmka (trout) po Tarska — it's unique to this lake and considered a national dish of North Macedonia",
+          "coordinates": {
+            "lat": 41.122,
+            "lng": 20.793
+          }
+        }
+      },
+      {
+        "title": "Prehistory & Springs",
+        "morning": {
+          "activity": "Bay of Bones",
+          "description": "Reconstructed prehistoric stilt-house settlement on the lake shore, built on a 3,000-year-old pile dwelling site",
+          "location": "Gradište, near Ohrid",
+          "cost": "150 MKN (€2.50)",
+          "duration": "1-1.5 hours",
+          "tip": "Walk out onto the wooden platform over the water — you can see the original underwater pile remains through the glass floor sections",
+          "coordinates": {
+            "lat": 41.1084,
+            "lng": 20.8117
+          }
+        },
+        "afternoon": {
+          "activity": "Monastery of St. Naum",
+          "description": "9th-century monastery set in lush gardens with peacocks, stunning lake views, and karst springs near the Albanian border",
+          "location": "St. Naum, near Ohrid",
+          "cost": "120 MKN (€2)",
+          "duration": "2-3 hours",
+          "tip": "Walk behind the monastery to the springs — the water emerges from 15 underwater caves and the color is impossibly blue",
+          "coordinates": {
+            "lat": 40.9142,
+            "lng": 20.7388
+          }
+        },
+        "evening": {
+          "activity": "St. Naum Springs at Dusk",
+          "description": "Short boat ride into the crystal-clear springs that feed Lake Ohrid — the water is drinkable and the surrounding forest glows at golden hour",
+          "location": "St. Naum Springs",
+          "cost": "200 MKN (€3.50)",
+          "duration": "30-45 minutes",
+          "tip": "The small rowing boats at the springs are quieter and cheaper than motor boats — the guide will show you where the water boils up from the cave below",
+          "coordinates": {
+            "lat": 40.9135,
+            "lng": 20.7375
+          }
+        }
+      },
+      {
+        "title": "Icons & Farewell",
+        "morning": {
+          "activity": "Icon Gallery of Ohrid",
+          "description": "World-class collection of Byzantine icons housed in a converted Ottoman building — some dating to the 11th century",
+          "location": "Varosh, Ohrid",
+          "cost": "100 MKN (€1.50)",
+          "duration": "1-1.5 hours",
+          "tip": "The double-sided icon of the Virgin Mary and the Crucifixion is the gallery's masterpiece — it's in the last room, don't miss it",
+          "coordinates": {
+            "lat": 41.117,
+            "lng": 20.7955
+          }
+        },
+        "afternoon": {
+          "activity": "Paper Museum & Robev Family House",
+          "description": "18th-century merchant mansion turned museum showcasing Ohrid's crafts tradition, including a working handmade paper workshop",
+          "location": "Ul. Car Samoil, Ohrid",
+          "cost": "50 MKN (€1)",
+          "duration": "1 hour",
+          "tip": "Watch the paper-making demonstration on the ground floor — you can try it yourself and take home a sheet you pressed",
+          "coordinates": {
+            "lat": 41.118,
+            "lng": 20.793
+          }
+        },
+        "evening": {
+          "activity": "Harbor Sunset Drinks",
+          "description": "End the trip with cocktails or Macedonian wine at a waterfront bar, watching the sun set behind the mountains across the lake",
+          "location": "Ohrid Harbor, Ohrid",
+          "cost": "€5-10",
+          "duration": "1-2 hours",
+          "tip": "Try a glass of local T'ga za Jug wine — it's made from the Vranac grape and translates as 'nostalgia for the south'",
+          "coordinates": {
+            "lat": 41.122,
+            "lng": 20.793
+          }
+        }
+      }
+    ],
+    "days7": [
+      {
+        "title": "Fortress & Ancient Theatre",
+        "morning": {
+          "activity": "Samuil's Fortress",
+          "description": "Medieval hilltop fortress with panoramic views over Lake Ohrid and the red-roofed old town below",
+          "location": "Varosh, Ohrid",
+          "cost": "60 MKN (€1)",
+          "duration": "1-1.5 hours",
+          "tip": "The fortress walls have a gap on the north side — walk through it for an uncrowded viewpoint of the entire lake",
+          "coordinates": {
+            "lat": 41.1188,
+            "lng": 20.797
+          }
+        },
+        "afternoon": {
+          "activity": "Ancient Theatre of Ohrid",
+          "description": "A 2,000-year-old Hellenistic theatre unearthed in the 1980s, now used for summer concerts and the Ohrid Summer Festival",
+          "location": "Varosh, Ohrid",
+          "cost": "Free",
+          "duration": "30-45 minutes",
+          "tip": "Sit in the top row and clap once — the acoustics carry the sound across the entire auditorium without amplification",
+          "coordinates": {
+            "lat": 41.1176,
+            "lng": 20.796
+          }
+        },
+        "evening": {
+          "activity": "Old Town Cobblestone Walk",
+          "description": "Wander the lantern-lit cobblestone alleys past Ottoman-era houses, tiny churches, and family-run taverns serving homemade rakija",
+          "location": "Varosh, Ohrid",
+          "cost": "Free",
+          "duration": "1-2 hours",
+          "tip": "Stop at a local tavern on Ul. Car Samoil and ask for house rakija — most families age their own and love sharing it",
+          "coordinates": {
+            "lat": 41.117,
+            "lng": 20.796
+          }
+        }
+      },
+      {
+        "title": "Iconic Churches",
+        "morning": {
+          "activity": "Church of St. John at Kaneo",
+          "description": "The most photographed spot in North Macedonia — a 13th-century church perched on a cliff above the turquoise lake",
+          "location": "Kaneo, Ohrid",
+          "cost": "Free (church interior 120 MKN)",
+          "duration": "1-1.5 hours",
+          "tip": "Arrive before 9am to have the cliffside viewpoint to yourself — by 10am the tour groups arrive",
+          "coordinates": {
+            "lat": 41.1139,
+            "lng": 20.7896
+          }
+        },
+        "afternoon": {
+          "activity": "Church of St. Sophia",
+          "description": "11th-century cathedral with some of the most important Byzantine frescoes in the Balkans",
+          "location": "Varosh, Ohrid",
+          "cost": "100 MKN (€1.50)",
+          "duration": "45 minutes-1 hour",
+          "tip": "The narthex frescoes depicting the Last Judgment are the finest in North Macedonia — spend time in this room",
+          "coordinates": {
+            "lat": 41.1165,
+            "lng": 20.794
+          }
+        },
+        "evening": {
+          "activity": "Waterfront Promenade",
+          "description": "Lively boardwalk along the lakefront with cafes, ice cream shops, and locals strolling at sunset",
+          "location": "Ohrid Waterfront, Ohrid",
+          "cost": "Free",
+          "duration": "1-2 hours",
+          "tip": "Grab a gelato from the kiosk near the port and walk to the end of the pier — the sunset over the lake turns the water gold",
+          "coordinates": {
+            "lat": 41.1215,
+            "lng": 20.7935
+          }
+        }
+      },
+      {
+        "title": "Lake & Beach Day",
+        "morning": {
+          "activity": "Kaneo Beach & Swimming",
+          "description": "Pebble beach directly below St. John's Church with some of the clearest freshwater swimming in Europe",
+          "location": "Kaneo, Ohrid",
+          "cost": "Free",
+          "duration": "1-2 hours",
+          "tip": "The water drops off quickly — swim out 20 meters and look down, the visibility is over 15 meters deep",
+          "coordinates": {
+            "lat": 41.113,
+            "lng": 20.789
+          }
+        },
+        "afternoon": {
+          "activity": "Lake Ohrid Boat Trip",
+          "description": "Private or shared boat ride along the coastline, passing cliffside churches, hidden beaches, and fishing villages",
+          "location": "Ohrid Harbor",
+          "cost": "€10-20",
+          "duration": "2-3 hours",
+          "tip": "Negotiate directly with a boat captain at the harbor — skip the tour agencies and you'll pay half price for the same route",
+          "coordinates": {
+            "lat": 41.122,
+            "lng": 20.793
+          }
+        },
+        "evening": {
+          "activity": "Traditional Ohrid Dinner",
+          "description": "Fresh Ohrid trout grilled over charcoal at a family-run restaurant overlooking the harbor",
+          "location": "Ohrid Harbor, Ohrid",
+          "cost": "€8-15",
+          "duration": "1.5-2 hours",
+          "tip": "Order the pastrmka (trout) po Tarska — it's unique to this lake and considered a national dish of North Macedonia",
+          "coordinates": {
+            "lat": 41.122,
+            "lng": 20.793
+          }
+        }
+      },
+      {
+        "title": "Prehistoric Lake Dwellings",
+        "morning": {
+          "activity": "Bay of Bones",
+          "description": "Reconstructed prehistoric stilt-house settlement on the lake shore, built on a 3,000-year-old pile dwelling site",
+          "location": "Gradište, near Ohrid",
+          "cost": "150 MKN (€2.50)",
+          "duration": "1-1.5 hours",
+          "tip": "Walk out onto the wooden platform over the water — you can see the original underwater pile remains through the glass floor sections",
+          "coordinates": {
+            "lat": 41.1084,
+            "lng": 20.8117
+          }
+        },
+        "afternoon": {
+          "activity": "Monastery of St. Naum",
+          "description": "9th-century monastery set in lush gardens with peacocks, stunning lake views, and karst springs near the Albanian border",
+          "location": "St. Naum, near Ohrid",
+          "cost": "120 MKN (€2)",
+          "duration": "2-3 hours",
+          "tip": "Walk behind the monastery to the springs — the water emerges from 15 underwater caves and the color is impossibly blue",
+          "coordinates": {
+            "lat": 40.9142,
+            "lng": 20.7388
+          }
+        },
+        "evening": {
+          "activity": "St. Naum Springs at Dusk",
+          "description": "Short boat ride into the crystal-clear springs that feed Lake Ohrid — the water is drinkable and the surrounding forest glows at golden hour",
+          "location": "St. Naum Springs",
+          "cost": "200 MKN (€3.50)",
+          "duration": "30-45 minutes",
+          "tip": "The small rowing boats at the springs are quieter and cheaper than motor boats — the guide will show you where the water boils up from the cave below",
+          "coordinates": {
+            "lat": 40.9135,
+            "lng": 20.7375
+          }
+        }
+      },
+      {
+        "title": "Art & Icons",
+        "morning": {
+          "activity": "Icon Gallery of Ohrid",
+          "description": "World-class collection of Byzantine icons housed in a converted Ottoman building — some dating to the 11th century",
+          "location": "Varosh, Ohrid",
+          "cost": "100 MKN (€1.50)",
+          "duration": "1-1.5 hours",
+          "tip": "The double-sided icon of the Virgin Mary and the Crucifixion is the gallery's masterpiece — it's in the last room, don't miss it",
+          "coordinates": {
+            "lat": 41.117,
+            "lng": 20.7955
+          }
+        },
+        "afternoon": {
+          "activity": "Paper Museum & Robev Family House",
+          "description": "18th-century merchant mansion turned museum showcasing Ohrid's crafts tradition, including a working handmade paper workshop",
+          "location": "Ul. Car Samoil, Ohrid",
+          "cost": "50 MKN (€1)",
+          "duration": "1 hour",
+          "tip": "Watch the paper-making demonstration on the ground floor — you can try it yourself and take home a sheet you pressed",
+          "coordinates": {
+            "lat": 41.118,
+            "lng": 20.793
+          }
+        },
+        "evening": {
+          "activity": "Harbor Sunset Drinks",
+          "description": "Cocktails or Macedonian wine at a waterfront bar, watching the sun set behind the mountains across the lake",
+          "location": "Ohrid Harbor, Ohrid",
+          "cost": "€5-10",
+          "duration": "1-2 hours",
+          "tip": "Try a glass of local T'ga za Jug wine — it's made from the Vranac grape and translates as 'nostalgia for the south'",
+          "coordinates": {
+            "lat": 41.122,
+            "lng": 20.793
+          }
+        }
+      },
+      {
+        "title": "Mountain & Nature",
+        "morning": {
+          "activity": "Galicica National Park Viewpoint",
+          "description": "Mountain pass between Lake Ohrid and Lake Prespa with alpine meadows, wildflowers, and views of both lakes simultaneously",
+          "location": "Galicica National Park",
+          "cost": "Free",
+          "duration": "2-3 hours",
+          "tip": "Drive to the Magaro peak viewpoint at 2,255m — on a clear day you can see both Lake Ohrid and Lake Prespa, one below each side",
+          "coordinates": {
+            "lat": 41.055,
+            "lng": 20.82
+          }
+        },
+        "afternoon": {
+          "activity": "Vevcani Springs",
+          "description": "Dramatic karst springs bursting from a mountainside cave, feeding into a series of pools and waterfalls in a quiet village setting",
+          "location": "Vevcani, near Ohrid",
+          "cost": "Free",
+          "duration": "1-2 hours",
+          "tip": "Follow the path upstream past the main springs — there's a hidden waterfall grotto 10 minutes further that most visitors miss",
+          "coordinates": {
+            "lat": 41.2375,
+            "lng": 20.5894
+          }
+        },
+        "evening": {
+          "activity": "Vevcani Village Dinner",
+          "description": "Traditional Macedonian tavern in the hills serving homemade cheese, smoked meat, and vegetables from their garden",
+          "location": "Vevcani, near Ohrid",
+          "cost": "€6-10",
+          "duration": "1.5-2 hours",
+          "tip": "Ask for the Vevcani cheese — it's a hard aged cheese made only in this village and never exported, you can't get it anywhere else",
+          "coordinates": {
+            "lat": 41.238,
+            "lng": 20.59
+          }
+        }
+      },
+      {
+        "title": "Farewell Day",
+        "morning": {
+          "activity": "Plaošnik Early Christian Basilica",
+          "description": "Reconstructed 5th-century basilica on the site where Saints Clement and Naum created the Cyrillic alphabet — the birthplace of Slavic literacy",
+          "location": "Varosh, Ohrid",
+          "cost": "Free",
+          "duration": "45 minutes-1 hour",
+          "tip": "Look for the original floor mosaics preserved under glass walkways — they depict animals and geometric patterns from 1,500 years ago",
+          "coordinates": {
+            "lat": 41.117,
+            "lng": 20.796
+          }
+        },
+        "afternoon": {
+          "activity": "Sveti Stefan Monastery",
+          "description": "Serene 9th-century monastery on a small peninsula with a pebble beach, hidden behind stone walls and ancient trees",
+          "location": "Sveti Stefan, Ohrid",
+          "cost": "Free",
+          "duration": "1-1.5 hours",
+          "tip": "The monastery garden has a 1,000-year-old tree — ask the caretaker and they'll show you the spot where Clement of Ohrid supposedly taught his students",
+          "coordinates": {
+            "lat": 41.116,
+            "lng": 20.7985
+          }
+        },
+        "evening": {
+          "activity": "Farewell Lakeside Feast",
+          "description": "Final dinner at a lakeside terrace with fresh fish, Macedonian salad, and live traditional music as the stars reflect off the still lake",
+          "location": "Ohrid Waterfront, Ohrid",
+          "cost": "€10-18",
+          "duration": "2-3 hours",
+          "tip": "Many restaurants along the waterfront have live folk music on summer weekends — ask your waiter which night the band plays",
+          "coordinates": {
+            "lat": 41.1215,
+            "lng": 20.7935
+          }
+        }
+      }
+    ]
   }
 ];
 
