@@ -1,9 +1,38 @@
 import { useState, useMemo } from 'react';
 import itineraries from '../data/itineraries';
 
-const slotIcons = { morning: '\u{1F305}', afternoon: '☀️', evening: '\u{1F319}' };
+const SLOT_ORDER = ['morning', 'afternoon', 'evening'];
+const SLOT_LABELS = { morning: 'Morning', afternoon: 'Afternoon', evening: 'Evening' };
 
-export default function ActivityPool({ cityId, onSelectActivity, assignedActivities }) {
+function haversine(lat1, lng1, lat2, lng2) {
+  const R = 6371000;
+  const toRad = d => d * Math.PI / 180;
+  const dLat = toRad(lat2 - lat1);
+  const dLng = toRad(lng2 - lng1);
+  const a = Math.sin(dLat / 2) ** 2 + Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLng / 2) ** 2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+function formatDistance(meters) {
+  if (meters < 1000) return `${Math.round(meters)} m`;
+  return `${(meters / 1000).toFixed(1)} km`;
+}
+
+function getNearestFilled(slots, activeSlot) {
+  const activeIdx = SLOT_ORDER.indexOf(activeSlot);
+  if (activeIdx < 0) return null;
+  for (let i = activeIdx; i >= 0; i--) {
+    const arr = slots[i];
+    if (!Array.isArray(arr) || arr.length === 0) continue;
+    const last = arr[arr.length - 1];
+    if (last?.coordinates) {
+      return { activity: last, label: SLOT_LABELS[SLOT_ORDER[i]] };
+    }
+  }
+  return null;
+}
+
+export default function ActivityPool({ cityId, onSelectActivity, assignedActivities, allowRepeats, currentDaySlots, activeSlot }) {
   const [search, setSearch] = useState('');
   const [ageFilters, setAgeFilters] = useState([]);
   const [selectedActivity, setSelectedActivity] = useState(null);
@@ -13,19 +42,26 @@ export default function ActivityPool({ cityId, onSelectActivity, assignedActivit
     if (!itinerary) return [];
 
     const seen = new Map();
+    const addActivity = (act) => {
+      if (!act) return;
+      const name = act.activity;
+      if (!seen.has(name) || act.description.length > seen.get(name).description.length) {
+        seen.set(name, { ...act });
+      }
+    };
+
     ['days3', 'days5', 'days7'].forEach(plan => {
       if (!itinerary[plan]) return;
       itinerary[plan].forEach(day => {
         ['morning', 'afternoon', 'evening'].forEach(slot => {
-          if (!day[slot]) return;
-          const name = day[slot].activity;
-          // Keep the most detailed version (longest description)
-          if (!seen.has(name) || day[slot].description.length > seen.get(name).description.length) {
-            seen.set(name, { ...day[slot] });
-          }
+          addActivity(day[slot]);
         });
       });
     });
+
+    if (itinerary.extraActivities) {
+      itinerary.extraActivities.forEach(addActivity);
+    }
 
     return Array.from(seen.values());
   }, [cityId]);
@@ -34,6 +70,8 @@ export default function ActivityPool({ cityId, onSelectActivity, assignedActivit
     if (!assignedActivities) return new Set();
     return new Set(assignedActivities.filter(Boolean).map(a => a.activity));
   }, [assignedActivities]);
+
+  const nearestFilled = useMemo(() => getNearestFilled(currentDaySlots || [], activeSlot), [currentDaySlots, activeSlot]);
 
   const filtered = useMemo(() => {
     let list = allActivities;
@@ -56,13 +94,23 @@ export default function ActivityPool({ cityId, onSelectActivity, assignedActivit
     return list;
   }, [allActivities, search, ageFilters]);
 
+  const getPoolDistance = (activity) => {
+    if (!nearestFilled?.activity?.coordinates || !activity?.coordinates) return null;
+    const dist = haversine(
+      nearestFilled.activity.coordinates.lat, nearestFilled.activity.coordinates.lng,
+      activity.coordinates.lat, activity.coordinates.lng
+    );
+    return { dist: formatDistance(dist), from: nearestFilled.label };
+  };
+
   const toggleAgeFilter = (range) => {
     setAgeFilters(prev =>
       prev.includes(range) ? prev.filter(r => r !== range) : [...prev, range]
     );
   };
 
-  const handleSelect = (activity) => {
+  const handleSelect = (activity, isDisabled) => {
+    if (isDisabled) return;
     setSelectedActivity(activity);
     if (onSelectActivity) onSelectActivity(activity);
   };
@@ -95,29 +143,48 @@ export default function ActivityPool({ cityId, onSelectActivity, assignedActivit
             No activities match your filters
           </p>
         )}
-        {filtered.map((activity, i) => (
-          <div
-            key={i}
-            className={`pool-activity-card ${selectedActivity?.activity === activity.activity ? 'selected' : ''} ${assignedSet.has(activity.activity) ? 'assigned' : ''}`}
-            onClick={() => handleSelect(activity)}
-          >
-            <div className="pool-activity-name">{activity.activity}</div>
-            <div className="pool-activity-meta">
-              {activity.cost && <span>{activity.cost}</span>}
-              {activity.duration && <span>{activity.duration}</span>}
-            </div>
-            {activity.ageRanges && (
-              <div className="age-badges">
-                {activity.ageRanges.map(range => (
-                  <span key={range} className={`age-badge age-${range.replace('+', '-plus')}`}>{range}</span>
-                ))}
+        {filtered.map((activity, i) => {
+          const isAssigned = assignedSet.has(activity.activity);
+          const isDisabled = !allowRepeats && isAssigned;
+          const poolDist = getPoolDistance(activity);
+          return (
+            <div
+              key={i}
+              className={`pool-activity-card ${selectedActivity?.activity === activity.activity ? 'selected' : ''} ${isDisabled ? 'disabled' : ''}`}
+              onClick={() => handleSelect(activity, isDisabled)}
+            >
+              <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'flex-start' }}>
+                <img
+                  src={`https://picsum.photos/seed/${encodeURIComponent(activity.activity)}/80/80`}
+                  alt=""
+                  className="pool-activity-thumb"
+                  loading="lazy"
+                />
+                <div style={{ flex: 1 }}>
+                  <div className="pool-activity-name">{activity.activity}</div>
+                  <div className="pool-activity-meta">
+                    {activity.cost && <span>{activity.cost}</span>}
+                    {activity.duration && <span>{activity.duration}</span>}
+                    {activity.hours && <span>{activity.hours}</span>}
+                    {poolDist && <span className="pool-distance-badge">→ {poolDist.dist} from {poolDist.from}</span>}
+                  </div>
+                  {activity.ageRanges && (
+                    <div className="age-badges">
+                      {activity.ageRanges.map(range => (
+                        <span key={range} className={`age-badge age-${range.replace('+', '-plus')}`}>{range}</span>
+                      ))}
+                    </div>
+                  )}
+                  {isAssigned && (
+                    <span style={{ fontSize: '0.7rem', color: 'var(--accent)', fontWeight: 600 }}>
+                      {isDisabled ? 'Already added' : 'Already added (tap to reuse)'}
+                    </span>
+                  )}
+                </div>
               </div>
-            )}
-            {assignedSet.has(activity.activity) && (
-              <span style={{ fontSize: '0.7rem', color: 'var(--accent)', fontWeight: 600 }}>Already added</span>
-            )}
-          </div>
-        ))}
+            </div>
+          );
+        })}
       </div>
     </div>
   );

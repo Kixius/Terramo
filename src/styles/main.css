@@ -12,10 +12,16 @@
   --primary-dark: #a94b15;
   --secondary: #183054;
   --secondary-light: #1e3d6b;
+  --accent: #ca5d1e;
   --text: #183054;
   --text-light: #4a6480;
   --text-lighter: #7a94ad;
+  --text-primary: #183054;
+  --text-secondary: #5a7080;
   --bg: #f5f3f0;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f0eeeb;
+  --border: #e0ddd8;
   --white: #ffffff;
   --radius: 12px;
   --radius-sm: 8px;
@@ -704,6 +710,7 @@ a {
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   margin-bottom: 2.5rem;
+  align-items: start;
 }
 
 .info-card {
@@ -2002,6 +2009,7 @@ a {
 .emergency-card {
   border-top: 3px solid #e74c3c;
   padding: 1.25rem;
+  grid-row: span 2;
 }
 
 .emergency-title {
@@ -2166,32 +2174,32 @@ a {
 }
 
 /* ===== Itinerary Builder ===== */
-.itinerary-tab.custom-tab {
-  background: linear-gradient(135deg, var(--accent), #e67e22);
-  color: #fff;
-  border-color: transparent;
-}
-
 .itinerary-builder {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
   margin-top: 1rem;
+  align-items: start;
+  background: var(--bg-secondary);
+  border-radius: var(--radius);
+  padding: 1rem;
 }
 
 .builder-pool {
   border: 1px solid var(--border);
   border-radius: 10px;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   max-height: 600px;
+  position: sticky;
+  top: 1rem;
 }
 
 .builder-pool-header {
   padding: 0.75rem 1rem;
   border-bottom: 1px solid var(--border);
   background: var(--bg-secondary);
+  border-radius: 10px 10px 0 0;
 }
 
 .builder-pool-search {
@@ -2232,6 +2240,7 @@ a {
   overflow-y: auto;
   padding: 0.5rem;
   flex: 1;
+  border-radius: 0 0 10px 10px;
 }
 
 .pool-activity-card {
@@ -2254,6 +2263,24 @@ a {
   background: rgba(202, 93, 30, 0.08);
 }
 
+.pool-activity-card.disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.pool-activity-card.disabled:hover {
+  border-color: var(--border);
+  box-shadow: none;
+}
+
+.pool-activity-thumb {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
 .pool-activity-name {
   font-weight: 600;
   font-size: 0.85rem;
@@ -2266,6 +2293,14 @@ a {
   display: flex;
   gap: 0.75rem;
   flex-wrap: wrap;
+}
+
+.pool-distance-badge {
+  color: var(--primary);
+  font-weight: 500;
+  background: rgba(202, 93, 30, 0.08);
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
 }
 
 .builder-timeline {
@@ -2301,6 +2336,21 @@ a {
   border-radius: 8px;
   background: var(--bg-secondary);
   min-height: 60px;
+}
+
+.builder-slot-add-btn {
+  border: none;
+  background: none;
+  color: var(--primary);
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+}
+
+.builder-slot-add-btn:hover {
+  background: rgba(202, 93, 30, 0.1);
 }
 
 .builder-slot-empty {
@@ -2355,6 +2405,80 @@ a {
   color: var(--text-secondary);
 }
 
+.builder-slot-distance {
+  font-size: 0.7rem;
+  color: var(--primary);
+  font-weight: 500;
+  margin-top: 0.15rem;
+}
+
+.builder-slot-thumb {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.day-slider {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: var(--bg-secondary);
+  border-radius: 100px;
+  padding: 0.35rem 0.5rem;
+  margin-bottom: 0.5rem;
+  user-select: none;
+}
+
+.day-slider-arrow {
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+  background: var(--white);
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-primary);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  transition: all 0.15s;
+  flex-shrink: 0;
+}
+
+.day-slider-arrow:hover:not(:disabled) {
+  background: var(--primary);
+  color: white;
+}
+
+.day-slider-arrow:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.day-slider-center {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.day-slider-label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.day-slider-counter {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  background: var(--white);
+  padding: 0.15rem 0.5rem;
+  border-radius: 10px;
+}
+
 .builder-toolbar {
   display: flex;
   gap: 0.5rem;
@@ -2394,7 +2518,30 @@ a {
   }
 
   .builder-pool {
-    max-height: 350px;
+    max-height: 45vh;
+  }
+
+  .builder-toolbar {
+    flex-wrap: wrap;
+  }
+
+  .builder-btn {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.75rem;
+  }
+
+  .itinerary-tabs {
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  .itinerary-tab {
+    padding: 0.4rem 0.85rem;
+    font-size: 0.8rem;
+  }
+
+  .pool-activity-card {
+    padding: 0.5rem;
   }
 
   .emergency-numbers-grid {

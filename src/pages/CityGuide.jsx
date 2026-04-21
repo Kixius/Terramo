@@ -74,8 +74,8 @@ export default function CityGuide() {
           </div>
           <WeatherWidget coordinates={city.coordinates} />
           <CurrencyConverter cityCurrency={city.currency} targetCurrency={targetCurrency} setTargetCurrency={setTargetCurrency} />
-          <BudgetCard budget={city.budget} cityCurrency={city.currency} targetCurrency={targetCurrency} />
           <EmergencyCard city={city} />
+          <BudgetCard budget={city.budget} cityCurrency={city.currency} targetCurrency={targetCurrency} />
           {city.kidFriendly && (
             <div className="info-card kid-friendly-card">
               <h3>Kid-Friendly</h3>

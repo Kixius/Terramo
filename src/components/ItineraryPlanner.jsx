@@ -30,7 +30,7 @@ export default function ItineraryPlanner({ cityId }) {
         <button className={`itinerary-tab ${activeTab === 3 ? 'active' : ''}`} onClick={() => handleTabChange(3)}>3-Day</button>
         <button className={`itinerary-tab ${activeTab === 5 ? 'active' : ''}`} onClick={() => handleTabChange(5)}>5-Day</button>
         <button className={`itinerary-tab ${activeTab === 7 ? 'active' : ''}`} onClick={() => handleTabChange(7)}>7-Day</button>
-        <button className={`itinerary-tab custom-tab ${isCustom ? 'active' : ''}`} onClick={() => handleTabChange('custom')}>✏️ Custom</button>
+        <button className={`itinerary-tab ${isCustom ? 'active' : ''}`} onClick={() => handleTabChange('custom')}>Itinerary Planner</button>
       </div>
 
       {isCustom ? (
@@ -56,11 +56,16 @@ export default function ItineraryPlanner({ cityId }) {
                         <strong className="slot-label">{label}</strong>
                         <p className="slot-activity">{day[key].activity}</p>
                         <p className="slot-desc">{day[key].description}</p>
-                        {(day[key].location || day[key].duration || day[key].cost) && (
+                        {(day[key].location || day[key].duration || day[key].cost || day[key].hours) && (
                           <div className="slot-meta">
                             {day[key].location && (
                               <span className="slot-meta-item">
                                 <span className="meta-icon">📍</span> {day[key].location}
+                              </span>
+                            )}
+                            {day[key].hours && (
+                              <span className="slot-meta-item">
+                                <span className="meta-icon">🕐</span> {day[key].hours}
                               </span>
                             )}
                             {day[key].duration && (
